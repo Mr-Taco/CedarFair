@@ -1,0 +1,429 @@
+#seasonal
+        
+    max-width: 100%
+    position: relative
+    top: -115px
+    overflow: hidden
+    height: 100%
+
+    .content, .arms
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0
+        background-size: auto 100%
+        background-position: bottom center
+        background-repeat no-repeat
+
+    .content
+        top: 845px
+        height: auto
+        z-index: 9999999999999999
+        
+        @media(max-width: 767px)
+            top: 10px
+            padding-bottom: 40px
+
+    .dirtForArms
+        position: relative
+        /*border: 1px solid blue*/
+        width: 100%
+        max-width: 1050px
+        height: 100%
+        margin: 0 auto
+        z-index: 1
+        background: url("../images/seasonal/haunt-arm-left-dirt.png") -3% 110% no-repeat,
+                    url("../images/seasonal/haunt-arm-right-dirt.png") 98% 108.5% no-repeat
+        
+    .arms
+        max-width: 1050px
+        margin: 0 auto
+        left: 0
+        right: 0
+
+        &.left
+            background: url("../images/seasonal/haunt-arm-left.png") left 140px no-repeat
+        &.right
+            background: url("../images/seasonal/haunt-arm-right.png") 105% 135% no-repeat 
+
+
+        top: 0px
+        
+    .particle-sprite-container
+        position: absolute
+        height: 350px
+        width: 100%
+        max-width: 1070px
+        top: 825px
+        left: 50%
+        transform: translateX(-50%)
+        z-index: 999999999999
+        
+    .particle-sprite-relative
+        width: 100%
+        height: 100%
+        position: relative
+        z-index: 999999999999
+        
+    .particle-sprite
+        position absolute
+        height: 350px
+        width: 50%
+        top: 0px
+        background: url(../images/seasonal/particles/particles.png) no-repeat
+        z-index: 999999999999
+        
+        &.left
+            left: 0
+            
+        &.right
+            right: -50px
+            
+        &.HAUNT_PARTICLES-01_0{
+            background-position: 0 0;
+            width: 500px;
+            height: 350px;
+        }
+
+        &.HAUNT_PARTICLES-01_1{
+            background-position: -500px 0;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_2{
+            background-position: 0 -350px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_3{
+            background-position: -500px -349px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_4{
+            background-position: 0 -701px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_5{
+            background-position: -500px -700px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_6{
+            background-position: 0 -1051px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_7{
+            background-position: -500px -1050px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_8{
+            background-position: 0 -1400px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_9{
+            background-position: -500px -1400px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_10{
+            background-position: 0 -1750px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_11{
+            background-position: -500px -1749px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_12{
+            background-position: 0 -2100px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_13{
+            background-position: -500px -2100px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_14{
+            background-position: 0 -2450px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_15{
+            background-position: -500px -2450px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_16{
+            background-position: 0 -2800px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_17{
+            background-position: -500px -2799px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_18{
+            background-position: 0 -3150px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_19{
+            background-position: -500px -3150px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_20{
+            background-position: 0 -3500px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_21{
+            background-position: -500px -3500px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_22{
+            background-position: 0 -3850px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_23{
+            background-position: -500px -3850px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_24{
+            background-position: 0 -4199px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_25{
+            background-position: -500px -4199px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_26{
+            background-position: 0 -4550px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_27{
+            background-position: -500px -4550px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_28{
+            background-position: 0 -4899px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_29{
+            background-position: -500px -4899px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_30{
+            background-position: 0 -5249px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_31{
+            background-position: -500px -5249px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_32{
+            background-position: 0 -5600px ;
+            width: 500px;
+            height: 350px;
+        }
+        
+        &.HAUNT_PARTICLES-01_33{
+            background-position: -500px -5599px ;
+            width: 500px;
+            height: 350px;
+        }
+
+    .overlay
+        height: 660px
+        width: 100%
+        /*border: 1px solid white*/
+        position: absolute
+        left: 0
+        right: 0
+        top: 500px
+        background-size: auto 100%
+        background-position: bottom center
+        background-repeat no-repeat
+
+        .haunt-text-container
+            height: 100%
+            width: 100%
+            max-width: 900px
+            margin: 0 auto
+            /*border: 1px solid yellow*/
+
+            div
+                width: auto
+                text-align: center
+                position: relative
+
+                &.halloween-text
+                    height: auto
+                    margin-bottom: .75%
+
+                &.haunt-text
+                    div
+                        margin: 0 -1.75%
+                        
+                    .blood
+                        opacity: 0
+
+                &.h
+                    width: auto
+                    height: auto
+                    opacity: 0
+                    display: inline-block
+                &.a
+                    width: auto
+                    height: auto
+                    opacity: 0
+                    display: inline-block
+                &.u
+                    width: auto
+                    height: auto
+                    opacity: 0
+                    display: inline-block
+                &.n
+                    width: auto
+                    height: auto
+                    opacity: 0
+                    display: inline-block
+                &.t
+                    width: auto
+                    height: auto
+                    opacity: 0
+                    display: inline-block
+                &.fiftyfive
+                    height: auto
+                    margin-top: -2%
+                &.sightofblood
+                    height: auto
+                    
+                    img
+                        width: 100%
+                &.waitforhaunt
+                    height: auto
+
+                .blood
+                    position: absolute
+                    top: 0
+                    left: 50%
+                    transform: translateX(-50%)
+                    opacity: 1
+
+
+        .haunt-blood-container
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            height: 100%
+            width: 100%
+            max-width: 900px
+            margin: 0 auto
+            /*border: 1px solid yellow*/
+            background: url('../images/seasonal/haunt-text-halloween-blood.png') 293px 0px no-repeat,
+            url('../images/seasonal/haunt-text-h-blood.png') 110px 60px no-repeat,
+            url('../images/seasonal/haunt-text-a-blood.png') 250px 60px no-repeat,
+            url('../images/seasonal/haunt-text-u-blood.png') 390px 60px no-repeat,
+            url('../images/seasonal/haunt-text-n-blood.png') 530px 60px no-repeat,
+            url('../images/seasonal/haunt-text-t-blood.png') 670px 60px no-repeat,
+            url('../images/seasonal/haunt-text-55percent-blood.png') 167px 175px no-repeat,
+            url('../images/seasonal/haunt-text-sight-blood.png') 10px 250px no-repeat
+
+    #seasonal-video-gallery
+        .container
+            max-width:640px
+            margin:40px auto 0               
+
+            .video-button .play-icon
+                thumbnail(false, 0, -102%, 100%, 180, 37, 37)
+
+                @media (min-width: 992px)
+                    &:hover
+                        img
+                            transform: scale3d(1.2, 1.2, 1) translate(-2.0em, -2.0em);
+                
+        .right
+            text-align:center
+            height:100%
+            display:table
+            float:left
+            width:47%
+            margin-left: 3%
+
+        .left
+            height:100%
+            float:left
+            width:47%
+            margin-right: 3%
+
+.btn-wrapper
+    padding-top: 40px
+
+
+
+
+@media (max-width: 992px )
+    #seasonal
+        .title-bucket-seasonal
+            h3
+                font-size: 3em
+
+@media(max-width: 767px)
+    #seasonal
+        top: 0px
+        padding-top:300px
+
+        .btn-wrapper
+            padding-top: 0px

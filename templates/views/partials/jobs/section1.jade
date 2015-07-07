@@ -1,0 +1,28 @@
+block content
+    #jobs.section-inner(data-depth="20")
+        .top-headline
+            .inner-title-header.title-bucket.two
+                h1 #{content.jobsHeadline}
+                h2 #{content.jobsSubheadline}
+                p #{content.jobsBody}
+    
+        .circ-btn-wrapper
+            p SCROLL
+            a.btn-circ-darkBlue.scrollto(href="javascript://", data-target="select")
+            
+        - var rSelect = randRange(0,content.parks.length-1)
+        #parks
+            .title-bucket.two
+                h1 #{content.parksHeadline}
+            +parksList(content.parks)(class='white-logos' select=rSelect upClass='gray')
+            +parksGalleryContent(content.parks)(jobs='true' select=rSelect)
+        
+        #select
+
+            .title-bucket.two
+                h1 #{content.learnHeadline}
+            
+            +cfDropdown(content.jobTypes)(id='jobtypes-select')
+
+            +selectGalleryContent(content.jobTypes)(select=0 id='jobs-select-gallery')
+       

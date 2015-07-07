@@ -1,0 +1,110 @@
+@import "../mixins/index.styl"
+
+#accommodations
+    margin: 240px auto 100px
+
+    .title-bucket
+        h3
+            max-width:615px
+            margin:4px auto 0
+        &.six
+            h1
+                span
+                    width: .69em
+                    text-align: center
+                    display: inline-block
+                
+                
+    #accommodations-links
+        margin-top: 40px
+
+        .btn-wrapper a
+            margin: 0 10px
+            
+
+    #accomodations-video-carousel
+        min-height: 305px
+        margin: 0 auto
+        position: relative
+        max-width: 690px
+        padding: 41px 0
+        
+        #accommodations-carousel
+            max-width: 587px
+
+            .accommodation-thumbnail
+                height: 160px
+                width: 320px
+                background-size: auto 20px
+                margin: 0 auto
+                
+                @media(max-width: 640px)
+                    width: 240px
+                    height: 133px
+                    background-size: 100% 20px
+
+        .gal-arrow
+            &:hover
+                transform: translate3d(0,0,0px) scale(1.1, 1.1) translateY(-50%) !important
+                
+            &:active
+                transform: translate3d(0,0,0px) scale(1, 1) translateY(-50%) !important
+            
+        .fa-angle-right, .fa-angle-left
+            top: 50%
+
+        .swiper-container
+            max-height: 457px
+
+            @media(max-width: 767px)
+                height: 385px !important
+            
+            .swiper-wrapper, .swiper-slide
+                height: 345px !important
+                
+                .video-button .play-icon
+                    thumbnail(true)
+                    img
+                        margin-top: 10px
+                    
+                    &:hover
+                        img
+                            transform: scale3d(1.2, 1.2, 1) translate(-1em, -1em);
+                
+                @media(max-width: 767px)
+                    height: 385px !important
+             
+            h1
+                fontFamily(GothamBook)
+                font-size: 1em
+                color: #00a1e1
+                font-weight: normal
+                margin-top: 13px
+                
+                @media(max-width: 767px)
+                    font-size: 0.75em
+
+                span
+                    fontFamily(GothamBlack)
+                    color: #0f237c
+                
+            h2
+                margin-top: 7px
+                fontFamily(GothamBook)
+                font-size: .5em
+                color: #666666
+                
+
+                .play-icon
+                    transform: translate(-50%, -60%)
+
+            .btn-wrapper 
+                padding-top: 10px
+                
+                .btn
+                    font-size: .6em
+
+@media (max-width:640px)
+
+    #accommodations
+        margin-top:100px

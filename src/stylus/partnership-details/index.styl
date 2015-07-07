@@ -1,0 +1,190 @@
+@import '../global/index.styl'
+
+#partnership-details-section1
+
+    skyBackground()
+    padding: 255px 0 100px
+
+    .title-bucket
+        h1, h2
+            opacity: 0
+    
+    .title-bucket.two h2
+        margin: 0 auto
+        max-width: 750px
+
+    #select-sponsorships
+        background: white
+        width: 100%
+        height: 675px
+        max-width:920px
+        padding: 50px 75px 0
+        margin: 50px auto 0
+        opacity: 0
+        
+        @media(min-width:993px)
+            height: 775px
+
+        addShadow(100%,80px,100%)
+        
+        .title-bucket h1
+            opacity: 1
+        
+        p 
+            font-size: 14px
+            fontFamily(GothamBook)
+            color: lightGray
+            margin: 30px auto;
+            padding: 10px 15px 11px
+            line-height: 1.3em
+
+            @media(max-width:767px)
+                margin: 10px auto 30px
+            
+        .select-sponsorships-button-wrapper
+            max-width: 544px;
+            position: relative;
+            height: 52px;
+            z-index: 400;
+            margin: 19px auto 0;
+            
+            .select-box-wrapper
+                position: relative
+                display: inline-block;
+                margin-right: 20px;
+                width: 264px;
+                position: relative;
+                height: 52px;
+                z-index: 400;                
+                
+                .drop-container
+                    height: 53px
+                    transition: opacity .25s ease-in-out
+                
+                
+            a.btn
+                display: inline-block
+                margin: 0
+                height: 53px;
+                line-height: 1.5em;
+                width: 251px;
+
+                @media(max-width: 993px)
+                    line-height: 2.15em
+            
+        
+        .select-sponsorships-video-wrapper
+            .video
+                height: 135px
+                width: 45%
+                margin: 0 2% 50px
+                display: inline-block
+                background: lightGray
+                box-sizing: border-box
+                cursor: pointer
+                transition: transform .35s ease-in-out
+                addShadow(100%,80px,100%)
+                background-size: cover
+                background-postion: center
+
+                &:hover
+                    transform: scale(1.01, 1.01)
+                    
+                @media(min-width: 993px)
+                    height: 185px
+                    
+            .video-button
+                background: none !important
+                height: 100% !important
+                
+                img
+                    display: none
+
+    .select-gallery ul 
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+    
+        
+        li.group-info 
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            visibility: hidden;
+            opacity: 0;
+    
+            &.selected
+                opacity: 1
+                visibility: inherit
+            
+    #typeDescriptions
+        margin: 30px auto;
+        li
+            font-size: 14px;
+            fontFamily(GothamBook)
+            color: #666;
+            
+    #PartnershipTypes-select.drop-container .drop-container-inner ul li
+        line-height: 53px
+        height: 53px
+        
+    @media (max-width: 767px)
+        padding-top: 78px;
+        padding-bottom: 0
+
+        .section-inner
+            max-width: 100%
+            
+        .title-bucket
+            h1, h2
+                opacity: 1
+            
+        .title-bucket.two
+            padding-bottom: 35px;
+            max-width: 90%
+            margin: 0 auto
+
+        #select-sponsorships
+            padding: 45px 2.5em 0
+            height: auto
+            opacity: 1
+            
+            &:before 
+                display:none
+
+            .select-sponsorships-button-wrapper 
+                width: 100%
+                height: auto
+                
+                .select-box-wrapper, a.btn
+                    position: relative;
+                    display: block;
+                    margin: 0 auto 1.2em;
+                    font-size: 1.3em
+
+            .select-sponsorships-video-wrapper
+                    #select-media-gallery
+                        min-height: 200px
+                        
+                    .select-gallery 
+                        position: relative
+                        ul 
+                            li.group-info
+                                position: absolute
+                    .video 
+                        width: 96%
+                        .video-button 
+                            .play-icon
+                                top: 56%
+.form-fields 
+    overflow: visible
+    .long-captions
+        .radios
+            overflow: auto
+            div.controls
+                float: left;
+                margin-top: 17px;
+                
+    a.btn
+        margin-top: 20px

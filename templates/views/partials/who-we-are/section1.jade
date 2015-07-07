@@ -1,0 +1,34 @@
+block content
+
+    #who-we-are.section-inner(data-depth="20")                            
+        .top-headline
+            .title-bucket
+                h1 !{content.whoWeAreHeader}
+                    
+                // TODO - need header #2 and content in CMS
+                h2 One mission: Fun for all.
+                    
+                p !{content.slogans[0].body}
+                    
+            
+            .btn-wrapper
+                a.btn.lightBlue.overlay-trigger(href="javascript://" data-source='manifesto_overlay') #{content.manifestoButtonLabel}
+
+        #player-container
+            ul
+                li
+                    - var video = content.video
+                    +videoButton(video)
+                    //+videoButton({video: {videoMp4: {url: 'video/CF_CV_This-Is-CF_v6_DM.mp4'}, videoWebm: {url: 'video/CF_CV_This-Is-CF_v6_DM.mp4'}, imageThumb: {filename: '/images/who-we-are/video-thumbnail.jpg'}}})
+            //.video-button.player(data-mp4="video/CF_CV_This-Is-CF_v6_DM.mp4" data-webm="video/CF_CV_This-Is-CF_v6_DM.mp4")
+            //.player(data-mp4="#{locals.content.video.videoMp4.url}" data-webm="#{locals.content.video.videoWebm.url}")
+            // <video id="overlay-player_html5_api" class="vjs-tech" preload="auto" src="//cedar-fair.s3.amazonaws.com/galleries/1412291456-cedarpoint.mp4"><source src="//cedar-fair.s3.amazonaws.com/galleries/1412291456-cedarpoint.mp4" type="video/mp4"><source src="//cedar-fair.s3.amazonaws.com/galleries/1412291440-cedarpoint.webm" type="video/webm"></video>
+            
+        .title-bucket.six
+            // TODO: - Michael - Make this h3
+            h1 !{content.teamHeadline}
+            
+        .btn-wrapper#about-buttons
+            // TODO: Add conditional for the following line to display #jobs-search only if there are corporate jobs
+            // a.btn.lightBlue#parks-jobs-search(href="#{content.directorsLink}") #{content.directorsLinkLabel}
+            a.btn.lightBlue#jobs-search(href="#{content.execsLink}") #{content.execsLinkLabel}

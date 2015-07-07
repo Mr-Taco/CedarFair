@@ -1,0 +1,37 @@
+extends ../layouts/_main
+
+block css
+    link(href="/styles/jobs.css", rel="stylesheet")
+
+
+block content
+    #jobs-content-wrapper
+        #jobs-section1.section(data-cloud-container)
+            .cloud.three(data-depth='3' data-cloud='{"speed":"0.34", "register":"left|0" , "offsetMin" : "-450" , "reverse" : true }')
+            .cloud.one(data-depth='1' data-cloud='{"speed":"0.1" , "register":"center|-450" , "offsetMin" : "-350" , "reverse" : true }')
+            .cloud.one(data-depth='1' data-cloud='{"speed":"0.1" , "register":"center|450" , "offsetMin" : "-300" , "reverse" : true }')
+            .cloud.one(data-depth='1' data-cloud='{"speed":"0.2" , "register":"center|-50" , "offsetMin" : "150" , "reverse" : true }')
+            .cloud.two(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|125" , "offsetMin" : "320" , "reverse" : true }')
+            .cloud.seven(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|-225" , "offsetMin" : "380" , "reverse" : true }')
+            .cloud.seven(data-depth='2' data-cloud='{"speed":"0.25", "register":"center|0" , "offsetMin" : "420" , "reverse" : true }')
+            .cloud.three(data-depth='3' data-cloud='{"speed":"0.34", "register":"left|-270" , "offsetMin" : "650" , "reverse" : true }')
+            .cloud.three(data-depth='3' data-cloud='{"speed":"0.34", "register":"right|-670" , "offsetMin" : "750" , "reverse" : true }')         
+            .cloud.one(data-depth='5' data-cloud='{"speed":"0.7", "register":"left|50" , "offsetMin" : "980" , "reverse" : true }')
+            .cloud.six(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|-525" , "offsetMin" : "1100" , "reverse" : true }')
+            .cloud.seven(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|225" , "offsetMin" : "1300" , "reverse" : true }')
+            .cloud.three(data-depth='2' data-cloud='{"speed":"0.4", "register":"center|-125" , "offsetMin" : "1500" , "reverse" : true }')
+            .cloud.seven(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|-300" , "offsetMin" : "2000" , "reverse" : true }')
+            .cloud.seven(data-depth='2' data-cloud='{"speed":"0.4", "register":"right|425" , "offsetMin" : "2000" , "reverse" : true }')
+            
+
+
+            include partials/jobs/section1
+
+        if (content.jobs.length) > 0
+            #jobs-section2.section
+                #featured
+                include partials/jobs/section2
+
+
+block js
+    script(src='/js/jobs.js')

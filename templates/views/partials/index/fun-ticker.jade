@@ -1,0 +1,21 @@
+#stock-ticker
+    .ticker-list-wrapper
+        .ticker-list.1
+            each ticker, i in content.tickers
+                span.ticker(id='ticker-span-#{i}')
+                    p.ticker-headline(id="ticker-headline-#{i}") #{ticker.headline}
+                    if ticker.up
+                        img.ticker-arrow(src='images/icons/ticker-up-arrow.png')
+                    else
+                        img.ticker-arrow(src='images/icons/ticker-down-arrow.png')
+                    p.ticker-amount(id="ticker-amount-#{i}") #{ticker.amount.toFixed(2)}
+        .ticker-list.2
+            each ticker, i in content.tickers
+                span.ticker(id='ticker-span-#{i}')
+                    p.ticker-headline(id="ticker-headline-#{i}") #{ticker.headline}
+                    if ticker.up
+                        img.ticker-arrow(src='images/icons/ticker-up-arrow.png')
+                    else
+                        img.ticker-arrow(src='images/icons/ticker-down-arrow.png')
+                    p.ticker-amount(id="ticker-amount-#{i}") #{ticker.amount.toFixed(2)}
+

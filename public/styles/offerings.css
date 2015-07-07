@@ -1,0 +1,5544 @@
+
+/* line 286 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1301 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 14 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/index.styl */
+
+/* line 10 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/index.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/border.styl */
+
+/* line 28 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/border.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 4 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 196 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/flex.styl */
+
+/* line 90 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/flex.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 11 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 7 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 25 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/image.styl */
+
+/* line 19 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/image.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/index.styl */
+
+/* line 8 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/index.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/base.styl */
+
+/* line 19 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/base.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/html5.styl */
+
+/* line 6 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/html5.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/links.styl */
+
+/* line 30 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/links.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/text.styl */
+
+/* line 7 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/text.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/embed.styl */
+
+/* line 17 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/embed.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/groups.styl */
+
+/* line 69 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/groups.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/forms.styl */
+
+/* line 7 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/forms.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/tables.styl */
+
+/* line 20 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/tables.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 66 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/positions.styl */
+
+/* line 78 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/positions.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+
+/* line 5 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 12 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 9 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 8 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 9 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line 2 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+/* line 577 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 11 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 28 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/size.styl */
+
+/* line 14 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/size.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/index.styl */
+
+/* line 10 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/index.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/border.styl */
+
+/* line 28 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/border.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 4 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 196 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/flex.styl */
+
+/* line 90 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/flex.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 11 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 7 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 25 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/image.styl */
+
+/* line 19 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/image.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/index.styl */
+
+/* line 8 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/index.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/base.styl */
+
+/* line 19 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/base.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/html5.styl */
+
+/* line 6 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/html5.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/links.styl */
+
+/* line 30 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/links.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/text.styl */
+
+/* line 7 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/text.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/embed.styl */
+
+/* line 17 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/embed.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/groups.styl */
+
+/* line 69 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/groups.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/forms.styl */
+
+/* line 7 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/forms.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/tables.styl */
+
+/* line 20 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/normalize/tables.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 66 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/positions.styl */
+
+/* line 78 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/positions.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+
+/* line 5 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 12 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 9 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 8 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 9 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line 2 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+/* line 577 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+/* line 541 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 11 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 28 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/config.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/size.styl */
+
+/* line 111 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/size.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+
+/* line 6 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+.logo-thumb {
+  width: 100%;
+  height: 32px;
+  position: relative;
+}
+
+/* line 10 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+.logo-thumb > div {
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+/* line 22 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+.logo-thumb > div.over {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 24 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+.logo-thumb > div.gray {
+  background-position: 0 100%;
+}
+
+/* line 27 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+.logo-thumb > div.blue {
+  background-position: 0 1px;
+}
+
+/* line 30 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+.logo-thumb > div.white {
+  background-position: 0 50%;
+}
+
+/* line 38 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#our-parks-logos,
+#overlay-parks-list {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 10px 0;
+  height: 130px;
+}
+
+/* line 43 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#our-parks-logos ul,
+#overlay-parks-list ul {
+  text-align: center;
+}
+
+/* line 45 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#our-parks-logos ul .park,
+#overlay-parks-list ul .park {
+  width: 13.5%;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* line 51 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+
+/* line 53 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#our-parks-logos ul .park.selected .over,
+#overlay-parks-list ul .park.selected .over,
+#our-parks-logos ul .park:hover .over,
+#overlay-parks-list ul .park:hover .over {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 56 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#our-parks-logos ul .park.selected .up,
+#overlay-parks-list ul .park.selected .up,
+#our-parks-logos ul .park:hover .up,
+#overlay-parks-list ul .park:hover .up {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 58 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#overlay-basic-inner #overlay-parks-list {
+  padding-top: 0;
+  padding-bottom: 55px;
+}
+
+/* line 63 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#overlay-basic-inner #overlay-parks-list ul .park {
+  width: 12.8%;
+  min-width: 100px;
+}
+
+/* line 67 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+
+/* line 68 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#overlay-basic-inner #overlay-parks-list ul .park.selected .over {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 70 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#overlay-basic-inner #overlay-parks-list ul .park.selected .up {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 73 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+
+/* line 74 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#overlay-basic-inner #overlay-parks-list ul .park.selected:hover .over {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 76 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#overlay-basic-inner #overlay-parks-list ul .park.selected:hover .up {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 79 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+
+/* line 80 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+#overlay-basic-inner #overlay-parks-list ul .park:hover .over {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+@media (max-width: 992px) {
+
+/* line 83 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+
+/* line 85 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+  #overlay-basic-inner #overlay-parks-list .logo-thumb {
+    height: 28px;
+  }
+
+/* line 90 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+  .logo-thumb {
+    height: 25px;
+  }
+}
+@media (max-width: 767px) {
+
+/* line 97 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+  .logo-thumb {
+    height: 23px;
+  }
+
+/* line 100 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+  #our-parks-logos,
+  #overlay-parks-list {
+    max-width: 640px;
+    height: 150px;
+    height: 90px;
+  }
+
+/* line 104 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+
+/* line 105 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+  #our-parks-logos ul .park,
+  #overlay-parks-list ul .park {
+    height: 50px;
+  }
+}
+@media (max-width: 640px) {
+
+/* line 110 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+  #our-parks-logos /*,
+  #overlay-parks-list*/ {
+    display: none;
+  }
+}
+
+/* line 478 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_parksLogos.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+
+/* line 112 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+
+/* line 8 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+.navbar {
+  border: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* line 12 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1200;
+  -webkit-transform: translateZ(9999999px);
+  -moz-transform: translateZ(9999999px);
+  -o-transform: translateZ(9999999px);
+  -ms-transform: translateZ(9999999px);
+  transform: translateZ(9999999px);
+}
+@media (max-width: 767px) {
+
+/* line 20 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header {
+    -webkit-transform: translateZ(0px);
+    -moz-transform: translateZ(0px);
+    -o-transform: translateZ(0px);
+    -ms-transform: translateZ(0px);
+    transform: translateZ(0px);
+  }
+}
+
+/* line 23 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top {
+  background: #00a1e1;
+  height: 5px;
+  border-bottom: 1px solid #666;
+  width: 100%;
+  display: block;
+  text-align: center;
+  -webkit-transition: height 0.35s ease-out;
+  -moz-transition: height 0.35s ease-out;
+  -o-transition: height 0.35s ease-out;
+  -ms-transition: height 0.35s ease-out;
+  transition: height 0.35s ease-out;
+/*display: none*/
+}
+
+/* line 33 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top.small {
+  height: 5px;
+}
+
+/* line 36 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top div {
+  display: inline-block;
+  width: 49.75%;
+  display: none;
+}
+
+/* line 41 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top div.header-contact {
+  text-align: left;
+  padding: 10px 0 0 25px;
+  max-width: 500px;
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+@media (max-width: 999px) {
+
+/* line 47 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-top div.header-contact {
+    max-width: 400px;
+    padding-left: 30px;
+  }
+}
+
+/* line 51 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top div.header-contact.small {
+  padding-top: 0px;
+  padding-left: 0px;
+  max-width: 465px;
+}
+@media (max-width: 999px) {
+
+/* line 56 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-top div.header-contact.small {
+    max-width: 400px;
+    padding-left: 40px;
+  }
+}
+
+/* line 60 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top div.header-contact.small p {
+  font-size: 0.625em;
+}
+
+/* line 63 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top div.header-contact.small i {
+  font-size: 0.75em;
+}
+
+/* line 66 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top div.header-social {
+  text-align: right;
+  padding: 10px 30px 0 0;
+  max-width: 500px;
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+@media (max-width: 999px) {
+
+/* line 72 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-top div.header-social {
+    max-width: 400px;
+  }
+}
+
+/* line 75 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top div.header-social.small {
+  padding-top: 0px;
+  max-width: 425px;
+  padding-right: 0px;
+}
+@media (max-width: 999px) {
+
+/* line 80 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-top div.header-social.small {
+    max-width: 400px;
+    padding-right: 40px;
+  }
+}
+
+/* line 84 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top div.header-social.small p {
+  font-size: 0.625em;
+}
+
+/* line 87 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top div.header-social.small i {
+  font-size: 0.75em;
+}
+
+/* line 90 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top p,
+header #header-top i {
+  display: inline-block;
+  color: #fff;
+}
+
+/* line 94 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top p {
+  font-family: GothamBook, san-serif, Arial, Verdana;
+  font-size: 0.75em;
+}
+
+/* line 98 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-top i {
+  font-size: 0.875em;
+  margin: 0 8px;
+}
+@media (max-width: 767px) {
+
+/* line 102 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-top {
+    display: none;
+  }
+}
+
+/* line 106 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom {
+  background-color: #fff;
+  height: 137px;
+  border-bottom: 1px solid #666;
+  text-align: center;
+  -webkit-transition: height 0.35s ease-out;
+  -moz-transition: height 0.35s ease-out;
+  -o-transition: height 0.35s ease-out;
+  -ms-transition: height 0.35s ease-out;
+  transition: height 0.35s ease-out;
+}
+@media (max-width: 767px) {
+
+/* line 113 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom {
+    z-index: 25;
+  }
+}
+
+/* line 116 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+@media (min-width: 768px) {
+
+/* line 117 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom.small {
+    height: 70px;
+  }
+}
+
+/* line 120 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav {
+/*max-width: 1000px*/
+  margin: 0 auto;
+  height: 100%;
+}
+@media (max-width: 767px) {
+
+/* line 125 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav {
+    z-index: 25;
+  }
+}
+
+/* line 128 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav #navbar-menu {
+  display: none;
+}
+
+/* line 131 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav .logo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 135 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav .logo-wrapper #navbar-logo {
+  margin: 32px 0 0 5px;
+  display: block;
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+@media (max-width: 999px) {
+
+/* line 140 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper #navbar-logo {
+    margin-top: 42px;
+  }
+}
+
+/* line 143 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav .logo-wrapper #navbar-logo img {
+  width: 125px;
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+@media (max-width: 999px) {
+
+/* line 147 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper #navbar-logo img {
+    width: 100px;
+  }
+}
+
+/* line 150 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+@media (min-width: 768px) {
+
+/* line 151 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper #navbar-logo.small {
+    margin-top: 10px;
+  }
+
+/* line 154 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper #navbar-logo.small img {
+    width: 75px;
+  }
+}
+
+/* line 157 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav a,
+header #header-bottom .nav ul {
+  display: inline-block;
+}
+
+/* line 160 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav ul.nav-list {
+  vertical-align: top;
+  margin: 60px 0 0 15px;
+  display: inline-block;
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+@media (min-width: 1100px) {
+
+/* line 166 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list {
+    margin-top: 47px;
+  }
+}
+
+/* line 169 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+@media (min-width: 768px) {
+
+/* line 170 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list.small {
+    margin-top: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 950px) {
+
+/* line 173 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list.small {
+    margin-top: 21px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1100px) {
+
+/* line 176 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list.small {
+    margin-top: 10px;
+  }
+}
+
+/* line 179 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav ul.nav-list li {
+  display: inline-block;
+  margin: 2px 10px;
+  padding: 10px;
+  border: 1px solid #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 1px 1px #fff;
+  box-shadow: 0px 2px 1px 1px #fff;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  -ms-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  -webkit-border-radius: 45px;
+  border-radius: 45px;
+}
+@media (min-width: 1100px) {
+
+/* line 189 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list li {
+    padding: 13px 13px 14px;
+  }
+}
+@media (max-width: 1230px) {
+
+/* line 192 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list li {
+    margin: 2px 5px;
+  }
+}
+@media (max-width: 950px) {
+
+/* line 195 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list li {
+    margin: 2px 3px;
+    padding: 5px;
+  }
+}
+
+/* line 199 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav ul.nav-list li:hover,
+header #header-bottom .nav ul.nav-list li:active,
+header #header-bottom .nav ul.nav-list li.current {
+  color: #fff;
+  -webkit-border-radius: 45px;
+  border-radius: 45px;
+  text-decoration: none;
+  background-color: #fdfefe;
+  background-image: -webkit-linear-gradient(top, #fdfefe, #d7eaf2);
+  background-image: -moz-linear-gradient(top, #fdfefe, #d7eaf2);
+  background-image: -o-linear-gradient(top, #fdfefe, #d7eaf2);
+  background-image: -ms-linear-gradient(top, #fdfefe, #d7eaf2);
+  background-image: linear-gradient(to bottom, #fdfefe, #d7eaf2);
+  color: #00a1e1;
+  border: 1px solid #00a1e1;
+  -webkit-box-shadow: 0px 2px 1px 1px #00a1e1;
+  box-shadow: 0px 2px 1px 1px #00a1e1;
+}
+
+/* line 209 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav ul.nav-list a {
+  color: #0a1a72;
+/*font-weight: bold*/
+  font-size: 14px;
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+  padding-top: 0;
+}
+@media (max-width: 1075px) {
+
+/* line 216 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 950px) {
+
+/* line 219 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list a {
+    font-size: 11px;
+  }
+}
+
+/* line 223 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .nav a#buy {
+  display: inline-block;
+  margin: 58px 0 0 20px;
+  top: 0;
+  -webkit-transition: top 0.35s ease-out, padding 0.35s ease-out, box-shadow 0.1s, color 0.3s, -webkit-transform 0.1s;
+  -moz-transition: top 0.35s ease-out, padding 0.35s ease-out, box-shadow 0.1s, color 0.3s, -moz-transform 0.1s;
+  -o-transition: top 0.35s ease-out, padding 0.35s ease-out, box-shadow 0.1s, color 0.3s, -o-transform 0.1s;
+  -ms-transition: top 0.35s ease-out, padding 0.35s ease-out, box-shadow 0.1s, color 0.3s, -ms-transform 0.1s;
+  transition: top 0.35s ease-out, padding 0.35s ease-out, box-shadow 0.1s, color 0.3s, transform 0.1s;
+}
+@media (max-width: 992px) {
+
+/* line 229 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav a#buy {
+    padding: 10px 20px;
+    margin-top: 62px;
+  }
+}
+@media (max-width: 950px) {
+
+/* line 233 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav a#buy {
+    margin-top: 56px;
+  }
+}
+@media (min-width: 1100px) {
+
+/* line 236 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav a#buy {
+    margin-top: 48px;
+  }
+}
+
+/* line 239 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+@media (min-width: 768px) {
+
+/* line 240 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav a#buy.small {
+    top: -44px;
+    padding: 12px 20px 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+/* line 244 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav a#buy.small {
+    top: -47px;
+  }
+}
+@media (min-width: 768px) and (max-width: 950px) {
+
+/* line 247 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav a#buy.small {
+    top: -40px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1100px) {
+
+/* line 250 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav a#buy.small {
+    top: -37px;
+  }
+}
+@media (max-width: 767px) and (orientation: portrait) {
+
+/* line 254 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav {
+    height: 70px;
+  }
+
+/* line 257 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav #navbar-menu {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 15px;
+  }
+
+/* line 263 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav #navbar-menu img {
+    width: 35px;
+  }
+
+/* line 266 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    float: none;
+  }
+
+/* line 271 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper #navbar-logo {
+    width: 80px;
+    margin: 0 auto;
+  }
+
+/* line 275 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper #navbar-logo img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+/* line 279 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list {
+    display: none;
+  }
+
+/* line 282 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav a#buy {
+    display: none;
+  }
+}
+@media (max-width: 767px) and (orientation: landscape) {
+
+/* line 285 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav {
+    height: 60px;
+  }
+
+/* line 288 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav #navbar-menu {
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+  }
+
+/* line 294 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav #navbar-menu img {
+    width: 40px;
+  }
+
+/* line 297 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    float: none;
+  }
+
+/* line 302 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper #navbar-logo {
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+/* line 307 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav .logo-wrapper #navbar-logo img {
+    width: 55%;
+    margin-top: 10px;
+  }
+
+/* line 311 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav ul.nav-list {
+    display: none;
+  }
+
+/* line 314 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .nav a#buy {
+    display: none;
+  }
+}
+
+/* line 318 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .subnav {
+  background-color: #001a71;
+  border-top: 1px solid #6676aa;
+  border-bottom: 1px solid #6676aa;
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -o-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transition: -webkit-transform 0.35s ease-in-out, opacity 0.05s ease-in-out 0.35s;
+  -moz-transition: -moz-transform 0.35s ease-in-out, opacity 0.05s ease-in-out 0.35s;
+  -o-transition: -o-transform 0.35s ease-in-out, opacity 0.05s ease-in-out 0.35s;
+  -ms-transition: -ms-transform 0.35s ease-in-out, opacity 0.05s ease-in-out 0.35s;
+  transition: transform 0.35s ease-in-out, opacity 0.05s ease-in-out 0.35s;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 328 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .subnav.showing,
+header #header-bottom .subnav.ourparks,
+header #header-bottom .subnav.partnership,
+header #header-bottom .subnav.offerings,
+header #header-bottom .subnav.accommodations,
+header #header-bottom .subnav.partnership-details {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transition: -webkit-transform 0.35s ease-in-out, opacity 0.05s ease-in-out;
+  -moz-transition: -moz-transform 0.35s ease-in-out, opacity 0.05s ease-in-out;
+  -o-transition: -o-transform 0.35s ease-in-out, opacity 0.05s ease-in-out;
+  -ms-transition: -ms-transform 0.35s ease-in-out, opacity 0.05s ease-in-out;
+  transition: transform 0.35s ease-in-out, opacity 0.05s ease-in-out;
+}
+
+/* line 333 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .subnav .subnav-list {
+  height: 35px;
+  line-height: 35px;
+  font-size: 13px;
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 1;
+}
+
+/* line 342 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .subnav .subnav-list li {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  z-index: 0;
+  -webkit-transition: opacity 0.35s ease-in-out, left 0.15s ease-in-out;
+  -moz-transition: opacity 0.35s ease-in-out, left 0.15s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out, left 0.15s ease-in-out;
+  -ms-transition: opacity 0.35s ease-in-out, left 0.15s ease-in-out;
+  transition: opacity 0.35s ease-in-out, left 0.15s ease-in-out;
+  text-align: left;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 352 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .subnav .subnav-list li.showing {
+  z-index: 5;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transition: opacity 0.35s ease-in-out 0.35s, left 0.15s ease-in-out;
+  -moz-transition: opacity 0.35s ease-in-out 0.35s, left 0.15s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out 0.35s, left 0.15s ease-in-out;
+  -ms-transition: opacity 0.35s ease-in-out 0.35s, left 0.15s ease-in-out;
+  transition: opacity 0.35s ease-in-out 0.35s, left 0.15s ease-in-out;
+}
+
+/* line 357 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .subnav .subnav-list a {
+  margin: 0 15px;
+  color: #fff;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: color 0.35s ease-in-out;
+  -moz-transition: color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out;
+  -ms-transition: color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out;
+}
+
+/* line 363 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #header-bottom .subnav .subnav-list a:hover,
+header #header-bottom .subnav .subnav-list a.selected {
+  color: #00a1e1;
+}
+@media (max-width: 767px) {
+
+/* line 366 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom {
+    height: 70px;
+  }
+
+/* line 369 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #header-bottom .subnav {
+    display: none;
+  }
+}
+
+/* line 373 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav {
+  width: 100%;
+  position: absolute;
+  top: -800px;
+  z-index: -1;
+  display: none;
+  overflow: auto;
+  -webkit-transition: height 0.35s ease-in-out;
+  -moz-transition: height 0.35s ease-in-out;
+  -o-transition: height 0.35s ease-in-out;
+  -ms-transition: height 0.35s ease-in-out;
+  transition: height 0.35s ease-in-out;
+}
+@media (max-width: 767px) {
+
+/* line 382 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+  header #mobile-header-nav {
+    display: block;
+  }
+}
+
+/* line 385 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav .bottom-padding {
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+}
+
+/* line 390 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav ul {
+  width: 100%;
+  background-color: #0a1a72;
+}
+
+/* line 394 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav ul li {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  font-size: 14px;
+  padding: 18px 10px 0 20px;
+  font-family: GothamBold, san-serif, Arial, Verdana;
+  border-bottom: 1px solid #6676aa;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  -webkit-transition: background 0.35s ease-in-out, border 0.35s ease-in-out, box-shadow 0.35s ease-in-out, background-image 0.35s ease-in-out;
+  -moz-transition: background 0.35s ease-in-out, border 0.35s ease-in-out, box-shadow 0.35s ease-in-out, background-image 0.35s ease-in-out;
+  -o-transition: background 0.35s ease-in-out, border 0.35s ease-in-out, box-shadow 0.35s ease-in-out, background-image 0.35s ease-in-out;
+  -ms-transition: background 0.35s ease-in-out, border 0.35s ease-in-out, box-shadow 0.35s ease-in-out, background-image 0.35s ease-in-out;
+  transition: background 0.35s ease-in-out, border 0.35s ease-in-out, box-shadow 0.35s ease-in-out, background-image 0.35s ease-in-out;
+}
+
+/* line 406 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav ul li.active {
+  background-color: #37b6e9;
+  background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 200, from(#02a2e1), to(#37b6e9));
+  background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 200, from(#02a2e1), to(#37b6e9));
+  background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 200, from(#02a2e1), to(#37b6e9));
+  background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 200, from(#02a2e1), to(#37b6e9));
+  background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 200, from(#02a2e1), to(#37b6e9));
+  background-image: -webkit--webkit-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -webkit--moz-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -webkit--o-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -webkit--ms-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -webkit-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -moz--webkit-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -moz--moz-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -moz--o-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -moz--ms-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -moz-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -o--webkit-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -o--moz-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -o--o-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -o--ms-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -o-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -ms--webkit-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -ms--moz-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -ms--o-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -ms--ms-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  background-image: -ms-radial-gradient(50% 0%, #37b6e9, #02a2e1);
+  border-top: 1px solid #329fd6;
+  border-bottom: 1px solid #329fd6;
+  -webkit-box-shadow: inset 0px 15px 10px -10px #68dcf7, inset 0px -16px 6px -10px #0083d2;
+  box-shadow: inset 0px 15px 10px -10px #68dcf7, inset 0px -16px 6px -10px #0083d2;
+}
+
+/* line 418 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav ul .mobile-sub-nav {
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease-in-out;
+  -moz-transition: height 0.35s ease-in-out;
+  -o-transition: height 0.35s ease-in-out;
+  -ms-transition: height 0.35s ease-in-out;
+  transition: height 0.35s ease-in-out;
+}
+
+/* line 423 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav ul .mobile-sub-nav li {
+  background-color: #051057;
+  color: #0271b3;
+  font-family: GothamBold, san-serif, Arial, Verdana;
+  font-size: 14px;
+  padding: 18px 0 0 30px;
+}
+
+/* line 430 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav ul .arrow-wrapper {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -18px;
+  float: right;
+  text-align: center;
+  font-size: 22px;
+}
+
+/* line 439 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav ul i {
+  position: relative;
+  top: 13px;
+  -webkit-transition: -webkit-transform 0.35s ease-in-out;
+  -moz-transition: -moz-transform 0.35s ease-in-out;
+  -o-transition: -o-transform 0.35s ease-in-out;
+  -ms-transition: -ms-transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out;
+}
+
+/* line 444 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav ul i.active {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 447 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header #mobile-header-nav ul a:last-child li {
+  border-bottom: none;
+}
+
+/* line 450 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header .mobile-nav-social {
+  background-color: #00a1e1;
+  height: 50px;
+  color: #fff;
+  padding-top: 13px;
+  text-align: center;
+  font-size: 14px;
+  font-family: GothamBold, san-serif, Arial, Verdana;
+  position: relative;
+}
+
+/* line 460 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header .mobile-nav-social i {
+  text-align: middle;
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+/* line 465 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_header.styl */
+header .mobile-nav-social a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 42px;
+  font-family: GothamBold, san-serif, Arial, Verdana;
+  position: absolute;
+  width: 100%;
+  height: 46px;
+  top: 2px;
+  left: 0;
+  border-top: 1px solid #65d8f6;
+  border-bottom: 1px solid #1687d0;
+  -webkit-box-shadow: inset 0px 13px 43px -20px #fff, inset 0px -13px 43px -20px #1688d1;
+  box-shadow: inset 0px 13px 43px -20px #fff, inset 0px -13px 43px -20px #1688d1;
+}
+
+/* line 260 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+
+/* line 95 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+
+/* line 112 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+
+/* line 7 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+
+/* line 9 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top {
+  color: #999;
+  padding: 30px 10px;
+  overflow: auto;
+}
+
+/* line 14 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top .contact-info,
+#footer #footer-top .contact-info a,
+#footer #footer-top .fa p {
+  font-family: GothamBook, san-serif, Arial, Verdana;
+  font-weight: normal;
+  font-size: 0.94em;
+  line-height: 1.2em;
+}
+
+/* line 20 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top .fa:before {
+  width: 20px;
+  display: block;
+  float: left;
+  text-align: center;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+/* line 28 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top #footer-top-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+/* line 34 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top h1 {
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+  font-size: 1.3em;
+  padding: 0 0 16px;
+}
+
+/* line 39 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top h2 {
+  font-family: GothamBook, san-serif, Arial, Verdana;
+  font-size: 0.89em;
+  padding: 0 0 16px;
+  line-height: 1.4em;
+}
+
+/* line 45 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top h3 {
+  font-family: GothamBook, san-serif, Arial, Verdana;
+  font-size: 0.95em;
+}
+
+/* line 49 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top a {
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+  font-size: 0.95em;
+  color: #999;
+  text-decoration: none;
+}
+
+/* line 55 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top p {
+  display: inline-block;
+}
+
+/* line 58 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top .input {
+  outline: none;
+  border: none;
+  border-top: 1px solid #f8f8f8;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  padding: 1px;
+  background-color: #fff;
+  font-size: 0.9375em;
+  font-family: GothamLight, san-serif, Arial, Verdana;
+  -webkit-box-shadow: inset 0px 2px 1px #a1b0bf, 1px 2px 6px 0px #abaaaa;
+  box-shadow: inset 0px 2px 1px #a1b0bf, 1px 2px 6px 0px #abaaaa;
+  width: 100%;
+  overflow: auto;
+}
+
+/* line 74 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top .input .btn {
+  float: right;
+}
+
+/* line 77 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top .input input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+  font-size: 0.9375em;
+  font-family: GothamLight, san-serif, Arial, Verdana;
+  width: 100%;
+  max-width: 180px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+/* line 89 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top .input input:after {
+  content: 'subscribe';
+  background-color: #00a1e1;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 0.8125em;
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+}
+
+/* line 97 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top .input a {
+  padding: 15px 20px;
+  color: #fff;
+}
+
+/* line 101 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top #footer-top-left,
+#footer #footer-top #footer-top-middle,
+#footer #footer-top #footer-top-right {
+  width: 27.5%;
+  display: block;
+  float: left;
+  padding: 0;
+}
+
+/* line 107 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-top #footer-top-middle {
+  margin: 0 8.75%;
+}
+@media (max-width: 767px) {
+
+/* line 110 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top {
+    background-color: #001b3c;
+    color: #fff;
+    text-align: left;
+    border-top: 1px solid #909dac;
+    border-bottom: 1px solid #909dac;
+  }
+
+/* line 117 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top #footer-top-left,
+  #footer #footer-top #footer-top-right {
+    display: none;
+  }
+
+/* line 120 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top #footer-top-middle {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+/* line 124 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top h1 {
+    font-family: GothamBlack, san-serif, Arial, Verdana;
+    font-size: 1.75em;
+    padding: 0 0 16px;
+    color: #fff;
+  }
+@media (max-width: 767px) and (max-width: 667px) and (max-width: 767px) and (max-width: 667px) {
+
+/* line 134 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+    #footer #footer-top h1 h2 {
+      font-size: 0.9em;
+    }
+}
+
+/* line 134 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top h2 {
+    font-family: GothamBook, san-serif, Arial, Verdana;
+    font-size: 1.25em;
+    padding: 0 0 16px;
+    color: #fff;
+  }
+@media (max-width: 767px) and (max-width: 667px) and (max-width: 767px) and (max-width: 667px) and (max-width: 767px) and (max-width: 667px) {
+
+/* line 144 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+    #footer #footer-top h2 h3 {
+      font-size: 0.9em;
+    }
+}
+
+/* line 144 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top h3 {
+    font-family: GothamBook, san-serif, Arial, Verdana;
+    font-size: 1.25em;
+    color: #fff;
+  }
+
+/* line 150 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top h3 i,
+  #footer #footer-top h3 p {
+    display: inline-block;
+  }
+
+/* line 156 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top i.fa-map-marker:before {
+    margin-right: 6px;
+    padding-left: 2px;
+  }
+
+/* line 160 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top i.fa-mobile-phone:before {
+    margin-right: 10px;
+    padding-left: 3px;
+  }
+
+/* line 164 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top i.fa-envelope-o:before {
+    margin-right: 7px;
+  }
+
+/* line 167 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top i,
+  #footer #footer-top a {
+    color: #fff;
+  }
+
+/* line 170 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top a,
+  #footer #footer-top p {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 767px) and (max-width: 667px) {
+
+/* line 124 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-top h1 {
+    font-size: 1.25em;
+  }
+}
+
+/* line 174 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom {
+  background-color: #001b3c;
+  padding: 25px 0 0;
+  height: 75px;
+  text-align: center;
+  line-height: 1.2em;
+  font-size: 0.78em;
+  color: #919dad;
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+/*
+            background-color: #000b19
+        */
+}
+
+/* line 184 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom span.pipe {
+  padding: 0 0 0 2px;
+}
+@media (max-width: 767px) {
+
+/* line 186 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-bottom span.pipe {
+    display: none;
+  }
+}
+
+/* line 189 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom div.break {
+  display: none;
+}
+@media (max-width: 767px) {
+
+/* line 192 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-bottom div.break {
+    display: block;
+  }
+}
+
+/* line 196 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom a {
+  line-height: 1.2em;
+  font-size: 11px;
+  color: #919dad;
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+  margin: 0 10px;
+  text-decoration: none;
+}
+@media (min-width: 992px) {
+
+/* line 204 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-bottom a {
+    font-size: 12px;
+  }
+}
+
+/* line 207 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom a:first-child {
+  margin-left: 15px;
+}
+
+/* line 214 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom p#mobile-footer-blurb {
+  color: #919dad;
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+  font-size: 0.9em;
+  margin: 0 auto 10px;
+  display: none;
+  line-height: 1.2em;
+}
+@media (max-width: 767px) {
+
+/* line 222 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-bottom p#mobile-footer-blurb {
+    display: block;
+  }
+}
+
+/* line 225 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+
+/* line 226 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom ol li {
+  display: inline-block;
+  list-style-image: url("");
+  padding: 0 17px;
+}
+
+/* line 231 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom ol li em {
+  position: relative;
+  top: 2px;
+  left: 25%;
+  text-align: right;
+}
+
+/* line 237 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom ol li a {
+  color: #999;
+  font-size: 0.75em;
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 244 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+#footer #footer-bottom ol li i {
+  display: inline-block;
+  color: #999;
+  font-size: 0.875em;
+  padding: 0 5px;
+}
+@media (max-width: 767px) {
+
+/* line 251 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-bottom ol li {
+    display: none;
+  }
+
+/* line 254 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-bottom ol li:last-child {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+/* line 259 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_footer.styl */
+  #footer #footer-bottom ol li i {
+    font-size: 1.5em;
+  }
+}
+
+/* line 118 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+
+/* line 3 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+/* line 8 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#home-coaster-1-a {
+  top: 75px;
+  right: -250px;
+}
+@media (max-width: 1000px) {
+
+/* line 12 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-1-a {
+    right: -325px;
+  }
+}
+@media (max-width: 900px) {
+
+/* line 15 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-1-a {
+    right: -400px;
+  }
+}
+@media (max-width: 800px) {
+
+/* line 18 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-1-a {
+    right: -450px;
+  }
+}
+@media (max-width: 767px) {
+
+/* line 21 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-1-a {
+    display: none;
+  }
+}
+
+/* line 24 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#home-coaster-1-b {
+  left: 0;
+  bottom: -20px;
+  top: auto;
+}
+
+/* line 28 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#home-coaster-1-b canvas {
+  vertical-align: bottom;
+}
+@media (max-width: 767px) {
+
+/* line 31 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-1-b {
+    display: none;
+  }
+}
+
+/* line 35 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#home-coaster-3-a {
+  right: 0;
+  top: -8px;
+}
+@media (max-width: 767px) {
+
+/* line 39 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-3-a {
+    display: none;
+  }
+}
+
+/* line 43 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#home-coaster-3-b {
+  right: auto;
+  left: 0;
+  top: 930px;
+  z-index: 3 !important;
+}
+@media (max-width: 1000px) {
+
+/* line 49 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-3-b {
+    left: -50px;
+  }
+}
+@media (max-width: 950px) {
+
+/* line 52 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-3-b {
+    left: -75px;
+  }
+}
+@media (max-width: 900px) {
+
+/* line 55 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-3-b {
+    left: -100px;
+  }
+}
+@media (max-width: 850px) {
+
+/* line 58 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-3-b {
+    left: -125px;
+  }
+}
+@media (max-width: 800px) {
+
+/* line 61 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-3-b {
+    left: -150px;
+  }
+}
+@media (max-width: 767px) {
+
+/* line 64 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+  .coaster-container#home-coaster-3-b {
+    display: none;
+  }
+}
+
+/* line 68 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#parks-coaster-1,
+.coaster-container#offerings-coaster-1,
+.coaster-container#accommodations-coaster-1,
+.coaster-container#groups-coaster-1-a,
+.coaster-container#jobs-coaster-1-a,
+.coaster-container#sponsorship-coaster-1,
+.coaster-container#partnership-details-coaster-1,
+.coaster-container#news-coaster-1,
+.coaster-container#whoweare-coaster-1 {
+  left: 0;
+}
+
+/* line 70 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#parks-coaster-1 canvas,
+.coaster-container#offerings-coaster-1 canvas,
+.coaster-container#accommodations-coaster-1 canvas,
+.coaster-container#groups-coaster-1-a canvas,
+.coaster-container#jobs-coaster-1-a canvas,
+.coaster-container#sponsorship-coaster-1 canvas,
+.coaster-container#partnership-details-coaster-1 canvas,
+.coaster-container#news-coaster-1 canvas,
+.coaster-container#whoweare-coaster-1 canvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 77 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#parks-coaster-1 {
+  top: 700px;
+}
+
+/* line 82 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#offerings-coaster-1 {
+  top: 830px;
+}
+
+/* line 87 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#accommodations-coaster-1 {
+  top: 680px;
+}
+
+/* line 90 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#sponsorship-coaster-1 {
+  top: 880px;
+}
+
+/* line 93 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#partnership-details-coaster-1 {
+  top: 670px;
+}
+
+/* line 97 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#news-coaster-1 {
+  top: 350px;
+}
+
+/* line 100 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#whoweare-coaster-1 {
+  top: 640px;
+}
+
+/* line 103 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#groups-coaster-1-a {
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+/* line 111 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#groups-coaster-1-a canvas {
+  top: auto;
+  bottom: 0 !important;
+}
+
+/* line 117 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+.coaster-container#jobs-coaster-1-a {
+  top: 1560px;
+}
+
+/* line 40 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_coasters.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+
+/* line 2 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+.cloud {
+  position: absolute;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+
+/* line 8 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+  .cloud {
+    display: none;
+  }
+}
+
+/* line 12 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+.cloud.one {
+  background-image: url("/images/clouds/cloud-01.png");
+  width: 1496px;
+  height: 645px;
+}
+
+/* line 17 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+.cloud.two {
+  background-image: url("/images/clouds/cloud-02.png");
+  width: 702px;
+  height: 670px;
+}
+
+/* line 22 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+.cloud.three {
+  background-image: url("/images/clouds/cloud-03.png");
+  width: 1614px;
+  height: 744px;
+}
+
+/* line 27 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+.cloud.four {
+  background-image: url("/images/clouds/cloud-04.png");
+  width: 686px;
+  height: 544px;
+}
+
+/* line 32 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+.cloud.six {
+  background-image: url("/images/clouds/cloud-06.png");
+  width: 1328px;
+  height: 643px;
+}
+
+/* line 37 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+.cloud.seven {
+  background-image: url("/images/clouds/cloud-07.png");
+  width: 1220px;
+  height: 600px;
+}
+
+/* line 22 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_clouds.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_overlay.styl */
+
+/* line 3 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_overlay.styl */
+#offerings-overlay-content {
+  border: 1px solid #00f;
+}
+
+/* line 6 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_overlay.styl */
+#offerings-overlay-content .title-bucket p {
+  width: 75%;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+/* line 12 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_overlay.styl */
+#offerings-overlay-content .content {
+  width: 85%;
+  margin: 0 auto 7.5%;
+  height: 340px;
+  background: #666;
+}
+
+/* line 20 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_overlay.styl */
+.media-image-poster {
+  width: 100%;
+  height: auto;
+}
+
+/* line 957 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/_overlay.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+/*
+Video.js Default Styles (http://videojs.com)
+Version 4.9.0
+Create your own skin at http://designer.videojs.com
+*/
+
+/* line 13 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin {
+  color: #ccc;
+}
+@font-face {
+  font-family: 'VideoJS';
+  src: url("../fonts/vjs.eot");
+  src: url("../fonts/vjs.eot?#iefix") format('embedded-opentype'), url("../fonts/vjs.woff") format('woff'), url("../fonts/vjs.ttf") format('truetype'), url("../fonts/vjs.svg#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 32 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-slider {
+/* Replace browser focus hightlight with handle highlight */
+  outline: 0;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+/* background-color-with-alpha */
+  background-color: #333;
+  background-color: rgba(51,51,51,0.9);
+}
+
+/* line 42 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-slider:focus {
+/* box-shadow */
+  -webkit-box-shadow: 0 0 2em #fff;
+  -moz-box-shadow: 0 0 2em #fff;
+  -webkit-box-shadow: 0 0 2em #fff;
+  box-shadow: 0 0 2em #fff;
+}
+
+/* line 48 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-slider-handle {
+  position: absolute;
+/* Needed for IE6 */
+  left: 0;
+  top: 0;
+}
+
+/* line 54 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-slider-handle:before {
+  content: "\e009";
+  font-family: VideoJS;
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0em 0em 1em #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+/* Rotate the square icon to make a diamond */
+/* transform */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 76 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-control-bar {
+/* Start hidden */
+  display: none;
+  position: absolute;
+/* Place control bar at the bottom of the player box/video.
+     If you want more margin below the control bar, add more height. */
+  bottom: 0;
+/* Use left/right to stretch to 100% width of player div */
+  left: 0;
+  right: 0;
+/* Height includes any margin you want above or below control items */
+  height: 3em;
+/* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7,20,30,0.7);
+}
+
+/* line 93 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-has-started .vjs-control-bar {
+  display: block;
+/* Visibility needed to make sure things hide in older browsers too. */
+  visibility: visible;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+/* transition */
+  -webkit-transition: visibility 0.1s, opacity 0.1s;
+  -moz-transition: visibility 0.1s, opacity 0.1s;
+  -o-transition: visibility 0.1s, opacity 0.1s;
+  -webkit-transition: visibility 0.1s, opacity 0.1s;
+  -moz-transition: visibility 0.1s, opacity 0.1s;
+  -o-transition: visibility 0.1s, opacity 0.1s;
+  -ms-transition: visibility 0.1s, opacity 0.1s;
+  transition: visibility 0.1s, opacity 0.1s;
+}
+
+/* line 106 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+/* transition */
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  -ms-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s;
+}
+
+/* line 116 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-controls-disabled .vjs-control-bar {
+  display: none;
+}
+
+/* line 119 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-using-native-controls .vjs-control-bar {
+  display: none;
+}
+
+/* line 123 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-error .vjs-control-bar {
+  display: none;
+}
+
+/* line 127 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-audio.vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  visibility: visible;
+}
+@media 0 screen {
+
+/* line 137 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  .vjs-default-skin.vjs-user-inactive.vjs-playing .vjs-control-bar :before {
+    content: "";
+  }
+}
+
+/* line 142 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-control {
+  outline: none;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 3em;
+  width: 4em;
+}
+
+/* line 153 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-control:before {
+  font-family: VideoJS;
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+/* line 166 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-control:focus:before,
+.vjs-default-skin .vjs-control:hover:before {
+  text-shadow: 0em 0em 1em #fff;
+}
+
+/* line 170 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+
+/* line 177 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-control-text {
+/* hide-visually */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 191 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-play-control {
+  width: 5em;
+  cursor: pointer;
+}
+
+/* line 195 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-play-control:before {
+  content: "\e001";
+}
+
+/* line 198 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-playing .vjs-play-control:before {
+  content: "\e002";
+}
+
+/* line 204 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-playback-rate .vjs-playback-rate-value {
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+/* line 215 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-playback-rate.vjs-menu-button .vjs-menu .vjs-menu-content {
+  width: 4em;
+  left: -2em;
+  list-style: none;
+}
+
+/* line 222 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-mute-control,
+.vjs-default-skin .vjs-volume-menu-button {
+  cursor: pointer;
+  float: right;
+}
+
+/* line 227 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-mute-control:before,
+.vjs-default-skin .vjs-volume-menu-button:before {
+  content: "\e006";
+}
+
+/* line 231 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-mute-control.vjs-vol-0:before,
+.vjs-default-skin .vjs-volume-menu-button.vjs-vol-0:before {
+  content: "\e003";
+}
+
+/* line 235 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-mute-control.vjs-vol-1:before,
+.vjs-default-skin .vjs-volume-menu-button.vjs-vol-1:before {
+  content: "\e004";
+}
+
+/* line 239 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-mute-control.vjs-vol-2:before,
+.vjs-default-skin .vjs-volume-menu-button.vjs-vol-2:before {
+  content: "\e005";
+}
+
+/* line 243 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-volume-control {
+  width: 5em;
+  float: right;
+}
+
+/* line 247 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-volume-bar {
+  width: 5em;
+  height: 0.6em;
+  margin: 1.1em auto 0;
+}
+
+/* line 252 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-volume-level {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.5em;
+/* assuming volume starts at 1.0 */
+  width: 100%;
+  background: #66a8cc url("data:image/pngbase64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC") -50% 0 repeat;
+}
+
+/* line 262 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-volume-bar .vjs-volume-handle {
+  width: 0.5em;
+  height: 0.5em;
+/* Assumes volume starts at 1.0. If you change the size of the
+     handle relative to the volume bar, you'll need to update this value
+     too. */
+  left: 4.5em;
+}
+
+/* line 271 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-volume-handle:before {
+  font-size: 0.9em;
+  top: -0.2em;
+  left: -0.2em;
+  width: 1em;
+  height: 1em;
+}
+
+/* line 283 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top-color: transparent;
+}
+
+/* line 289 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu .vjs-menu-content {
+  height: 0;
+  width: 0;
+}
+
+/* line 293 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-volume-menu-button:hover .vjs-menu,
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu.vjs-lock-showing {
+  border-top-color: rgba(7,40,50,0.5);
+/* Same as ul background */
+}
+
+/* line 299 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-volume-menu-button:hover .vjs-menu .vjs-menu-content,
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu.vjs-lock-showing .vjs-menu-content {
+  height: 2.9em;
+  width: 10em;
+}
+
+/* line 307 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-progress-control {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+  font-size: 0.3em;
+  height: 1em;
+/* Set above the rest of the controls. */
+  top: -1em;
+/* Shrink the bar slower than it grows. */
+/* transition */
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* line 326 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin:hover .vjs-progress-control {
+  font-size: 0.9em;
+/* Even though we're not changing the top/height, we need to include them in
+      the transition so they're handled correctly. */
+/* transition */
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* line 338 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-progress-holder {
+  height: 100%;
+}
+
+/* line 342 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-progress-holder .vjs-play-progress,
+.vjs-default-skin .vjs-progress-holder .vjs-load-progress,
+.vjs-default-skin .vjs-progress-holder .vjs-load-progress div {
+  position: absolute;
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+/* updated by javascript during playback */
+  width: 0;
+/* Needed for IE6 */
+  left: 0;
+  top: 0;
+}
+
+/* line 357 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-play-progress {
+/*
+    Using a data URI to create the white diagonal lines with a transparent
+      background. Surprisingly works in IE8.
+      Created using http://www.patternify.com
+    Changing the first color value will change the bar color.
+    Also using a paralax effect to make the lines move backwards.
+      The -50% left position makes that happen.
+  */
+  background: #66a8cc url("data:image/pngbase64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC") -50% 0 repeat;
+}
+
+/* line 369 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-load-progress {
+  background: #646464;
+  background: rgba(255,255,255,0.2);
+}
+
+/* line 375 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-load-progress div {
+  background: #787878;
+  background: rgba(255,255,255,0.1);
+}
+
+/* line 379 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-seek-handle {
+  width: 1.5em;
+  height: 100%;
+}
+
+/* line 383 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-seek-handle:before {
+  padding-top: 0.1em;
+}
+
+/* line 389 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-live .vjs-time-controls,
+.vjs-default-skin.vjs-live .vjs-time-divider,
+.vjs-default-skin.vjs-live .vjs-progress-control {
+  display: none;
+}
+
+/* line 394 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-live .vjs-live-display {
+  display: block;
+}
+
+/* line 400 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-live-display {
+  display: none;
+  font-size: 1em;
+  line-height: 3em;
+}
+
+/* line 408 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-time-controls {
+  font-size: 1em;
+/* Align vertically by making the line height the same as the control bar */
+  line-height: 3em;
+}
+
+/* line 413 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-current-time {
+  float: left;
+}
+
+/* line 416 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-duration {
+  float: left;
+}
+
+/* line 420 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-remaining-time {
+  display: none;
+  float: left;
+}
+
+/* line 424 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-time-divider {
+  float: left;
+  line-height: 3em;
+}
+
+/* line 431 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-fullscreen-control {
+  width: 3.8em;
+  cursor: pointer;
+  float: right;
+}
+
+/* line 436 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-fullscreen-control:before {
+  content: "\e000";
+}
+
+/* line 440 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-fullscreen .vjs-fullscreen-control:before {
+  content: "\e00b";
+}
+
+/* line 448 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-big-play-button {
+  left: 0.5em;
+  top: 0.5em;
+  font-size: 3em;
+  display: block;
+  z-index: 2;
+  position: absolute;
+  width: 4em;
+  height: 2.6em;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+/* Need a slightly gray bg so it can be seen on black backgrounds */
+/* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7,20,30,0.7);
+  border: 0.1em solid #3b4249;
+/* border-radius */
+  -webkit-border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  border-radius: 0.8em;
+/* box-shadow */
+  -webkit-box-shadow: 0px 0px 1em rgba(255,255,255,0.25);
+  -moz-box-shadow: 0px 0px 1em rgba(255,255,255,0.25);
+  -webkit-box-shadow: 0px 0px 1em rgba(255,255,255,0.25);
+  box-shadow: 0px 0px 1em rgba(255,255,255,0.25);
+/* transition */
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* line 481 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {
+/* Center it horizontally */
+  left: 50%;
+  margin-left: -2.1em;
+/* Center it vertically */
+  top: 50%;
+  margin-top: -1.4em;
+}
+
+/* line 490 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-controls-disabled .vjs-big-play-button {
+  display: none;
+}
+
+/* line 494 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-has-started .vjs-big-play-button {
+  display: none;
+}
+
+/* line 499 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin.vjs-using-native-controls .vjs-big-play-button {
+  display: none;
+}
+
+/* line 502 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin:hover .vjs-big-play-button,
+.vjs-default-skin .vjs-big-play-button:focus {
+  outline: 0;
+  border-color: #fff;
+/* IE8 needs a non-glow hover state */
+  background-color: #505050;
+  background-color: rgba(50,50,50,0.75);
+/* box-shadow */
+  -webkit-box-shadow: 0 0 3em #fff;
+  -moz-box-shadow: 0 0 3em #fff;
+  -webkit-box-shadow: 0 0 3em #fff;
+  box-shadow: 0 0 3em #fff;
+/* transition */
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  -ms-transition: all 0s;
+  transition: all 0s;
+}
+
+/* line 519 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-big-play-button:before {
+  content: "\e001";
+  font-family: VideoJS;
+/* In order to center the play icon vertically we need to set the line height
+     to the same as the button height */
+  line-height: 2.6em;
+  text-shadow: 0.05em 0.05em 0.1em #000;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 533 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-error .vjs-big-play-button {
+  display: none;
+}
+
+/* line 539 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-error-display {
+  display: none;
+}
+
+/* line 542 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-error .vjs-error-display {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 550 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-error .vjs-error-display:before {
+  content: 'X';
+  font-family: Arial;
+  font-size: 4em;
+  color: #666;
+/* In order to center the play icon vertically we need to set the line height
+     to the same as the button height */
+  line-height: 1;
+  text-shadow: 0.05em 0.05em 0.1em #000;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.5em;
+  width: 100%;
+}
+
+/* line 568 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-error-display div {
+  position: absolute;
+  bottom: 1em;
+  right: 0;
+  left: 0;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 3px;
+  background: #000;
+  background: rgba(0,0,0,0.5);
+}
+
+/* line 579 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-error-display a,
+.vjs-error-display a:visited {
+  color: #f4a460;
+}
+
+/* line 586 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-loading-spinner {
+/* Should be hidden by default */
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 4em;
+  line-height: 1;
+  width: 1em;
+  height: 1em;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  opacity: 0.75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+  filter: alpha(opacity=75);
+}
+
+/* line 601 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-waiting .vjs-loading-spinner,
+.vjs-seeking .vjs-loading-spinner {
+  display: block;
+/* only animate when showing because it can be processor heavy */
+/* animation */
+  -webkit-animation: spin 1.5s infinite linear;
+  -moz-animation: spin 1.5s infinite linear;
+  -o-animation: spin 1.5s infinite linear;
+  -webkit-animation: spin 1.5s infinite linear;
+  -moz-animation: spin 1.5s infinite linear;
+  -o-animation: spin 1.5s infinite linear;
+  -ms-animation: spin 1.5s infinite linear;
+  animation: spin 1.5s infinite linear;
+}
+
+/* line 612 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-error .vjs-loading-spinner {
+  display: none;
+/* ensure animation doesn't continue while hidden */
+/* animation */
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+/* line 621 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-loading-spinner:before {
+  content: "\e01e";
+  font-family: VideoJS;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  text-shadow: 0em 0em 0.1em #000;
+}
+
+/* line 632 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+@-moz-keyframes spin {
+
+/* line 633 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+/* line 636 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+/* line 640 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+@-webkit-keyframes spin {
+
+/* line 641 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+/* line 644 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+/* line 648 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+@-o-keyframes spin {
+
+/* line 649 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  0% {
+    -o-transform: rotate(0deg);
+  }
+
+/* line 652 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+
+/* line 667 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-menu-button {
+  float: right;
+  cursor: pointer;
+}
+
+/* line 671 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-menu {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0em;
+/* (Width of vjs-menu - width of button) / 2 */
+  width: 0em;
+  height: 0em;
+  margin-bottom: 3em;
+  border-left: 2em solid transparent;
+  border-right: 2em solid transparent;
+  border-top: 1.55em solid #000;
+/* Same width top as ul bottom */
+  border-top-color: rgba(7,40,50,0.5);
+/* Same as ul background */
+}
+
+/* line 691 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-menu-button .vjs-menu .vjs-menu-content {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 10em;
+  bottom: 1.5em;
+/* Same bottom as vjs-menu border-top */
+  max-height: 15em;
+  overflow: auto;
+  left: -5em;
+/* Width of menu - width of button / 2 */
+/* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7,20,30,0.7);
+/* box-shadow */
+  -webkit-box-shadow: -0.2em -0.2em 0.3em rgba(255,255,255,0.2);
+  -moz-box-shadow: -0.2em -0.2em 0.3em rgba(255,255,255,0.2);
+  -webkit-box-shadow: -0.2em -0.2em 0.3em rgba(255,255,255,0.2);
+  box-shadow: -0.2em -0.2em 0.3em rgba(255,255,255,0.2);
+}
+
+/* line 713 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-menu-button:hover .vjs-control-content .vjs-menu,
+.vjs-default-skin .vjs-control-content .vjs-menu.vjs-lock-showing {
+  display: block;
+}
+
+/* line 717 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-menu-button ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0.3em 0 0.3em 0;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+/* line 726 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected {
+  background-color: #000;
+}
+
+/* line 729 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-menu-button ul li:focus,
+.vjs-default-skin .vjs-menu-button ul li:hover,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:hover {
+  outline: 0;
+  color: #111;
+/* background-color-with-alpha */
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.75);
+/* box-shadow */
+  -webkit-box-shadow: 0 0 1em #fff;
+  -moz-box-shadow: 0 0 1em #fff;
+  -webkit-box-shadow: 0 0 1em #fff;
+  box-shadow: 0 0 1em #fff;
+}
+
+/* line 743 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-menu-button ul li.vjs-menu-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 0;
+  margin: 0 0 0.3em 0;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* line 754 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-subtitles-button:before {
+  content: "\e00c";
+}
+
+/* line 758 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-captions-button:before {
+  content: "\e008";
+}
+
+/* line 762 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-chapters-button:before {
+  content: "\e00c";
+}
+
+/* line 765 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-chapters-button.vjs-menu-button .vjs-menu .vjs-menu-content {
+  width: 24em;
+  left: -12em;
+}
+
+/* line 770 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-captions-button:focus .vjs-control-content:before,
+.vjs-default-skin .vjs-captions-button:hover .vjs-control-content:before {
+/* box-shadow */
+  -webkit-box-shadow: 0 0 1em #fff;
+  -moz-box-shadow: 0 0 1em #fff;
+  -webkit-box-shadow: 0 0 1em #fff;
+  box-shadow: 0 0 1em #fff;
+}
+
+/* line 789 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js {
+/*background-color: #000*/
+  position: relative;
+  padding: 0;
+/* Start with 10px for base font size so other dimensions can be em based and
+     easily calculable. */
+  font-size: 10px;
+/* Allow poster to be vertially aligned. */
+  vertical-align: middle;
+/*  display: table-cell */
+/*This works in Safari but not Firefox.*/
+/* Provide some basic defaults for fonts */
+  font-weight: normal;
+  font-style: normal;
+/* Avoiding helvetica: issue #376 */
+  font-family: Arial, sans-serif;
+/* Turn off user selection (text highlighting) by default.
+     The majority of player components will not be text blocks.
+     Text areas will need to turn user selection back on. */
+/* user-select */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 822 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js .vjs-tech {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 828 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js img.vjs-tech {
+  height: auto;
+}
+
+/* line 833 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js:-moz-full-screen {
+  position: absolute;
+}
+
+/* line 837 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+body.vjs-full-window {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+/* Fix for IE6 full-window. http://www.cssplay.co.uk/layouts/fixed.html */
+  overflow-y: auto;
+}
+
+/* line 844 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js.vjs-fullscreen {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+/* IE6 full-window (underscore hack) */
+  _position: absolute;
+}
+
+/* line 857 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js:-webkit-full-screen {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* line 861 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js.vjs-fullscreen.vjs-user-inactive {
+  cursor: none;
+}
+
+/* line 865 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-poster {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 878 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-poster img {
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 886 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js.vjs-using-native-controls .vjs-poster {
+  display: none;
+}
+
+/* line 891 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js .vjs-text-track-display {
+  text-align: center;
+  position: absolute;
+  bottom: 4em;
+/* Leave padding on left and right */
+  left: 1em;
+  right: 1em;
+}
+
+/* line 900 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js.vjs-user-inactive.vjs-playing .vjs-text-track-display {
+  bottom: 1em;
+}
+
+/* line 904 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js .vjs-text-track {
+  display: none;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 0.1em;
+/* Transparent black background, or fallback to all black (oldIE) */
+/* background-color-with-alpha */
+  background-color: #000;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* line 914 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js .vjs-subtitles {
+  color: #fff;
+}
+
+/* line 917 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js .vjs-captions {
+  color: #fc6;
+}
+
+/* line 920 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-tt-cue {
+  display: block;
+}
+
+/* line 924 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.video-js.vjs-fullscreen .vjs-text-track {
+  font-size: 3em;
+}
+
+/* line 928 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-default-skin .vjs-hidden {
+  display: none;
+}
+
+/* line 931 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-lock-showing {
+  display: block !important;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  visibility: visible;
+}
+
+/* line 940 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-no-js {
+  padding: 20px;
+  color: #ccc;
+  background-color: #333;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+  margin: 0px auto;
+}
+
+/* line 951 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+.vjs-no-js a,
+.vjs-no-js a:visited {
+  color: #f4a460;
+}
+
+/* line 656 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+@-moz-keyframes spin {
+
+/* line 657 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+/* line 660 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/* line 656 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+@-webkit-keyframes spin {
+
+/* line 657 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+/* line 660 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/* line 656 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+@-o-keyframes spin {
+
+/* line 657 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+/* line 660 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/* line 656 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+@keyframes spin {
+
+/* line 657 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+/* line 660 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/* line 112 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/ext/video-js.styl */
+
+/* line 1 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+
+/* line 4 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 14 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+
+/* line 16 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 18 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 20 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 22 : /Users/philbrady/Sites/cedar-fair-web-site/node_modules/grunt-contrib-stylus/node_modules/nib/lib/nib/reset.styl */
+a img {
+  border: none;
+}
+@font-face {
+  font-family: GothamUltra;
+  src: url("../fonts/Gotham-Ultra.eot");
+  src: url("../fonts/Gotham-Ultra.woff") format("woff"), url("../fonts/Gotham-Ultra.ttf") format("truetype"), url("../fonts/Gotham-Ultra.svg") format("svg");
+}
+@font-face {
+  font-family: GothamLight;
+  src: url("../fonts/Gotham-Light.eot");
+  src: url("../fonts/Gotham-Light.woff") format("woff"), url("../fonts/Gotham-Light.ttf") format("truetype"), url("../fonts/Gotham-Light.svg") format("svg");
+}
+@font-face {
+  font-family: GothamBlack;
+  src: url("../fonts/Gotham-Black.eot");
+  src: url("../fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black.ttf") format("truetype"), url("../fonts/Gotham-Black.svg") format("svg");
+}
+@font-face {
+  font-family: GothamBold;
+  src: url("../fonts/Gotham-Bold.eot");
+  src: url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype"), url("../fonts/Gotham-Bold.svg") format("svg");
+}
+@font-face {
+  font-family: GothamBook;
+  src: url("../fonts/Gotham-Book.eot");
+  src: url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("truetype"), url("../fonts/Gotham-Book.svg") format("svg");
+}
+@font-face {
+  font-family: 'lcd';
+  src: url("../fonts/lcd.eot");
+  src: url("../fonts/lcd.eot?#iefix") format('embedded-opentype'), url("../fonts/lcd.woff2") format('woff2'), url("../fonts/lcd.woff") format('woff'), url("../fonts/lcd.ttf") format('truetype'), url("../fonts/lcd.svg#lcdmono2bold") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 79 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* line 83 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* line 86 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 88 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 92 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* line 96 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+body {
+  background: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+@media screen and (max-width: 999px) {
+
+/* line 106 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  body {
+    font-size: 85%;
+  }
+}
+
+/* line 108 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+textarea {
+  resize: none;
+  -webkit-transition: border-color 1s;
+  -moz-transition: border-color 1s;
+  -o-transition: border-color 1s;
+  -ms-transition: border-color 1s;
+  transition: border-color 1s;
+}
+
+/* line 112 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+textarea.invalid {
+  border-color: #f00 !important;
+}
+
+/* line 115 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.center-vertical {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 120 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#content {
+  position: relative;
+  -webkit-transition: padding 0.35 ease-in-out;
+  -moz-transition: padding 0.35 ease-in-out;
+  -o-transition: padding 0.35 ease-in-out;
+  -ms-transition: padding 0.35 ease-in-out;
+  transition: padding 0.35 ease-in-out;
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  -o-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+@media (max-width: 767px) {
+
+/* line 125 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  #content {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 767px) and (orientation: landscape) {
+
+/* line 128 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  #content {
+    padding-top: 60px;
+  }
+}
+
+/* line 132 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.keepitahundred {
+  width: 100% !important;
+}
+
+/* line 136 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket {
+  text-align: center;
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  -o-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+
+/* line 139 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket h1 {
+  color: #0a1a72;
+  font-family: GothamUltra, san-serif, Arial, Verdana;
+  line-height: 1em;
+  letter-spacing: -0.015em;
+}
+
+/* line 145 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket h2 {
+  font-family: GothamLight, san-serif, Arial, Verdana;
+  color: #00a1e1;
+  padding-top: 5px;
+  letter-spacing: -0.045em;
+}
+
+/* line 151 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket h3 {
+  padding-top: 5px;
+}
+
+/* line 154 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket p {
+  font-family: GothamBook, san-serif, Arial, Verdana;
+  color: #999;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+/* line 162 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 164 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.one h1 {
+  font-size: 5em;
+}
+
+/* line 166 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.one h2 {
+  font-size: 2.125em;
+}
+
+/* line 168 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 170 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.two h1 {
+  font-size: 3.75em;
+}
+
+/* line 172 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.two h2 {
+  font-size: 2.125em;
+}
+
+/* line 175 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 177 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.three h1 {
+  font-size: 5em;
+}
+
+/* line 179 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.three h2 {
+  font-size: 2.125em;
+  color: #fff;
+}
+
+/* line 183 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 185 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.four h1 {
+  font-size: 5em;
+}
+
+/* line 187 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.four h2 {
+  font-size: 3.75em;
+}
+
+/* line 191 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 193 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.five h1 {
+  font-size: 5em;
+}
+
+/* line 195 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.five h2 {
+  font-size: 3.75em;
+  color: #fff;
+  font-family: GothamBook, san-serif, Arial, Verdana;
+}
+
+/* line 199 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 201 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.six h1 {
+  font-size: 5em;
+  color: #0a1a72;
+  font-family: GothamUltra, san-serif, Arial, Verdana;
+  text-align: center;
+/*
+                  If we want the text not to move around while it increments it needs to be aligned left
+                  however, since the width can change based on the number that's set, we can't just add the
+                  width here.
+                  There's also a bug on resize.  Instead of restarting it seems to add to the last value
+                  
+                  width: 470px
+                  margin: 0 auto
+                  text-align: left
+            
+            */
+}
+
+/* line 217 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.six h2 {
+  font-size: 3.75em;
+  color: #0a1a72;
+  font-family: GothamUltra, san-serif, Arial, Verdana;
+}
+
+/* line 221 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.six h3 {
+  font-size: 2.125em;
+  color: #00a1e1;
+  font-family: GothamLight, san-serif, Arial, Verdana;
+}
+
+/* line 227 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 228 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.seven h1 {
+  font-size: 3.75em;
+  color: #0a1a72;
+  font-family: GothamUltra, san-serif, Arial, Verdana;
+}
+
+/* line 233 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.seven h2 {
+  font-size: 3.75em;
+  color: #00a1e1;
+  font-family: GothamLight, san-serif, Arial, Verdana;
+}
+
+/* line 238 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket.seven h3 {
+  font-size: 1.75em;
+  font-family: GothamBook, san-serif, Arial, Verdana;
+  color: #999;
+}
+@media (max-width: 767px) {
+
+/* line 245 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket p {
+    line-height: 1.2em;
+  }
+
+/* line 248 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 249 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.one h1 {
+    font-size: 40px;
+  }
+
+/* line 251 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.one h2 {
+    font-size: 20px;
+  }
+
+/* line 253 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 254 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.two h1 {
+    font-size: 30px;
+  }
+
+/* line 256 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.two h2 {
+    font-size: 20px;
+  }
+
+/* line 259 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 260 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.three h1 {
+    font-size: 3.6em;
+  }
+
+/* line 262 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.three h2 {
+    font-size: 1.525em;
+  }
+
+/* line 265 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 266 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.four h1 {
+    font-size: 30px;
+  }
+
+/* line 268 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.four h2 {
+    font-size: 20px;
+  }
+
+/* line 270 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 272 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.five h1 {
+    font-size: 40px;
+  }
+
+/* line 274 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.five h2 {
+    font-size: 20px;
+    padding-top: 0;
+  }
+
+/* line 278 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 279 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.six h1 {
+    font-size: 40px;
+/*
+                  If we want the text not to move around while it increments it needs to be aligned left
+                  however, since the width can change based on the number that's set, we can't just add the
+                  width here.
+                  There's also a bug on resize.  Instead of restarting it seems to add to the last value
+                  width: 243px
+                */
+  }
+
+/* line 288 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.six h2 {
+    font-size: 24px;
+  }
+
+/* line 290 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.six h3 {
+    font-size: 20px;
+  }
+
+/* line 293 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 294 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.seven h1 {
+    font-size: 40px;
+  }
+
+/* line 297 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.seven h2 {
+    font-size: 2.25em;
+  }
+
+/* line 300 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket.seven h3 {
+    font-size: 1.25em;
+  }
+}
+
+/* line 307 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket-seasonal {
+  text-align: center;
+}
+
+/* line 311 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket-seasonal h1 {
+  font-size: 6.25em;
+  color: #fff;
+  font-family: GothamUltra, san-serif, Arial, Verdana;
+}
+
+/* line 316 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket-seasonal h2 {
+  font-size: 5em;
+  color: #fff;
+  font-family: GothamUltra, san-serif, Arial, Verdana;
+}
+
+/* line 321 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket-seasonal h3 {
+  font-size: 3.75em;
+  color: #fff;
+  font-family: GothamUltra, san-serif, Arial, Verdana;
+}
+
+/* line 326 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.title-bucket-seasonal h4 {
+  font-size: 2.875em;
+  color: #fff;
+  font-family: GothamLight, san-serif, Arial, Verdana;
+}
+@media (max-width: 640px) {
+
+/* line 333 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket-seasonal h1 {
+    font-size: 6.25em;
+  }
+
+/* line 335 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket-seasonal h2 {
+    font-size: 2.3em;
+    padding-top: 2px;
+  }
+
+/* line 338 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket-seasonal h3 {
+    font-size: 1.4em !important;
+    font-family: GothamBlack, san-serif, Arial, Verdana;
+    padding-top: 2px;
+  }
+
+/* line 342 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .title-bucket-seasonal h4 {
+    font-size: 1.7em;
+    padding-top: 2px;
+  }
+}
+
+/* line 347 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.btn {
+  background: -webkit-linear-gradient(top, #3ab7e9 0%, #00a1e1 100%);
+  background: -moz-linear-gradient(top, #3ab7e9 0%, #00a1e1 100%);
+  background: -o-linear-gradient(top, #3ab7e9 0%, #00a1e1 100%);
+  background: -ms-linear-gradient(top, #3ab7e9 0%, #00a1e1 100%);
+  background: linear-gradient(to bottom, #3ab7e9 0%, #00a1e1 100%);
+  padding: 12px 25px 14px;
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+  color: #fff;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  transition: color 0.3s;
+  text-decoration: none;
+  vertical-align: top;
+  -webkit-transition: -webkit-transform 0.35s ease-in-out, color 0.35s ease-in-out, box-shadow 0.1s, color 0.3s, -webkit-transform 0.1s;
+  -moz-transition: -moz-transform 0.35s ease-in-out, color 0.35s ease-in-out, box-shadow 0.1s, color 0.3s, -moz-transform 0.1s;
+  -o-transition: -o-transform 0.35s ease-in-out, color 0.35s ease-in-out, box-shadow 0.1s, color 0.3s, -o-transform 0.1s;
+  -ms-transition: -ms-transform 0.35s ease-in-out, color 0.35s ease-in-out, box-shadow 0.1s, color 0.3s, -ms-transform 0.1s;
+  transition: transform 0.35s ease-in-out, color 0.35s ease-in-out, box-shadow 0.1s, color 0.3s, transform 0.1s;
+}
+
+/* line 366 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.btn:hover,
+.btn.hover {
+/*color: #e8e8e8*/
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.4);
+  -webkit-transform: translate(0px, 2px);
+  -moz-transform: translate(0px, 2px);
+  -o-transform: translate(0px, 2px);
+  -ms-transform: translate(0px, 2px);
+  transform: translate(0px, 2px);
+  -webkit-transition: box-shadow 0.1s, color 0.3s, -webkit-transform 0.1s;
+  -moz-transition: box-shadow 0.1s, color 0.3s, -moz-transform 0.1s;
+  -o-transition: box-shadow 0.1s, color 0.3s, -o-transform 0.1s;
+  -ms-transition: box-shadow 0.1s, color 0.3s, -ms-transform 0.1s;
+  transition: box-shadow 0.1s, color 0.3s, transform 0.1s;
+}
+
+/* line 372 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.btn:hover:after,
+.btn.hover:after {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 375 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.btn.red {
+  background: #c62727;
+}
+
+/* line 378 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.btn.gray {
+  background: #b3b3b3;
+}
+
+/* line 383 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.btn:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid #b3ebfa;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  content: "";
+  padding: 15px;
+  -webkit-box-shadow: inset 0px -1px 3px 0px rgba(0,0,0,0.2), inset 0px 1px 3px 0px rgba(255,255,255,0.2);
+  box-shadow: inset 0px -1px 3px 0px rgba(0,0,0,0.2), inset 0px 1px 3px 0px rgba(255,255,255,0.2);
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+@media (max-width: 640px) {
+
+/* line 396 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .btn {
+    height: 50px;
+    line-height: 1.4em;
+  }
+
+/* line 399 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .btn:after {
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    -webkit-box-shadow: inset 0px -1px 3px 0px rgba(0,0,0,0.5), inset 0px 1px 3px 0px rgba(255,255,255,0.5);
+    box-shadow: inset 0px -1px 3px 0px rgba(0,0,0,0.5), inset 0px 1px 3px 0px rgba(255,255,255,0.5);
+  }
+}
+
+/* line 411 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#btn-wrapper,
+.btn-wrapper {
+  text-align: center;
+  margin: 0 auto 10px;
+  clear: both;
+}
+
+/* line 416 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#btn-wrapper .btn,
+.btn-wrapper .btn {
+  display: inline-block;
+  min-width: 150px;
+}
+
+/* line 421 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#btn-wrapper > *,
+.btn-wrapper > * {
+  margin-left: 15px;
+}
+
+/* line 423 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#btn-wrapper > :first-child,
+.btn-wrapper > :first-child {
+  margin-left: 0;
+}
+@media (max-width: 640px) {
+
+/* line 428 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  #btn-wrapper .btn,
+  .btn-wrapper .btn {
+    width: 90%;
+    min-width: 0px;
+    margin: 10px auto 0 !important;
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+}
+
+/* line 438 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.section {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+  z-index: 100;
+  overflow: hidden;
+}
+
+/* line 448 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.section .section-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  -webkit-perspective: 750px;
+  -moz-perspective: 750px;
+  -ms-perspective: 750px;
+  perspective: 750px;
+  z-index: 100;
+  position: relative;
+}
+@media (max-width: 1080px) {
+
+/* line 455 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .section .section-inner {
+    max-width: 1020px;
+  }
+}
+@media (max-width: 1030px) {
+
+/* line 458 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .section .section-inner {
+    max-width: 950px;
+  }
+}
+@media (max-width: 992px) {
+
+/* line 461 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .section .section-inner {
+    max-width: 690px;
+  }
+}
+@media (max-width: 640px) {
+
+/* line 464 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .section .section-inner {
+    max-width: 90%;
+    overflow: hidden;
+  }
+}
+
+/* line 470 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.section.centeredGradient {
+  background: -webkit-radial-gradient(circle at 50% 50%, #fff -65%, #00a1e1 65%);
+  background: -moz-radial-gradient(circle at 50% 50%, #fff -65%, #00a1e1 65%);
+  background: -o-radial-gradient(circle at 50% 50%, #fff -65%, #00a1e1 65%);
+  background: -ms-radial-gradient(circle at 50% 50%, #fff -65%, #00a1e1 65%);
+  background: radial-gradient(circle at 50% 50%, #fff -65%, #00a1e1 65%);
+}
+
+/* line 477 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.section .circ-btn-wrapper {
+  position: relative;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 75px auto 0;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  -moz-transition: opacity 0.35s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out;
+  -ms-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+
+/* line 486 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.section .circ-btn-wrapper.invisible {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  pointer-events: none;
+  cursor: default;
+  display: block;
+}
+
+/* line 494 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.section .circ-btn-wrapper p {
+  font-size: 0.8125em;
+  color: #999;
+}
+
+/* line 498 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.section .circ-btn-wrapper .btn-circ-darkBlue {
+  background-color: #0a1a72;
+  background-image: url("../images/btns/darkBlueBtnBG.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  height: 40px;
+  width: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0px 2px 2px #0a1a72;
+  box-shadow: 0px 2px 2px #0a1a72;
+}
+@media (max-width: 640px) {
+
+/* line 514 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .section .circ-btn-wrapper {
+    display: none;
+  }
+}
+
+/* line 520 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#player-container {
+  background: url("/images/BG/video-thumbnail-shadow-large.png") no-repeat bottom;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  max-width: 842px;
+  margin: 100px auto 75px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 528 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#player-container .player {
+  margin: 0 0 6.9%;
+  width: 100%;
+  padding-bottom: 47.738%;
+  height: 0px;
+  background: url("/images/who-we-are/video-thumbnail.jpg") no-repeat;
+  cursor: pointer;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 538 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#player-container video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: none;
+}
+
+/* line 547 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.overlay-basic,
+#overlay-content-sources {
+  display: none;
+}
+
+/* line 550 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 551 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.overlay-content .drop-container .drop-container-inner ul li {
+  height: auto;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 15px 30px 15px 20px;
+}
+
+/* line 558 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#basic-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1999;
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  -webkit-transform: translateZ(99999999999999px);
+  -moz-transform: translateZ(99999999999999px);
+  -o-transform: translateZ(99999999999999px);
+  -ms-transform: translateZ(99999999999999px);
+  transform: translateZ(99999999999999px);
+}
+
+/* line 562 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+@media (max-width: 767px) {
+
+/* line 563 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .video-js .vjs-tech {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+/* line 568 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay-basic-inner {
+  background-color: #fff;
+  max-width: 921px;
+  width: 100%;
+  top: 5px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateZ(1000000000000000000px);
+  -moz-transform: translateX(-50%) translateZ(1000000000000000000px);
+  -o-transform: translateX(-50%) translateZ(1000000000000000000px);
+  -ms-transform: translateX(-50%) translateZ(1000000000000000000px);
+  transform: translateX(-50%) translateZ(1000000000000000000px);
+  font-size: 28px;
+  color: #666;
+  font-family: GothamLight, san-serif, Arial, Verdana;
+  text-align: center;
+  z-index: 10000000000000000;
+}
+
+/* line 582 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay-basic-inner h1 {
+  font-family: GothamUltra, san-serif, Arial, Verdana;
+  color: #0a1a72;
+  font-size: 60px;
+  margin-bottom: 35px;
+  margin-top: 50px;
+}
+@media (max-width: 767px) {
+
+/* line 590 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  #overlay-basic-inner h1 {
+    font-size: 42px;
+  }
+}
+
+/* line 593 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay-basic-inner p {
+  margin: 0 0 30px;
+}
+
+/* line 596 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay-basic-inner .overlay-close-button {
+  background: url("/images/btns/close-overlay.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  cursor: pointer;
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+  margin: 40px 40px 0 0;
+}
+
+/* line 608 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 610 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay-basic-inner .section.centeredGradient #overlay-parks-list {
+  height: auto;
+  padding-bottom: 55px;
+}
+
+/* line 614 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+@media (max-width: 767px) {
+
+/* line 615 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .video-js .vjs-tech {
+    position: relative;
+    top: 50%;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+/* line 620 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 621 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay .overlay-close,
+#overlay-basic-inner .overlay-close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: rgba(0,0,0,0.4);
+  height: 60px;
+  width: 60px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  border: 2px solid #efefef;
+  -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+  color: #fff;
+  font-size: 1.7em;
+  text-align: center;
+  line-height: 40px;
+  z-index: 500000;
+  -webkit-transform: translateZ(100000000000000000000px);
+  -moz-transform: translateZ(100000000000000000000px);
+  -o-transform: translateZ(100000000000000000000px);
+  -ms-transform: translateZ(100000000000000000000px);
+  transform: translateZ(100000000000000000000px);
+  background-image: url("/images/btns/close.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: 60%;
+  -moz-background-size: 60%;
+  background-size: 60%;
+  cursor: pointer;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  margin: 5px 5px 0 0;
+}
+@media (max-width: 767px) {
+
+/* line 649 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  #overlay .overlay-close,
+  #overlay-basic-inner .overlay-close {
+    height: 30px;
+    width: 30px;
+    -webkit-transform: translateZ(50px);
+    -moz-transform: translateZ(50px);
+    -o-transform: translateZ(50px);
+    -ms-transform: translateZ(50px);
+    transform: translateZ(50px);
+    right: 5px;
+  }
+}
+@media (max-width: 1010px) {
+
+/* line 656 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  #overlay .overlay-close,
+  #overlay-basic-inner .overlay-close {
+    margin: 5px 5px 0 0;
+    height: 45px;
+    width: 45px;
+  }
+}
+
+/* line 662 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay-basic-inner {
+  z-index: 99999999999;
+  -webkit-transform: translateZ(10000000000000000000px) translateX(-50%);
+  -moz-transform: translateZ(10000000000000000000px) translateX(-50%);
+  -o-transform: translateZ(10000000000000000000px) translateX(-50%);
+  -ms-transform: translateZ(10000000000000000000px) translateX(-50%);
+  transform: translateZ(10000000000000000000px) translateX(-50%);
+}
+
+/* line 666 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay-basic-inner .overlay-close {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 669 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1999;
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 676 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay .overlay-inner {
+  position: relative;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  width: 100%;
+  top: 50%;
+  height: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+/*background: rgba(0,0,0,.5)*/
+}
+
+/* line 686 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay .overlay-inner .overlay-inner-container {
+  position: relative;
+  margin: 0 auto;
+  width: 853px;
+  max-width: 100%;
+  height: 100%;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+/* line 695 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay .overlay-inner .overlay-inner-container video#overlay-player {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+/* line 700 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#overlay .overlay-inner .overlay-inner-container .overlay-content {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 767px) {
+
+/* line 705 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 707 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  #overlay .overlay-inner video#overlay-player_html5_api {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* line 726 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+img {
+  vertical-align: center;
+}
+
+/* line 731 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.draggable-container {
+  position: relative;
+}
+
+/* line 763 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle {
+  -webkit-box-shadow: inset 0px 0px 2px #000;
+  box-shadow: inset 0px 0px 2px #000;
+  box-sizin: border-box;
+  position: relative;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33);
+  -webkit-backface-visibility: visible;
+  -webkit-transform: translate3d(0, 0, 0px) scale(1, 1);
+  -moz-transform: translate3d(0, 0, 0px) scale(1, 1);
+  -o-transform: translate3d(0, 0, 0px) scale(1, 1);
+  -ms-transform: translate3d(0, 0, 0px) scale(1, 1);
+  transform: translate3d(0, 0, 0px) scale(1, 1);
+}
+
+/* line 779 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle h1,
+.circle h2 {
+  color: #fff;
+  font-family: GothamUltra, san-serif, Arial, Verdana;
+  font-size: 1.5em;
+}
+
+/* line 783 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle h2 {
+  font-family: GothamBook, san-serif, Arial, Verdana;
+}
+
+/* line 786 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle .center-outer {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  -webkit-border-radius: 251px;
+  border-radius: 251px;
+}
+
+/* line 791 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle .center-outer:hover {
+  background: rgba(0,0,0,0.4);
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 797 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle.small {
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  background-color: #000;
+  top: 0px;
+  border: 5px solid #fff;
+}
+
+/* line 805 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle.medium {
+  width: 190px;
+  height: 190px;
+  -webkit-border-radius: 190px;
+  border-radius: 190px;
+  background-color: #000;
+  top: 0px;
+  border: 5px solid #fff;
+}
+
+/* line 813 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle.large {
+  width: 251px;
+  height: 251px;
+  -webkit-border-radius: 251px;
+  border-radius: 251px;
+  background-color: #000;
+  top: 10px;
+  border: 10px solid #fff;
+}
+@media (max-width: 992px) {
+
+/* line 821 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .circle.large {
+    width: 190px;
+    height: 190px;
+  }
+}
+@media (max-width: 640px) {
+
+/* line 825 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .circle.large {
+    width: 135px;
+    height: 135px;
+    border-width: 5px;
+  }
+}
+
+/* line 830 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle.blue-border {
+  border-color: #00a1e1;
+}
+
+/* line 833 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle.blue-interior {
+  background-color: #0e5477;
+}
+
+/* line 839 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle.inset {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33), inset 0px 3px 3px 0px rgba(0,0,0,0.33);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33), inset 0px 3px 3px 0px rgba(0,0,0,0.33);
+}
+
+/* line 843 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle.blue-grad-border {
+  background-image: -webkit-linear-gradient(top, #0089c0 0%, #112882 100%);
+  background-image: -moz-linear-gradient(top, #0089c0 0%, #112882 100%);
+  background-image: -o-linear-gradient(top, #0089c0 0%, #112882 100%);
+  background-image: -ms-linear-gradient(top, #0089c0 0%, #112882 100%);
+  background-image: linear-gradient(to bottom, #0089c0 0%, #112882 100%);
+}
+
+/* line 846 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 847 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.tablet .center-outer,
+.phone .center-outer {
+  opacity: 1 !important;
+  -ms-filter: none !important;
+  filter: none !important;
+  background: rgba(0,0,0,0.4);
+}
+
+/* line 855 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle-outer {
+  background-image: -webkit-linear-gradient(top, #0089c0 0%, #112882 100%), -webkit-linear-gradient(top, #0089c0 0%, #112882 100%);
+  background-image: -moz-linear-gradient(top, #0089c0 0%, #112882 100%), -moz-linear-gradient(top, #0089c0 0%, #112882 100%);
+  background-image: -o-linear-gradient(top, #0089c0 0%, #112882 100%), -o-linear-gradient(top, #0089c0 0%, #112882 100%);
+  background-image: -ms-linear-gradient(top, #0089c0 0%, #112882 100%), -ms-linear-gradient(top, #0089c0 0%, #112882 100%);
+  background-image: linear-gradient(to bottom, #0089c0 0%, #112882 100%), linear-gradient(to bottom, #0089c0 0%, #112882 100%);
+  width: 251px;
+  height: 251px;
+  -webkit-border-radius: 251px;
+  border-radius: 251px;
+  padding: 10px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: visible;
+  -webkit-transform: translate3d(0, 0, 0px);
+  -moz-transform: translate3d(0, 0, 0px);
+  -o-transform: translate3d(0, 0, 0px);
+  -ms-transform: translate3d(0, 0, 0px);
+  transform: translate3d(0, 0, 0px);
+  display: inline-block;
+}
+
+/* line 868 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.circle-outer .circle-inner {
+  width: 251px;
+  height: 251px;
+  -webkit-border-radius: 125px;
+  border-radius: 125px;
+  background: #fff;
+  position: relative;
+  z-index: 0;
+  margin: 0 auto;
+  -webkit-box-shadow: inset 0px 0px 5px 0 rgba(0,0,0,0.7);
+  box-shadow: inset 0px 0px 5px 0 rgba(0,0,0,0.7);
+}
+@media (max-width: 992px) {
+
+/* line 878 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .circle-outer {
+    width: 190px;
+    height: 190px;
+  }
+
+/* line 882 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .circle-outer .circle-inner {
+    width: 190px;
+    height: 190px;
+  }
+}
+@media (max-width: 640px) {
+
+/* line 886 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .circle-outer {
+    width: 135px;
+    height: 135px;
+    padding: 5px;
+  }
+
+/* line 891 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .circle-outer .circle-inner {
+    width: 135px;
+    height: 135px;
+  }
+}
+
+/* line 897 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.gal-arrow {
+  position: absolute;
+  top: 135px;
+  display: block !important;
+  font-size: 90px;
+  line-height: 0;
+  color: #00a1e1;
+  -webkit-transform: translate3d(0, 0, 100px) scale(1, 1);
+  -moz-transform: translate3d(0, 0, 100px) scale(1, 1);
+  -o-transform: translate3d(0, 0, 100px) scale(1, 1);
+  -ms-transform: translate3d(0, 0, 100px) scale(1, 1);
+  transform: translate3d(0, 0, 100px) scale(1, 1);
+  z-index: 15;
+  cursor: pointer;
+  -webkit-transition: font-size 0.3s, -webkit-transform 0.35s ease-in-out;
+  -moz-transition: font-size 0.3s, -moz-transform 0.35s ease-in-out;
+  -o-transition: font-size 0.3s, -o-transform 0.35s ease-in-out;
+  -ms-transition: font-size 0.3s, -ms-transform 0.35s ease-in-out;
+  transition: font-size 0.3s, transform 0.35s ease-in-out;
+}
+
+/* line 909 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.gal-arrow.fa-angle-left {
+  left: 6%;
+}
+
+/* line 913 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.gal-arrow.fa-angle-right {
+  right: 6%;
+}
+
+/* line 916 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.gal-arrow:hover,
+.gal-arrow.hover {
+/*font-size: 75px*/
+/* not sure why  translate3d(0,0,100px)  was being used, but it was breaking things on accommodations page */
+  -webkit-transform: scale(1.1, 1.1) !important;
+  -moz-transform: scale(1.1, 1.1) !important;
+  -o-transform: scale(1.1, 1.1) !important;
+  -ms-transform: scale(1.1, 1.1) !important;
+  transform: scale(1.1, 1.1) !important;
+}
+
+/* line 921 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.gal-arrow:active,
+.gal-arrow.active {
+/* not sure why  translate3d(0,0,100px)  was being used, but it was breaking things on accommodations page */
+  -webkit-transform: scale(1, 1) !important;
+  -moz-transform: scale(1, 1) !important;
+  -o-transform: scale(1, 1) !important;
+  -ms-transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
+}
+@media (max-width: 767px) {
+
+/* line 925 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .gal-arrow {
+    top: 50%;
+  }
+}
+
+/* line 931 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.video-button {
+  height: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+  padding: 0 0px 20px;
+  background: url("../images/BG/video-thumbnail-shadow.png") no-repeat bottom center;
+  -webkit-transition: -webkit-transform 0.35s ease-in-out;
+  -moz-transition: -moz-transform 0.35s ease-in-out;
+  -o-transition: -o-transform 0.35s ease-in-out;
+  -ms-transition: -ms-transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out;
+}
+
+/* line 940 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.video-button:hover {
+  -webkit-transform: scale(1.02, 1.02);
+  -moz-transform: scale(1.02, 1.02);
+  -o-transform: scale(1.02, 1.02);
+  -ms-transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
+}
+
+/* line 943 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.video-button img {
+  width: 100%;
+}
+
+/* line 946 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.video-button .play-icon {
+  background-position: center center;
+  color: #fff;
+  position: initial;
+  -webkit-transform: translate(0, -103%);
+  -moz-transform: translate(0, -103%);
+  -o-transform: translate(0, -103%);
+  -ms-transform: translate(0, -103%);
+  transform: translate(0, -103%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(19,168,228,0.3);
+/*
+        position:absolute
+        top:50%
+        left:50%
+        transform:translate(-50%, -50%)
+        background-size:100% auto
+        width:90px
+        height:90px
+        */
+}
+
+/* line 82 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+.video-button .play-icon img {
+  top: 50%;
+  width: 77px;
+  height: 77px;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  -ms-transition: -ms-transform 0.3s;
+  transition: transform 0.3s;
+  margin: 0;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: relative;
+}
+
+/* line 98 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+
+/* line 100 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+.video-button .play-icon:hover img {
+  -webkit-transform: scale3d(1.2, 1.2, 1) translate(-2.2em, -2.2em);
+  -moz-transform: scale3d(1.2, 1.2, 1) translate(-2.2em, -2.2em);
+  -o-transform: scale3d(1.2, 1.2, 1) translate(-2.2em, -2.2em);
+  -ms-transform: scale3d(1.2, 1.2, 1) translate(-2.2em, -2.2em);
+  transform: scale3d(1.2, 1.2, 1) translate(-2.2em, -2.2em);
+}
+@media (max-width: 767px) {
+
+/* line 103 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+  .video-button .play-icon {
+    margin: 0 auto;
+  }
+}
+
+/* line 110 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+.video-button .play-icon:hover {
+  -webkit-background-size: 81px 81px;
+  -moz-background-size: 81px 81px;
+  background-size: 81px 81px;
+}
+
+/* line 961 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.video-button {
+  max-width: 320px;
+  height: 160px;
+  padding: 0 0px 20px;
+  background: url("../images/BG/video-thumbnail-shadow.png") no-repeat bottom center;
+}
+
+/* line 967 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.video-button img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 640px) {
+
+/* line 972 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .video-button {
+    max-width: 240px;
+    height: 133px;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    background-size: 100% 20px;
+  }
+}
+
+/* line 980 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.inner-title-header {
+  max-width: 740px;
+  margin: 0 auto;
+  height: 360px;
+  padding-top: 100px;
+  background-color: transparent;
+  background-image: -webkit-radial-gradient(50% 50% at 50% 50%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%);
+  background-image: -moz-radial-gradient(50% 50% at 50% 50%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%);
+  background-image: -o-radial-gradient(50% 50% at 50% 50%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%);
+  background-image: -ms-radial-gradient(50% 50% at 50% 50%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%);
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%);
+}
+
+/* line 987 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.inner-title-header p {
+  width: 70%;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+
+/* line 991 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .inner-title-header p {
+    width: 80%;
+  }
+}
+
+/* line 995 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.center-outer {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1000 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.center-outer .center-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 1005 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.swiper-slide {
+  text-align: center;
+}
+@media (min-width: 641px) {
+
+/* line 1008 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .swiper-slide {
+    margin: 0;
+    float: left;
+    width: 33%;
+    padding-bottom: 20px;
+  }
+}
+
+/* line 1015 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+@media (min-width: 768px) {
+
+/* line 1017 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .add-border-fade:before,
+  .add-border-fade:after {
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 40px;
+    height: 100%;
+    z-index: 10;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-background-size: 7px 100%;
+    -moz-background-size: 7px 100%;
+    background-size: 7px 100%;
+    background-repeat: no-repeat;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    display: none;
+  }
+
+/* line 1030 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .add-border-fade:before {
+    left: 50px;
+    background-image: url("../images/slit-left.png");
+    background-position: left center;
+  }
+
+/* line 1035 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .add-border-fade:after {
+    right: 50px;
+    background-image: url("../images/slit-right.png");
+    background-position: right center;
+  }
+
+/* line 1040 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 1041 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .add-border-fade.showing:before,
+  .add-border-fade.showing:after {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+
+/* line 1045 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.drop-container .drop-container-inner {
+  cursor: pointer;
+}
+
+/* line 1047 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.drop-container .drop-container-inner .arrow {
+  background: url("/images/btns/ddl-icon.png") no-repeat;
+  right: 10px;
+  top: 26px;
+}
+
+/* line 1052 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 1053 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.select-box-wrapper.left .drop-container .drop-container-inner ul li {
+  text-align: left;
+}
+
+/* line 1056 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 1058 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-object #errors {
+  color: #ff1e25;
+  font-size: 15px;
+  font-family: GothamLight, san-serif, Arial, Verdana;
+  position: relative;
+  overflow: hidden;
+  height: 0;
+}
+
+/* line 1066 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-object #errors ul {
+  margin-bottom: 12px;
+  position: absolute;
+}
+
+/* line 1070 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-object #errors ul,
+.form-object #errors li {
+  list-style-type: square;
+  list-style-position: outside;
+  text-align: left;
+  margin-left: 15px;
+}
+
+/* line 1076 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-object #errors.success {
+  color: #008000;
+}
+
+/* line 1080 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields {
+  overflow: auto;
+  font-size: 16px;
+  padding: 0 49px 30px;
+}
+@media (max-width: 767px) {
+
+/* line 1085 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .form-fields {
+    padding: 0 15px 30px;
+  }
+}
+
+/* line 1088 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .clear {
+  clear: both;
+}
+
+/* line 1090 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .clear.center {
+  margin-bottom: 30px;
+}
+
+/* line 1093 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .drop-container {
+  position: absolute;
+}
+
+/* line 1096 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .select-box-wrapper {
+  display: inline-block;
+  width: 264px;
+  position: relative;
+  height: 52px;
+  z-index: 400;
+}
+
+/* line 1103 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .long-captions {
+  max-width: 715px;
+  overflow: visible;
+  clear: both;
+}
+
+/* line 1108 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .long-captions .caption {
+  text-align: right;
+  width: auto;
+  display: block;
+  margin: 20px 0 8px 0;
+  max-width: 435px;
+  float: left;
+  width: 100%;
+}
+
+/* line 1117 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .long-captions .controls {
+  float: right;
+}
+
+/* line 1119 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .long-captions .controls.radios {
+  height: 3em;
+  float: left;
+  padding-left: 1em;
+  line-height: 3.5em;
+}
+@media screen and (max-width: 715px) {
+
+/* line 1126 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+  .form-fields .long-captions .caption,
+  .form-fields .long-captions .controls {
+    text-align: left;
+    float: none;
+  }
+}
+
+/* line 1130 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .left {
+  float: left;
+}
+
+/* line 1133 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .dropdown {
+  margin: 7px;
+}
+
+/* line 1136 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .radios {
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  -ms-transition: color 1s;
+  transition: color 1s;
+}
+
+/* line 1138 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 1139 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .radios.invalid label {
+  color: #f00;
+}
+
+/* line 1142 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .input {
+  outline: none;
+  border: none;
+  border-top: 1px solid #f8f8f8;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  padding: 1px;
+  background-color: #fff;
+  font-size: 1em;
+  font-family: GothamMedium, san-serif, Arial, Verdana;
+  -webkit-box-shadow: inset 0px 2px 1px #a1b0bf, 1px 2px 6px 0px #abaaaa;
+  box-shadow: inset 0px 2px 1px #a1b0bf, 1px 2px 6px 0px #abaaaa;
+  width: 100%;
+  overflow: visible;
+  max-width: 258px;
+  margin: 8px;
+  -webkit-transition: border-color 1s;
+  -moz-transition: border-color 1s;
+  -o-transition: border-color 1s;
+  -ms-transition: border-color 1s;
+  transition: border-color 1s;
+  position: relative;
+}
+
+/* line 1162 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .input.invalid {
+  border-color: #f00 !important;
+}
+
+/* line 1165 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .input input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+  font-size: 1em;
+  font-family: GothamLight, san-serif, Arial, Verdana;
+  width: 100%;
+  max-width: 180px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+/* line 1178 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .input.required:after,
+.form-fields .select-box-wrapper.required:after {
+  content: "*";
+  position: absolute;
+  right: 0px;
+  top: 0;
+  font-size: 18px;
+  color: #da3232;
+  margin-right: -12px;
+  font-weight: bold;
+}
+
+/* line 1187 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .select-box-wrapper.required:after {
+  margin-right: 0;
+}
+
+/* line 1189 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields .caption {
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+}
+
+/* line 1192 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.form-fields a.btn {
+  max-width: 250px;
+  margin: 40px auto 25px;
+}
+
+/* line 1197 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.lefty .form-fields .input input {
+  max-width: 220px;
+  padding: 10px 0;
+}
+
+/* line 1201 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.drop-container {
+  -webkit-transition: border-color 1s;
+  -moz-transition: border-color 1s;
+  -o-transition: border-color 1s;
+  -ms-transition: border-color 1s;
+  transition: border-color 1s;
+}
+
+/* line 1204 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.drop-container.invalid {
+  border-color: #f00;
+}
+
+/* line 1209 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#iefallback {
+  display: none;
+  background-image: url("/images/BG/sky.jpg");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repaet: no-repeat;
+  padding-top: 280px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+
+/* line 18 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+  #iefallback {
+    background-image: url("/images/BG/mobile-sky.jpg");
+    background-repeat: repeat-y;
+  }
+}
+
+/* line 1215 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#iefallback .title-bucket:first-child {
+  margin-bottom: 65px;
+}
+
+/* line 1218 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#iefallback p.upgrade {
+  font-family: GothamBold, san-serif, Arial, Verdana;
+  font-size: 18px;
+  color: #666;
+  margin: 0 auto 65px;
+  text-align: center;
+}
+
+/* line 1225 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#iefallback #select {
+  width: 840px;
+  margin: 0 auto 80px;
+  background: #00a1e1;
+  padding: 40px 60px;
+  position: relative;
+}
+
+/* line 34 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+#iefallback #select:before {
+  content: "";
+  width: 100%;
+  background: url("/images/shadow.png") center top no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 80px;
+  position: absolute;
+  top: 100%;
+  display: block;
+  opacity: 0.75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+  filter: alpha(opacity=75);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 1232 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#iefallback #select ul.browser-list {
+  width: 80%;
+  margin: 30px auto 0;
+}
+
+/* line 1237 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#iefallback #select ul.browser-list li {
+  width: 24%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 1242 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#iefallback #select ul.browser-list li img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* line 1246 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+#iefallback #select ul.browser-list li p {
+  color: #fff;
+  font-family: GothamBold, san-serif, Arial, Verdana;
+  font-size: 18px;
+}
+
+/* line 1253 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 1254 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+
+/* line 1255 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.ie9 #header-bottom .nav-list,
+.ie9 #header-bottom .btn {
+  visibility: hidden;
+}
+
+/* line 1258 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.ie9 #header-bottom .subnav {
+  display: none;
+}
+
+/* line 1261 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.ie9 #header-bottom .logo-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 1265 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.ie9 #iefallback {
+  display: block;
+}
+
+/* line 1267 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.ie9 #content {
+  display: none;
+}
+
+/* line 1271 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.mobile-coasters {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
+
+/* line 1279 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.mobile-coasters div {
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1285 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.mobile-coasters .coaster-0 {
+  max-width: 411px;
+  max-height: 330px;
+  background-image: url("../images/BG/coasters/mobile-coaster-0.png");
+  -webkit-background-size: 90%;
+  -moz-background-size: 90%;
+  background-size: 90%;
+}
+
+/* line 1291 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.mobile-coasters .coaster-1 {
+  max-width: 195px;
+  max-height: 268px;
+  background-image: url("../images/BG/coasters/mobile-coaster-1.png");
+  -webkit-background-size: 80%;
+  -moz-background-size: 80%;
+  background-size: 80%;
+}
+
+/* line 1297 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/global/index.styl */
+.mobile-coasters .coaster-2 {
+  max-width: 182px;
+  max-height: 454px;
+  background-image: url("../images/BG/coasters/mobile-coaster-2.png");
+  -webkit-background-size: 65%;
+  -moz-background-size: 65%;
+  background-size: 65%;
+}
+
+/* line 4 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 {
+  background-image: url("/images/BG/sky.jpg");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repaet: no-repeat;
+  padding: 305px 0;
+}
+
+/* line 6 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 .title-bucket {
+  max-width: 643px;
+  margin: 0 auto;
+}
+
+/* line 10 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 .title-bucket h1,
+#offerings-section1 .title-bucket h2,
+#offerings-section1 .title-bucket h3 {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 13 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+
+/* line 14 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 .title-bucket.seven h2 {
+  font-size: 2.65em;
+  color: #00a1e1;
+}
+
+/* line 17 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 .title-bucket.seven h3 {
+  font-size: 1.12em;
+  font-family: GothamBook, san-serif, Arial, Verdana;
+  color: #838282;
+  max-width: 550px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+@media (max-width: 767px) {
+
+/* line 18 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+  #offerings-section1 {
+    background-image: url("/images/BG/mobile-sky.jpg");
+    background-repeat: repeat-y;
+  }
+}
+
+/* line 28 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 #select-offerings {
+  background: #fff;
+  width: 100%;
+  max-width: 920px;
+  padding: 75px 75px 0;
+  margin: 50px auto 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  position: relative;
+}
+
+/* line 36 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+
+/* line 37 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 #select-offerings .title-bucket h1 {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 34 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+#offerings-section1 #select-offerings:before {
+  content: "";
+  width: 100%;
+  background: url("/images/shadow.png") center top no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 80px;
+  position: absolute;
+  top: 100%;
+  display: block;
+  opacity: 0.75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+  filter: alpha(opacity=75);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 42 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 #select-offerings .offerings-option-wrapper {
+  width: 100%;
+  margin: 50px auto 0;
+}
+
+/* line 46 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 #select-offerings .offerings-option-wrapper .offerings-option {
+  height: 135px;
+  width: 45%;
+  margin: 0 2% 50px;
+  display: inline-block;
+  text-align: center;
+  background: #666;
+  color: #fff;
+  font-size: 21px;
+  font-family: GothamBlack, san-serif, Arial, Verdana;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.35s ease-in-out;
+  -moz-transition: -moz-transform 0.35s ease-in-out;
+  -o-transition: -o-transform 0.35s ease-in-out;
+  -ms-transition: -ms-transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out;
+  position: relative;
+  vertical-align: top;
+}
+
+/* line 34 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/mixins/index.styl */
+#offerings-section1 #select-offerings .offerings-option-wrapper .offerings-option:before {
+  content: "";
+  width: 100%;
+  background: url("/images/shadow.png") center top no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 80px;
+  position: absolute;
+  top: 100%;
+  display: block;
+  opacity: 0.75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+  filter: alpha(opacity=75);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 63 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 #select-offerings .offerings-option-wrapper .offerings-option span {
+  position: relative;
+  top: 42%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 22px;
+}
+
+/* line 69 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+#offerings-section1 #select-offerings .offerings-option-wrapper .offerings-option:hover {
+  -webkit-transform-origin: 50% 50% !important;
+  -moz-transform-origin: 50% 50% !important;
+  -o-transform-origin: 50% 50% !important;
+  -ms-transform-origin: 50% 50% !important;
+  transform-origin: 50% 50% !important;
+  -webkit-transform: translate3d(0px, 0px, 0px) scale(1.025, 1.025) !important;
+  -moz-transform: translate3d(0px, 0px, 0px) scale(1.025, 1.025) !important;
+  -o-transform: translate3d(0px, 0px, 0px) scale(1.025, 1.025) !important;
+  -ms-transform: translate3d(0px, 0px, 0px) scale(1.025, 1.025) !important;
+  transform: translate3d(0px, 0px, 0px) scale(1.025, 1.025) !important;
+}
+@media (max-width: 767px) {
+
+/* line 74 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+  #offerings-section1 {
+    padding: 105px 0 0;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    background-size: contain !important;
+  }
+
+/* line 78 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+  #offerings-section1 #offerings {
+    max-width: 100%;
+  }
+
+/* line 81 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+  #offerings-section1 #offerings .title-bucket {
+    padding: 0 5%;
+  }
+
+/* line 84 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+  #offerings-section1 #offerings .title-bucket h1,
+  #offerings-section1 #offerings .title-bucket h2,
+  #offerings-section1 #offerings .title-bucket h3 {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+
+/* line 87 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+  #offerings-section1 #offerings #select-offerings {
+    padding: 25px;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+
+/* line 91 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+
+/* line 92 : /Users/philbrady/Sites/cedar-fair-web-site/src/stylus/offerings/index.styl */
+  #offerings-section1 #offerings #select-offerings .offerings-option-wrapper .offerings-option {
+    width: 100%;
+    float: none;
+    margin: 0 0 25px;
+  }
+}

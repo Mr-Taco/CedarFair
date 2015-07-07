@@ -1,0 +1,55 @@
+
+
+
+
+#jobs-section 
+
+    .circle-list
+        margin: 20px auto
+        text-align: center
+        
+    .swiper-container, .swiper-wrapper, .swiper-slide
+        @media(max-width: 767px)
+            height: 220px !important
+        
+    .swiper-slide
+        @media(min-width:641px)
+            margin: 0
+            float: left
+            width: 33%
+            padding-bottom: 20px
+
+    #jobs-buttons
+        .btn
+            margin:20px 15px
+            min-width: 194px
+            padding: 15px 15px
+            
+    .title-bucket.three h2 
+        padding-top: 7px
+        padding-bottom: 11px
+
+    .btn-wrapper
+        padding-top: 6px
+        
+    .swiper-container
+        max-width: 907px
+        
+        
+    @media(max-width: 767px)
+        max-width: 100%
+    
+        .title-bucket
+            max-width: 90%
+            margin: 0 auto
+            
+            h2
+                max-width: 260px
+                margin: 0 auto
+            
+        .gal-arrow
+            &:hover, &.hover
+                transform: scale(1.1, 1.1) translate3d(0,0,100px) !important
+    
+            &:active, &.active
+                transform: scale(1.05, 1.05) translate3d(0,0,100px) !important

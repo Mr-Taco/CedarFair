@@ -1,0 +1,18 @@
+extends email_layout
+
+
+block content
+    h3 Contact Name: #{body.name}
+    h3 Contact Email: #{body.email}
+    h3 Contact Phone: #{body.phone}
+    h3 Contact Company: #{body.company} 
+    
+    p.         
+        Interested in Park: #{body.parkInterest} <br/>   
+        Interested in Sponsorship Area: #{body.sponsorshipType} <br/>   
+        Last Visited one of our parks: #{body.lastVisit} <br/>   
+    
+    p #{body.name} prefers to be contacted by #{body.preferredContactMethod.toString()}.
+    
+    
+

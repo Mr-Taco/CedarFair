@@ -1,0 +1,50 @@
+block overlays
+    
+    #overlay
+        .overlay-inner
+            .overlay-inner-container
+                .overlay-content
+                .overlay-close 
+                    
+    #basic-overlay.overlay-basic
+    #overlay-basic-inner.overlay-basic
+        .overlay-content
+        .overlay-close
+    
+    #overlay-content-sources        
+        #buy-tickets-overlay
+            .section.centeredGradient
+                h1 Select a park                                            
+                +parksList(content.parks)(class='white-logos' upClass='white' id='overlay-parks-list' buy='true')
+                
+        #offerings-overlay
+            #offerings-overlay-content
+                .title-bucket.two
+                    h1.title Offerings
+                    .description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    
+                .content.media
+                    
+        #partnership-detail-overlay
+            //include partnership-details/overlays
+            //#partnership-deail-content
+            //    .title-bucket.two
+            //        h1 Contact Partnerships
+            //        
+                //form#partnership-detail-contact-form
+                //    input(type="text" name="name" placeholder="Name")
+                //    input(type="email" name="email" placeholder="Email")
+                //    input(type="tel" name="phone" placeholder="Phone Number")
+                //    
+                //    label(name="whichPark") Which park or parks are you interested in?
+                //    +cfDropdown(content.PartnershipTypes)(id='partnership-detail-overlay-park-select')
+                //    label(name="whichCompany") What company/brand do you represent?
+                //    input(type="text" name="company")
+                //    label(name="whatInterests") Are you interested in FUN TV, Sponsorships or Both?
+                //    +cfDropdown(content.PartnershipTypes)(id='partnership-detail-overlay-interest-select')
+                //    label(name="lastVisit") When was the last time you visited one of our Parks?
+                //    input(type="text" name="lastVisit")
+            
+                
+                
+        block overlay_sources

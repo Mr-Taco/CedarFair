@@ -1,0 +1,66 @@
+block content
+    #seasonal-mobile-padding
+    #seasonal.section-inner
+        .dirtForArms
+        
+        .particle-sprite-container
+            .particle-sprite-relative
+                .particle-sprite.left
+                .particle-sprite.right
+            
+        .arms.left
+        .arms.right
+            
+        .overlay
+            .haunt-text-container
+                .halloween-text
+                    img(src="images/seasonal/haunt-text-halloween.png")
+                    img.blood(src="images/seasonal/haunt-text-halloween-blood.png")
+                .haunt-text
+                    .h
+                        img(src="images/seasonal/haunt-text-h.png")
+                        img.blood(src="images/seasonal/haunt-text-h-blood.png")
+                    .a
+                        img(src="images/seasonal/haunt-text-a.png")
+                        img.blood(src="images/seasonal/haunt-text-a-blood.png")
+                    .u
+                        img(src="images/seasonal/haunt-text-u.png")
+                        //img.blood(src="images/seasonal/haunt-text-u-blood.png")
+                    .n
+                        img(src="images/seasonal/haunt-text-n.png")
+                        img.blood(src="images/seasonal/haunt-text-n-blood.png")
+                    .t
+                        img(src="images/seasonal/haunt-text-t.png")
+                        img.blood(src="images/seasonal/haunt-text-t-blood.png")
+                .fiftyfive
+                    img(src="images/seasonal/haunt-text-55percent.png")
+                    img.blood(src="images/seasonal/haunt-text-55percent-blood.png")
+                .sightofblood
+                    img(src="images/seasonal/haunt-text-sight.png")
+                    img.blood(src="images/seasonal/haunt-text-sight-blood.png")
+                .waitforhaunt
+                    img(src="images/seasonal/haunt-text-45percent.png")
+                    
+                    
+                    
+        .content
+            .title-bucket-seasonal
+                //h2 <em>55</em>% of people
+                //h3 can't stand the sight of blood.
+                //h4 The other 45% can't wait for Haunt
+                
+            #seasonal-video-gallery
+                ul.container
+                    li
+                        - var video = content.videos[0]
+                        - var mp4 = video.videoMp4.url
+                        - var webm = video.videoWebm.url
+                        - var thumb = video.videoThumb.url
+                    
+
+                        +videoButton(video)
+                    
+            .btn-wrapper
+                
+                a.btn.red#seasonal-learn-more(href="#{content.seasonalLink}") #{content.seasonalLinkLabel}
+

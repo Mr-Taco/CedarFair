@@ -1,0 +1,598 @@
+{
+    "manifest": [
+        {
+            "x": 85,
+            "y": 835,
+            "width": 495,
+            "height": 682,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00056.png"
+        },
+        {
+            "x": 93,
+            "y": 861,
+            "width": 487,
+            "height": 644,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00057.png"
+        },
+        {
+            "x": 100,
+            "y": 0,
+            "width": 101,
+            "height": 62,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00000.png"
+        },
+        {
+            "x": 120,
+            "y": 830,
+            "width": 460,
+            "height": 694,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00059.png"
+        },
+        {
+            "x": 104,
+            "y": 835,
+            "width": 476,
+            "height": 688,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00058.png"
+        },
+        {
+            "x": 95,
+            "y": 0,
+            "width": 108,
+            "height": 85,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00001.png"
+        },
+        {
+            "x": 409,
+            "y": 912,
+            "width": 171,
+            "height": 554,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00064.png"
+        },
+        {
+            "x": 142,
+            "y": 849,
+            "width": 438,
+            "height": 673,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00060.png"
+        },
+        {
+            "x": 87,
+            "y": 0,
+            "width": 110,
+            "height": 108,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00002.png"
+        },
+        {
+            "x": 290,
+            "y": 837,
+            "width": 290,
+            "height": 664,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00063.png"
+        },
+        {
+            "x": 173,
+            "y": 853,
+            "width": 407,
+            "height": 679,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00061.png"
+        },
+        {
+            "x": 220,
+            "y": 825,
+            "width": 360,
+            "height": 710,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00062.png"
+        },
+        {
+            "x": 80,
+            "y": 0,
+            "width": 121,
+            "height": 131,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00003.png"
+        },
+        {
+            "x": 74,
+            "y": 0,
+            "width": 130,
+            "height": 154,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00004.png"
+        },
+        {
+            "x": 68,
+            "y": 0,
+            "width": 129,
+            "height": 177,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00005.png"
+        },
+        {
+            "x": 63,
+            "y": 0,
+            "width": 138,
+            "height": 201,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00006.png"
+        },
+        {
+            "x": 59,
+            "y": 0,
+            "width": 144,
+            "height": 224,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00007.png"
+        },
+        {
+            "x": 54,
+            "y": 0,
+            "width": 141,
+            "height": 248,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00008.png"
+        },
+        {
+            "x": 51,
+            "y": 0,
+            "width": 153,
+            "height": 272,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00009.png"
+        },
+        {
+            "x": 48,
+            "y": 0,
+            "width": 152,
+            "height": 295,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00010.png"
+        },
+        {
+            "x": 45,
+            "y": 0,
+            "width": 152,
+            "height": 315,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00011.png"
+        },
+        {
+            "x": 43,
+            "y": 0,
+            "width": 161,
+            "height": 338,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00012.png"
+        },
+        {
+            "x": 42,
+            "y": 0,
+            "width": 153,
+            "height": 366,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00013.png"
+        },
+        {
+            "x": 40,
+            "y": 0,
+            "width": 164,
+            "height": 390,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00014.png"
+        },
+        {
+            "x": 39,
+            "y": 0,
+            "width": 160,
+            "height": 414,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00015.png"
+        },
+        {
+            "x": 37,
+            "y": 0,
+            "width": 165,
+            "height": 438,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00016.png"
+        },
+        {
+            "x": 36,
+            "y": 0,
+            "width": 165,
+            "height": 461,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00017.png"
+        },
+        {
+            "x": 35,
+            "y": 0,
+            "width": 162,
+            "height": 484,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00018.png"
+        },
+        {
+            "x": 34,
+            "y": 0,
+            "width": 169,
+            "height": 504,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00019.png"
+        },
+        {
+            "x": 33,
+            "y": 10,
+            "width": 160,
+            "height": 523,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00020.png"
+        },
+        {
+            "x": 33,
+            "y": 39,
+            "width": 150,
+            "height": 510,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00021.png"
+        },
+        {
+            "x": 33,
+            "y": 68,
+            "width": 141,
+            "height": 513,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00022.png"
+        },
+        {
+            "x": 32,
+            "y": 97,
+            "width": 136,
+            "height": 508,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00023.png"
+        },
+        {
+            "x": 30,
+            "y": 154,
+            "width": 138,
+            "height": 502,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00025.png"
+        },
+        {
+            "x": 29,
+            "y": 182,
+            "width": 141,
+            "height": 500,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00026.png"
+        },
+        {
+            "x": 31,
+            "y": 126,
+            "width": 139,
+            "height": 499,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00024.png"
+        },
+        {
+            "x": 28,
+            "y": 210,
+            "width": 139,
+            "height": 498,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00027.png"
+        },
+        {
+            "x": 28,
+            "y": 239,
+            "width": 140,
+            "height": 490,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00028.png"
+        },
+        {
+            "x": 28,
+            "y": 268,
+            "width": 143,
+            "height": 492,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00029.png"
+        },
+        {
+            "x": 27,
+            "y": 296,
+            "width": 148,
+            "height": 491,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00030.png"
+        },
+        {
+            "x": 27,
+            "y": 325,
+            "width": 151,
+            "height": 489,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00031.png"
+        },
+        {
+            "x": 27,
+            "y": 354,
+            "width": 156,
+            "height": 487,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00032.png"
+        },
+        {
+            "x": 27,
+            "y": 383,
+            "width": 161,
+            "height": 486,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00033.png"
+        },
+        {
+            "x": 27,
+            "y": 411,
+            "width": 165,
+            "height": 486,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00034.png"
+        },
+        {
+            "x": 28,
+            "y": 440,
+            "width": 170,
+            "height": 486,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00035.png"
+        },
+        {
+            "x": 29,
+            "y": 468,
+            "width": 176,
+            "height": 486,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00036.png"
+        },
+        {
+            "x": 30,
+            "y": 496,
+            "width": 182,
+            "height": 486,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00037.png"
+        },
+        {
+            "x": 32,
+            "y": 524,
+            "width": 188,
+            "height": 490,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00038.png"
+        },
+        {
+            "x": 33,
+            "y": 552,
+            "width": 197,
+            "height": 492,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00039.png"
+        },
+        {
+            "x": 35,
+            "y": 580,
+            "width": 205,
+            "height": 496,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00040.png"
+        },
+        {
+            "x": 37,
+            "y": 608,
+            "width": 223,
+            "height": 500,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00041.png"
+        },
+        {
+            "x": 39,
+            "y": 635,
+            "width": 239,
+            "height": 505,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00042.png"
+        },
+        {
+            "x": 42,
+            "y": 663,
+            "width": 254,
+            "height": 511,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00043.png"
+        },
+        {
+            "x": 44,
+            "y": 690,
+            "width": 272,
+            "height": 518,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00044.png"
+        },
+        {
+            "x": 46,
+            "y": 717,
+            "width": 294,
+            "height": 527,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00045.png"
+        },
+        {
+            "x": 48,
+            "y": 743,
+            "width": 320,
+            "height": 538,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00046.png"
+        },
+        {
+            "x": 50,
+            "y": 769,
+            "width": 352,
+            "height": 551,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00047.png"
+        },
+        {
+            "x": 52,
+            "y": 794,
+            "width": 394,
+            "height": 568,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00048.png"
+        },
+        {
+            "x": 55,
+            "y": 818,
+            "width": 445,
+            "height": 589,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00049.png"
+        },
+        {
+            "x": 57,
+            "y": 842,
+            "width": 514,
+            "height": 615,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00050.png"
+        },
+        {
+            "x": 60,
+            "y": 865,
+            "width": 520,
+            "height": 649,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00051.png"
+        },
+        {
+            "x": 64,
+            "y": 887,
+            "width": 516,
+            "height": 661,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00052.png"
+        },
+        {
+            "x": 73,
+            "y": 872,
+            "width": 507,
+            "height": 655,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00054.png"
+        },
+        {
+            "x": 78,
+            "y": 826,
+            "width": 502,
+            "height": 694,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00055.png"
+        },
+        {
+            "x": 68,
+            "y": 840,
+            "width": 512,
+            "height": 709,
+            "canvasWidth": 580,
+            "canvasHeight": 1580,
+            "filename": "shot-1-00053.png"
+        }
+    ],
+    "global": {
+        "width": 580,
+        "height": 1580,
+        "folder": "shot-1",
+        "track": "shot-1-track.png",
+        "fps":24,
+        "delay" : 0,
+        "repeatDelay":5
+    }
+}

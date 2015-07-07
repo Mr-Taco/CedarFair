@@ -1,0 +1,337 @@
+@import '../global/index.styl'
+
+#accomodations-section1
+    
+    .title-bucket
+        h1,h3
+            opacity: 0
+
+    .title-bucket.seven h3 {
+        font-size: 1.12em;
+        fontFamily(GothamBook);
+        color: #838282;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    .video-button
+
+        .play-icon
+            thumbnail(true, 0%, -100.8%)
+            
+    skyBackground()
+    padding: 305px 0 0px
+
+    #cedar-point-carousel-wrapper #cedar-point
+        max-width: 550px
+        margin: 0 auto;
+
+        .video-button {
+            width: 320px; 
+            height: 140px; 
+            padding: 0;
+            background-position: center center
+        }
+
+    #accommodations
+        margin-bottom: 100px
+        
+        
+        #accommodations-select
+            padding: 50px 25px
+            margin: 125px auto
+            overflow: visible
+            addShadow(100%,80px,100%)
+            opacity: 0
+            
+            .title-bucket
+                h1
+                    opacity: 1
+
+            .desktop
+                display: block !important
+
+            .mobile
+                display: none !important
+            
+            #overlay-parks-list
+                height: auto
+                margin-top: 20px
+                
+                li.park
+                    padding: 0
+                    margin: 0 10px
+                    
+                    .logo-thumb
+                        height: 37px
+                        
+                        @media(max-width:992px)
+                            height: 29px
+                
+                
+        #accommodations-gallery
+            position: relative
+            max-height: 550px
+            padding: 220px 0
+            max-width: 530px
+            margin: 0 auto
+            opacity: 0
+
+            .accommodation-thumbnail
+                width: 320px;
+                background-size: cover;
+                margin: 0;
+                max-width: 100%;
+                height: 140px;
+                padding: 0;
+                margin: 0 auto;
+
+            &.add-border-fade:before, &.add-border-fade:after
+                width: 50px
+                z-index: 500000
+                
+            &.add-border-fade:before
+                left: 50px
+                
+            &.add-border-fade:after
+                right:50px
+           
+                
+            .swiper-container, .swiper-wrapper, .swiper-slide
+                height: auto !important
+                
+            .gal-arrow
+                top: 47%
+                color: lightBlue
+                transform: scale(1,1)
+                transition: transform .35s ease-in-out
+                
+                &:hover, &.hover
+                    transform: scale(1.1, 1.1)
+                    
+                &:active, &.active
+                    transform: scale(1, 1)
+                    transition: transform .1s ease-in-out
+                    
+                &.fa-angle-left
+                    left: 2%
+                    
+                &.fa-angle-right
+                    right: 2%
+                
+            .carousel-wrapper
+                opacity: 0
+                transition: opacity .35s ease-in-out
+                
+                .gal-arrow
+                    opacity: 0
+                    z-index: 10
+                    transition: opacity .35s ease-in-out .35s, transform .35s ease-in-out
+                    
+                &.active
+                    opacity: 1
+                    transition: opacity .35s ease-in-out .35s, transform .2s ease-in-out
+                     
+                    .gal-arrow
+                        opacity: 1
+                        z-index: 10
+                        transition: opacity .35s ease-in-out .75s, transform .2s ease-in-out
+                
+            .swiper-container
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                opacity: 0
+                height: 250px
+                z-index: 0
+                width: 430px
+                padding: 40px 0
+                transition: opacity .35s ease-in-out
+                
+                &.active
+                    opacity: 1
+                    z-index: 10
+                    transition: left .35s ease-in-out .35s
+                
+                .swiper-wrapper, .swiper-slide
+                    height: 250px
+                    
+                span
+                    display: block
+                    padding: 4px 0px
+                    
+                    &.park-name
+                        fontFamily(GothamBook)
+                        font-size: 34px
+                        color: lightBlue
+                    
+                    &.accommodation-name
+                        fontFamily(GothamBlack)
+                        font-size: 34px
+                        color: darkBlue
+                    
+                    &.accommodation-caption
+                        fontFamily(GothamBook)
+                        font-size: 18px;
+                        color: #666;
+                        font-weight: bold;
+                        
+                .btn-wrapper
+                    margin: 20px auto
+                
+                
+            @media(max-width:992px)
+                .swiper-container
+                    /*width: 533px*/
+                    
+                .park-logo
+                    img
+                        height: 70px
+                        
+                        
+                
+    @media(max-width:767px)
+        padding: 105px 0 0px
+        margin: 0px auto
+        
+        #accommodations
+            max-width: 100%
+            margin-bottom: 15px
+            
+            .title-bucket
+                padding: 0 2.5%
+                
+                h1,h3
+                    opacity: 1
+                
+                h1
+                    font-size: 40px
+
+            #accommodations-select
+                padding: 0
+                background: none !important
+                margin-bottom: 60px
+                opacity: 1
+                
+                &:before, &:after
+                    display: none
+                
+                .desktop
+                    display: none !important
+                    
+                .mobile
+                    display: block !important
+                    
+                .swiper-container
+                    width: calc(100% - 80px)
+                    
+                .swiper-wrapper, .swiper-container, .swiper-slide
+                    height: 200px !important
+                    
+                .gal-arrow
+                    top: 60% !important
+                    transform: scale(1,1) !important
+                    
+                    &:hover, &.hover
+                        transform: scale(1.1, 1.1) !important
+                        
+                    &:active, &.active
+                        transform: scale(1.05, 1.05) !important
+                        
+                    &.fa-angle-left
+                        left: 0%
+
+                    &.fa-angle-right
+                        right: 0%
+                        
+                .swiper-slide
+                    .container
+                        position: relative
+                        top: 50%
+                        transform: translateY(-50%)
+                    .park-logo
+                        img
+                            width: 80%
+                            margin: 0 auto
+            
+                                
+            #accommodations-gallery
+                max-height: 0
+                padding: 250px 0 350px
+                opacity: 1
+
+                .gal-arrow
+                    &.fa-angle-left
+                        left: 0%
+    
+                    &.fa-angle-right
+                        right: 0%
+                        
+                .swiper-container, .swiper-wrapper, .swiper-slide
+                    height: 600px !important
+                    
+                .swiper-container
+                    width: calc(100% - 80px)
+                    
+                .swiper-slide
+                    box-sizing: content-box
+                    
+                    .video-button
+                        background: none
+                        padding: 0px 0px 0
+                        position: relative
+                        
+                        .play-icon
+                            thumbnail(true)
+                           
+                    .accommodation-thumbnail
+                        padding-bottom: 43.75%
+                        background-size: cover
+                        padding: 0
+                        width: 240px
+                        max-width: 320px
+                        height: 113px
+                        max-height: 140px
+                        
+                        @media(min-width: 370px)
+                            height: 136px
+                            width: 290px
+                        
+                .swiper-pagination
+                    bottom: 30px
+
+#overlay .overlay-inner
+    height: auto
+    .video-js .vjs-tech,
+    .video-js img.vjs-tech
+        position: relative
+    
+
+@media(max-width:767px)
+    #btn-wrapper .btn, .btn-wrapper .btn
+        line-height: 1.3em
+    
+    #overlay 
+        .overlay-close
+            position: absolute;
+            top: 0;
+            display: block;
+            margin-top: -35px;
+            right: 0;
+        .overlay-inner
+            height: auto;
+            overflow: visible;
+            
+            video#overlay-player_html5_api
+                transform: none
+                
+            .overlay-inner-container
+                position: relative;
+                
+                .overlay-content
+                    position: relative;
+
+                    .video-js .vjs-tech
+                        transform: none

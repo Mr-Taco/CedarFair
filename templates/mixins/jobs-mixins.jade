@@ -1,0 +1,16 @@
+mixin jobsGalleryMixin(items)
+
+    .swiper-container
+        ul.circle-list.swiper-wrapper(data-length="#{items.length}")
+            each item,i in items
+                - console.log('i: ', i);
+                li.swiper-slide(class!=attributes.itemClass)
+                    div.circle-outer
+                        div.circle-inner
+                            .content                                        
+                                - var link = (item.pdf.url) ? item.pdf.url : item.descriptionLink
+                                h1 #{item.jobTitle}
+                                h2 #{item.jobLocation}
+                                a.btn(href='#{link}') job description
+                                // !{item.description}
+                                span.posted <em>deadline</em> #{moment(item.postedDate).format("M[/]D[/]YYYY")}

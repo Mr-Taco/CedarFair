@@ -1,0 +1,52 @@
+block content
+    #partnership-details.section-inner(data-depth="20")
+        .top-headline
+            .title-bucket.two
+                h1 #{content.headline}
+                h2 #{content.subHeadline}
+            
+        .circ-btn-wrapper
+            p SCROLL
+            a.btn-circ-darkBlue.scrollto(href="javascript://", data-target="select-sponsorships")
+            
+        #select-sponsorships
+            .title-bucket.seven
+                h1 #{content.sponsorshipTypes[0].name}
+    
+            .select-sponsorships-button-wrapper             
+               
+                
+                +cfDropdown(content.sponsorshipTypes)(id='PartnershipTypes-select')
+                a.btn.overlay-trigger.lightBlue(href="javascript://", data-source="partnership-contact-form") #{content.formButtonLabel}
+                
+            //-
+                #typeDescriptions
+                    .select-gallery
+                        ul
+                            each sponsorshipType,i in content.sponsorshipTypes                                                                                                          
+                                - var selected = (i == 0) ? "selected" : ""
+                                li.group-info(id='#{sponsorshipType.slug}-info', data-id="#{sponsorshipType.slug}", class="#{selected}") #{sponsorshipType.body}
+            //-
+                TODO 
+                Add the videos from content.sponsorshipTypes[0].media
+            .select-sponsorships-video-wrapper
+                #select-media-gallery
+                    .select-gallery
+                        ul
+                            each sponsorships,i in content.sponsorshipTypes
+                                - var selected = (i == 0) ? "selected" : ""
+                                
+                                li.group-info(id='#{sponsorships.slug}-info', data-id="#{sponsorships.slug}", class="#{selected}")
+                                    p #{sponsorships.body}
+                                    ul.inner-wrapper
+                                        each item,x in sponsorships.media
+                                            if x < 4
+                                                - bg = (item.videoThumb.url) ? item.videoThumb.url : ((item.imageThumb.url) ? item.imageThumb.url : '')
+                                                li.video(style="background-image: url('#{bg}')")
+                                                    +videoButton(item)    
+                                                    
+                                            else
+                                                
+                                                
+                                                    
+

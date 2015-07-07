@@ -1,0 +1,12 @@
+block content
+    #group-sales.section-inner(data-depth="20")
+        .title-bucket.four
+            h1 #{content.groupsHeadline}
+            h2 #{content.groupsSubHeadline}
+
+        .select-container.add-border-fade
+            #select-testimony
+                +testimonialCarouselyMixin(content.groupQuotes)(circleSize='large blue-border' itemClass='group-sales-gallery-image')
+
+        .btn-wrapper
+            a.btn.lightBlue#buy(href="#{content.groupsLink}") #{content.groupsLinkLabel}

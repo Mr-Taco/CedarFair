@@ -1,0 +1,183 @@
+@import '../global/index.styl'
+
+#main
+    margin-top: 190px
+
+
+#whoweare-section1
+    .video-button
+
+        .play-icon
+            thumbnail(true, 0%, -101%)
+            background-position: 50% 55%;
+            
+            img
+                margin-top: 1.5em;
+            
+            
+            @media (max-width:767px)
+                width: 100%
+                transform: translate(0, -101%);
+            
+                img
+                    margin-top: 1.3em;
+            
+    .title-bucket
+        h1, h2, p
+            opacity: 0
+
+    #player-container
+        margin-bottom: 55px
+        
+        .video-button
+            max-width: none !important
+            height: auto
+            padding: 0 0px 2.5em;
+            background: url(/images/BG/video-thumbnail-shadow-large.png) no-repeat bottom center;
+            background-size: 100% 2.8em;
+        
+    .clouds#section1
+        .one
+            transform:translateY(250px)
+
+        .three
+            transform:translateY(525px)
+
+        .two
+            transform:translateY(1175px)
+
+    #about-buttons
+        margin: 33px auto 54px
+    .btn
+        font-size: 1.2em
+        opacity: 0
+        /* transform: scale(0.5, 0.5)*/
+        
+    skyBackground()
+    padding: 255px 0 40px
+    text-align: center
+
+    p
+        max-width: 601px;
+        margin: 0 auto;
+        line-height: 1em;
+        padding: 10px 0 22px
+        font-size: 1.14em;
+        letter-spacing: -0.04em;
+        line-height: 1.1em;
+        
+    h2
+        fontFamily(GothamLight)
+        color: #00a1e1;
+        font-size: 2.65em;
+
+    h1
+        fontFamily(GothamUltra)
+        font-size: 60px
+        color: #0a1a72
+    
+        margin: 0 auto
+        
+    div.slogan
+        color: #666666
+        font-size: 32px
+        fontFamily(GothamLight)
+        
+    .select-container
+        max-width: 805px
+        margin: 23px auto 0
+        max-height: 70px
+        
+        #select-slogan
+            position: relative
+            max-height: 70px
+            
+            .swiper-container
+                max-width: 800px
+                margin: 0 auto 30px
+            
+            ul, li
+                max-height: 70px
+                
+            .slogan 
+                padding: 0 1.1em
+                
+            .fa-angle-right
+                right: 0px
+    
+            .fa-angle-left
+                left: 0px
+        
+            .fa-angle-left, .fa-angle-right
+                top: 50%
+                transform: translateY(-50%)
+                
+                &:before, &:after
+                    color: #00a1e1
+                    cursor: pointer
+                    
+/*
+.circ-btn-wrapper
+    margin: -5px auto
+
+
+#select
+    margin: 55px auto 0
+    background-image:radial-gradient(50% 100% at 50% 50% , #64c6ed 0%, #20ade5 100% )
+    max-width:840px
+    min-width:660px
+    height:320px
+
+    addShadow(100%,80px,320px)
+
+    .title-bucket
+        padding:60px 0 30px
+        h1
+            font-size:4.3em
+
+
+*/
+    
+#overlay-basic-inner p
+    font-size: .75em;
+    strong
+        fontFamily(GothamBold)
+
+        
+
+
+@media (max-width:767px)
+    #whoweare-section1 .video-button .play-icon 
+        max-width: 100%
+        height: 100%
+        transform: translate(0, -101%);
+
+    #who-we-are
+        max-width: 100%
+    
+    #whoweare-section1
+        padding-top: 140px
+        font-size: 17px
+    
+        #player-container .video-button
+            padding-bottom: 1.3em
+            
+        .title-bucket
+            h1, h2, p
+                opacity: 1
+                
+            h1, h2
+                font-size: 45px
+                
+            &.six
+                h1
+                    font-size: 30px
+    
+        a.btn
+            line-height: 21px
+            opacity: 1
+            transform: scale(1, 1)
+        
+    .title-bucket
+        max-width: 90%
+        margin: 0 auto

@@ -1,0 +1,8 @@
+
+mixin galleryImageList(items)
+    .swiper-container
+        ul.circle-list.swiper-wrapper
+            each item,i in items
+                li.swiper-slide(class!=attributes.itemClass)
+                    div.circle(id='#{item.slug}-applicant' style='background-image: url("#{item.imageThumb.url}")' class!=attributes.circleSize)
+                    //div.circle.back(id='#{item.slug}-applicant' class!=attributes.circleSize)

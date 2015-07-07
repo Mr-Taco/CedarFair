@@ -1,0 +1,47 @@
+block content                                   
+    
+    #accommodations.section-inner(data-depth="20")
+        .top-headline
+            .title-bucket.seven
+                h1 #{content.accommodationsHeadline}
+                h3 #{content.accommodationsBody}
+
+        .circ-btn-wrapper
+            p SCROLL
+            a.btn-circ-darkBlue.scrollto(href="javascript://", data-target="accommodations-select")
+        - var selectedIndex = 0 // randRange(0,content.parksAccommodated.length-1)
+        #accommodations-select.section.centeredGradient
+            .title-bucket.seven
+                h1 Select a Park
+            .desktop
+                +parksList(content.parksAccommodated)(class='white-logos' upClass='white' select=selectedIndex id='overlay-parks-list' buy='true')
+            .mobile.swiper-container
+                ul.swiper-wrapper
+                    for park,i in content.parksAccommodated
+                        li.swiper-slide.park-info(id='#{park.slug}-info' data-id="#{park.slug}" data-index='#{i}' class=(i === selectedIndex)? 'selected' : '')
+                            .container
+                                .park-logo
+                                    img(src='#{park.logoFull.url}')
+
+        #accommodations-gallery.add-border-fade
+            .cloud
+            for park,i in content.parksAccommodated
+
+                .carousel-wrapper(class=(i === 0)? 'active #{i}' : '#{i}' id='#{park.slug}-carousel-wrapper')
+                    .swiper-container(id=park.slug class=(i === 0)? 'active #{i}' : '#{i}' data-logo="#{park.slug}-logo")
+                        ul.swiper-wrapper
+                            for accommodation in park.accommodations
+                                li.swiper-slide(class=(i === selectedIndex) ? 'selected' : '')
+                                    span.park-name !{park.name}
+                                    span.accommodation-name #{accommodation.name}
+                                    span.accommodation-caption #{accommodation.caption}
+                                    
+                                    if accommodation.media.type === 'image'
+                                        .accommodation-thumbnail.video-button(data-type="image", data-mp4='', data-webm='', data-full!="#{accommodation.media.imageFull.url}", style="background-image: url('#{accommodation.media.imageThumb.url}');")
+                                    else
+                                        +videoButton(accommodation)
+                                    
+                                    .btn-wrapper
+                                        a.btn.lightBlue.accommodation-learn-more(href="#{accommodation.learnLink}") #{accommodation.learn}
+                                        a.btn.lightBlue.accommodation-book-now(href="#{accommodation.bookLink}") #{accommodation.book}
+                                    

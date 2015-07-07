@@ -1,0 +1,25 @@
+#footer-top
+    #footer-top-wrapper
+        #footer-top-left
+            h1 #{footer.whoTitle}
+            h2 #{footer.whoBody}
+            a#footer-top-left-about-us(href="#{footer.whoLink}") #{footer.whoLinkLabel}
+                i.fa.fa-arrow-right
+        #footer-top-middle
+            h1 #{footer.contactTitle}
+            h2 #{footer.contactBody}
+            .contact-info
+                i.fa.fa-map-marker
+                    p #{footer.contactLocation.suburb}, #{footer.contactLocation.state} #{footer.contactLocation.postcode}
+            .contact-info
+                i.fa.fa-mobile-phone
+                    a(href="tel:#{footer.contactPhone}") #{footer.contactPhone}
+            .contact-info
+                i.fa.fa-envelope-o
+                    a(href="mailto:#{footer.contactEmail}") #{footer.contactEmail}
+        #footer-top-right
+            h1 #{footer.updatesTitle}
+            h2 #{footer.updatesBody}
+            .input
+                a.btn.lightBlue#submit(href="javascript://") submit
+                input.withBtn(placeholder='Enter your email')

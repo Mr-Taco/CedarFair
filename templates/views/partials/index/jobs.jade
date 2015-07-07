@@ -1,0 +1,15 @@
+block content
+    #jobs-section.section-inner
+        .title-bucket.three
+            h1 #{content.applicantsHeadline}
+            h2 #{content.applicantsSubHeadline}
+
+
+        +galleryImageList(content.applicants)(circleSize='large' itemClass='job-gallery-image')
+
+        .btn-wrapper#jobs-buttons
+            // TODO: Add conditional for the following line to display #jobs-search only if there are corporate jobs
+            a.btn.lightBlue#parks-jobs-search(href="#{content.parkJobApplicationLink}") #{content.parkJobApplicationLinkLabel}
+     
+            a.btn.lightBlue#jobs-search(href="#{content.jobApplicationLink}#featured") #{content.jobApplicationLinkLabel}
+            

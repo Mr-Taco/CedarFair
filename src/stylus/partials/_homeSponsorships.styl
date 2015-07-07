@@ -1,0 +1,85 @@
+@import "../mixins/index.styl"
+
+#sponsorships
+    text-align: center
+
+    .title-bucket
+        padding-top: 0px
+        
+        @media(max-width:767px)
+            padding-top: 20px
+
+        h1
+            max-width:840px
+            margin:0 auto
+            letter-spacing: -0.015em
+
+        h2
+            fontFamily(GothamLight)
+            color:lightBlue
+
+        h3
+            color:lightGray
+            letter-spacing: -0.06em
+
+    #sponsorships-gallery
+        margin: 25px auto 50px
+
+        #sponsorships-gallery-list
+
+            li
+                display: inline-block
+                padding: 0 1%
+
+                img
+                    box-shadow: 0px 25px 50px -25px black
+
+    .btn-wrapper
+        margin-top: 0px
+   
+.splash-container
+    width: 100%
+    height: 100%
+    max-width: 1400px
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translateX(-50%)
+    overflow: hidden
+    
+    .splash-container-relative
+        width: 100%
+        height: 100%
+        position: relative
+        /*top: -40px*/
+
+.splash
+    position:absolute
+    background-size:contain
+    background-position:center top
+    background-repeat:no-repeat
+
+    @media(max-width: 767px)
+        display: none
+
+
+    &.one
+        background-image: url('/images/splashes/splash-01.png')
+        width: 604px
+        height: 450px
+
+    &.two
+        background-image:  url('/images/splashes/splash-02.png')
+        width:240px
+        height:256px
+
+    &.three
+        background-image:  url('/images/splashes/splash-03.png')
+        width: 927px
+        height: 652px
+
+    &.rotate-ccw
+        transform: rotate(-15deg)
+        
+    &.upsidedown
+        transform: rotate(180deg)

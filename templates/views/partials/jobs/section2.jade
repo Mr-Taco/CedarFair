@@ -1,0 +1,20 @@
+block content
+    #testimonials.section-inner
+
+        .title-bucket.four
+            h1 #{content.featuredHeadline}        
+            
+        #jobs-gallery
+            +jobsGalleryMixin(content.jobs)(circleSize='large blue-grad-border' itemClass='jobs-gallery-image')
+            
+        //
+            .btn-wrapper                                
+                a.btn.lightBlue#allJobsLink(href="#{content.allJobsLinkUrl}") #{content.allJobsLinkLabel}
+                a.btn.lightBlue#jobsLink(href="#{content.jobsLink}") #{content.jobsLinkLabel}               
+            
+                                    
+                            
+                            
+                        
+                
+            

@@ -1,0 +1,14 @@
+extends ../layouts/_main
+
+
+block css
+    link(href="/styles/legal.css", rel="stylesheet") 
+
+block content
+    #legal
+        p !{content.body}
+        
+        
+
+block js
+    script(src='/js/legal.js')

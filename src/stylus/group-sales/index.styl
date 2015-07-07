@@ -1,0 +1,434 @@
+@import '../global/index.styl'
+@import '../partials/_selectGallery.styl'
+
+
+#group-sales-section1
+
+    .select-gallery 
+        margin-top: 37px
+        
+        ul li.group-info 
+            h2
+                font-size: 1.75em;
+                letter-spacing: -.03em;
+            p
+                font-size: .9em
+                line-height: 1.2em
+                
+            .info-container
+                margin-top: 13px;
+                
+            
+    .clouds#section1
+        .two
+            transform:translateY(150px)
+        .three
+            transform:translateY(575px)
+            
+    .video-button 
+        height: 209px
+        
+        @media(max-width: 900px)
+            height: 137px
+            top: 50%
+            transform: translateY(-50%)
+    
+    .title-bucket.three
+        h1
+            font-size: 2.645em
+            
+    /* to be consistent with psd, but not with other pages: 
+    .inner-title-header p
+        font-size: 1.135em;
+        line-height: 1.2em;
+    */
+    
+    skyBackground()
+    padding: 255px 0 300px
+    text-align: center 
+    
+    .title-bucket
+        h1,h2,p
+            opacity: 0
+    
+    .circ-btn-wrapper
+        margin: -5px auto
+
+    #select
+        margin: 55px auto 0
+        background:#ffffff
+        max-width:920px
+        min-width:660px
+        height:480px
+        opacity: 0
+        padding: 0 5%
+
+        .title-bucket
+            h1
+                opacity: 1
+        
+        addShadow(100%,80px,480px)
+
+        .select-box-wrapper
+            display:inline-block
+            margin-right:20px
+            width:264px
+            position:relative
+            height: 52px
+            z-index:400
+            .drop-container
+                position:absolute
+                top:0
+                left:0
+                
+            
+        .btn-wrapper
+            margin-top:18px
+            
+        .btn
+            height: 53px
+            line-height: 1.5em
+            font-size: 1.125em
+            width:251px
+            
+            @media(max-width: 993px)
+                line-height: 1.95em
+        
+        .title-bucket
+            padding-top:50px
+            
+@media(max-width:767px)
+    #group-sales-section1
+        padding-bottom: 0
+
+        .title-bucket
+            h1,h2,p
+                opacity: 1
+        
+        .section-inner
+            max-width: 100%
+            padding-bottom: 0
+
+            #select
+                width: 100%
+                min-width: initial
+                max-width: 100%
+                height: 720px
+                opacity: 1
+                
+                &:before
+                    background: none
+                    
+                .btn-wrapper
+                    
+                    .btn
+                        width: 85%
+                        position: absolute
+                        top: 585px
+                        left: 7.5%
+                        line-height: 1.75em
+                
+                .select-box-wrapper
+                    margin-right: 0
+                    
+                .select-gallery
+                    width: 90%
+                    margin: 0 auto
+                    
+                    ul
+                        width: 100%
+                        
+                        li
+                            div.left, div.right
+                                width: 100%
+                                float: none
+                                text-align: center
+                                
+                            div.left
+                                position: absolute
+                                top: 83%
+                                
+                                .video-button img
+                                    box-shadow: 0px 25px 20px -21px black
+                                
+                                .play-icon
+                                    top: 50%
+                                    
+                            div.right
+                                position: absolute
+                                top: 10%
+                                
+                                .info-container
+                                    padding: 0
+
+@media(max-width:640px)
+    #group-sales-section1
+        padding:80px 0 0
+        
+
+
+
+
+
+#group-sales-section2
+    padding: 80px 0 90px
+    background-color: lightBlue
+    background-size: cover
+    text-align: center
+    
+    #testimonials
+    
+    .title-bucket.five
+        margin-bottom: 10px !important
+        h1
+            font-size:3.75em
+            opacity: 0
+            
+        h2
+            font-size:1.144em 
+            margin: 0 auto
+            fontFamily(GothamBook)
+            max-width: 540px
+            opacity: 0
+
+    // .swiper-container 
+    
+    .gal-arrow
+        top: 50%
+        color: white !important
+        
+        &.fa-angle-right
+            right: -6%
+            
+        &.fa-angle-left
+            left: -6%
+            
+        &:hover, &.hover
+            transform: scale(1.1, 1.1) translate3d(0px,0px,100px) !important
+            
+        &:active, &.active
+            transform: scale(1.05, 1.05) translate3d(0px,0px,100px) !important
+
+    .circle-list
+        margin:36px auto
+        
+        
+        a.btn
+            width:200px
+            margin-top:35px
+
+@media(max-width:767px)
+    #group-sales-section2
+        padding-bottom: 50px
+        .gal-arrow
+            top: 50%
+        
+            &.fa-angle-right, &.fa-angle-left
+                color: white;
+                
+            &.fa-angle-right
+                right: 6%
+            
+            &.fa-angle-left
+                left: 6%
+                
+        #testimonials
+            max-width: 100%
+            height: auto
+            
+            .title-bucket
+                max-width: 90%
+                margin: 0 auto 50px
+    
+                &.five
+                    h1
+                        font-size: 30px
+                        opacity: 1
+                    h2
+                        font-size: 20px
+                        opacity: 1
+                        
+            .select-container
+                margin-top: 0
+
+.select-container
+    max-width: 540px
+    margin: 27px auto 0
+    position: relative
+    padding: 0px 0
+
+    #select-testimony
+        margin-top: 70px
+        
+        &.add-border-fade:before, &.add-border-fade:after
+            width: 33px
+        
+        &.add-border-fade:before
+            left: 13px
+        
+        &.add-border-fade:after
+            right: 10px
+
+
+.swiper-container, .swiper-wrapper, .swiper-slide
+    height: 200px 
+
+
+.swiper-container
+    min-height: 150px
+    width: 513px
+    color: #0a1a72
+    font-size: 34px
+    fontFamily(GothamBlack)
+    letter-spacing: -0.035em;
+    
+    .gal-arrow
+        color: lightBlue
+
+    .swiper-slide
+        position: relative
+        padding-bottom: 0
+        box-sizing: border-box
+        height: 300px 
+
+        @media(min-width: 641px)
+            padding-bottom: 0
+        
+    .testimonial-wrapper
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+
+    div.quote
+        font-size: 1em;
+        line-height: 1em;
+        white-space: inherit;
+        overflow: hidden;
+        width: auto;
+                
+        p
+            padding-bottom: 10px
+            line-height: 36px
+
+    div.cite
+        font-size: 18px
+        padding-top: 10px;
+        color: #ffffff
+        fontFamily(GothamBook)
+
+        &:before
+            content: "\2013"
+
+    div.link
+        font-size: 14px
+        color: #666666
+        fontFamily(GothamBook)
+        width: 100%
+        text-align: center
+        margin-top: 15px
+
+        a
+            text-decoration: underline
+            color: #666666
+            
+    
+.form-fields
+    overflow:visible
+    font-size 16px
+    padding: 0 49px 30px
+    clear:both
+    position: relative
+    
+    .center
+        padding: 20px 0 0
+    
+    .left 
+        float:left
+
+    .dropdown
+        margin: 7px 5px
+
+    .input
+        outline: none
+        border: none
+        border-top: 1px solid #f8f8f8
+        border-left: 1px solid #fff
+        border-right: 1px solid #fff
+        border-bottom: 1px solid #fff
+        border-radius: 20px
+        padding: 1px
+        background-color: white
+        font-size: 1em
+        fontFamily(GothamMedium)
+        box-shadow: inset 0px 2px 1px #a1b0bf, 1px 2px 6px 0px #abaaaa
+        width:100%
+        overflow: visible
+        max-width: 258px
+        margin: 8px
+        position:relative
+
+        input
+            outline: none
+            border: none
+            background-color: white
+            font-size: 1em
+            fontFamily(GothamLight)
+            width:100%
+            border-radius: 20px
+            margin-top: 5px
+            
+    .caption
+        fontFamily(GothamBlack)
+        
+    a.btn
+        max-width: 250px
+        margin: 35px auto 30px
+
+@media(max-width:767px)
+    .inner-title-header
+        height: auto
+        padding: 30px 0 15px
+    #group-sales-section2 .title-bucket.five h1
+        font-size: 30px
+    .select-container #select-testimony
+        padding-top: 0px
+        margin-top: 0
+    .swiper-container
+        width: calc(100% - 80px)
+        margin: 0 auto
+    
+        .swiper-slide
+            .quote
+                width: 75%
+                margin: 0 auto
+                font-size: 20px
+                line-height: 24px
+                color: white
+                padding-bottom: 6px
+                
+                p
+                    font-size: 20px
+                    line-height: 26px !important
+                    color: white
+                    
+            .cite
+                font-size: 11px
+
+    .gal-arrow
+        top: 60% !important
+    
+    
+    #contact-group-sales-form .center span:after
+        content:"\A"; 
+        white-space:pre;
+
+.footnotes
+    font-size: 1em;
+    padding-top: 10px;
+    color: #fff;
+    fontFamily(GothamBook)
+    .sub
+        color: #0a1a72
+    .main
+        margin-top: 10px
+        color: #0a1a72

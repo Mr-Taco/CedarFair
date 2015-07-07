@@ -1,0 +1,14 @@
+extends ../../layouts/_main
+
+block css
+    link(href="/styles/error.css", rel="stylesheet")
+    
+block content
+    .container
+        .title-bucket.two
+            h1 Internal Server Error
+            p Sorry, the site has encountered an error.
+            if show_errors == true
+                p #{errorMsg}
+                pre.stack.
+                    #{err}

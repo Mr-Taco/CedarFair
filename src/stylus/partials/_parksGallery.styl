@@ -1,0 +1,125 @@
+@import "../mixins/index.styl"
+
+#our-parks-gallery
+    padding-top:54px
+    height:220px
+    perspective: 800px
+    ul
+        height:100%
+        position:relative
+        li.park-info
+            height:100%
+            width:100%
+            position:absolute
+            visibility:hidden
+            opacity:0
+            &.selected
+                visibility:visible
+                opacity:1
+
+            .container
+                width:640px
+                margin:0 auto
+                radialBg()
+
+            .right
+                text-align:center
+                height:100%
+                display:table
+                float:left
+                width:50%
+                .info-container
+                    display:table-cell
+                    vertical-align:middle
+                    padding:0 5px
+
+                span
+                    display:block
+                    width:100%
+                span.park-name
+                    font-size: 2em
+                    fontFamily(GothamBlack)
+                    color: darkBlue
+                    line-height: 1em
+                    letter-spacing: -0.015em
+
+                .park-name-logo
+                    display:none
+                    svg
+                        height:auto
+
+                span.park-location
+                    font-size: 1.125em
+                    fontFamily(GothamBook)
+                    color: lightGray
+                    line-height: 1.130em
+                    padding-top: 5px
+                    letter-spacing: -0.025em
+
+                a.btn
+                    margin-top: 10px
+                    width:180px
+            .left
+                height:100%
+                float:left
+                width:50%
+
+
+
+
+@media (max-width:767px)
+    #our-parks.section-inner
+        max-width: 100%
+
+        .swiper-container, .swiper-wrapper, .swiper-slide
+            height: 270px !important
+
+        #our-parks-gallery
+            margin-bottom: 50px
+
+            ul
+                overflow:hidden
+                height:100%
+                li.park-info
+                    float:left
+                    visibility:visible
+                    opacity:1
+                    position:static
+
+                    .container
+                        width:auto
+
+                    .left
+                        display:none
+
+                    .right
+                        width:100%
+                        span.park-name
+                            display:none
+
+                        .park-name-logo
+                            display:block
+                            margin:0 auto
+                            max-width: 72%
+                            max-height: 62px
+                            background-size: contain;
+                            background-position: center center
+                            background-repeat no-repeat
+
+                            img
+                                max-width: 100%;
+                                max-height: 62px;
+                                width: auto;
+                                /*opacity: 0;*/
+
+                            svg
+                                height:100%
+
+                            path , polygon, rect
+                                fill:#0f237c
+                        a.btn
+                            width:100%
+
+            .gal-arrow
+                color:#00a1e1
+                top:115px

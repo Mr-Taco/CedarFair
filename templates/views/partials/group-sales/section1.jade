@@ -1,0 +1,26 @@
+block content
+    #group-sales.section-inner(data-depth="20")
+        .top-headline
+            .inner-title-header.title-bucket.two
+                h1 #{content.groupsHeadline}
+                h2 #{content.groupsSubHeadline}
+                p #{content.groupsBody}
+    
+        .circ-btn-wrapper
+            p SCROLL
+            a.btn-circ-darkBlue.scrollto(href="javascript://", data-target="select")
+            
+            
+        #select
+    
+            .title-bucket.two
+                h1 #{content.selectHeadline}
+    
+            .btn-wrapper
+                +cfDropdown(content.groupTypes)(id='grouptypes-select')
+               
+    
+                a#form-opener.btn.overlay-trigger(href='javascript://', data-source='contact-group-sales-form') #{content.contactLinkLabel}
+    
+           
+            +selectGalleryContent(content.groupTypes)(select=0 )

@@ -1,0 +1,260 @@
+@import "../mixins/index.styl"
+
+lightBlue = #00a1e1
+darkBlue = #0a1a72
+gray = #999999
+
+#footer
+
+    #footer-top
+        color: gray
+        padding: 30px 10px
+        overflow: auto
+        
+        .contact-info, .contact-info a, .fa p
+            fontFamily(GothamBook)
+            font-weight: normal
+            font-size: 0.94em
+            line-height: 1.2em
+            
+        .fa:before
+            width: 20px
+            display: block
+            float: left
+            text-align: center
+            margin-right: 5px;
+            padding-right: 5px;
+            
+        #footer-top-wrapper
+            width: 100%
+            max-width: 1000px
+            margin: 0 auto
+            overflow: visible
+
+        h1
+            fontFamily(GothamBlack)
+            font-size: 1.3em
+            padding: 0 0 16px
+
+        h2
+            fontFamily(GothamBook)
+            font-size: .89em
+            padding: 0 0 16px
+            line-height: 1.4em
+
+        h3
+            fontFamily(GothamBook)
+            font-size: .95em
+
+        a
+            fontFamily(GothamBlack)
+            font-size: .95em
+            color: gray
+            text-decoration: none
+            
+        p
+            display: inline-block
+
+        .input
+            outline: none
+            border: none
+            border-top: 1px solid #f8f8f8
+            border-left: 1px solid #fff
+            border-right: 1px solid #fff
+            border-bottom: 1px solid #fff
+            border-radius: 20px
+            padding: 1px
+            background-color: white
+            font-size: .9375em
+            fontFamily(GothamLight)
+            box-shadow: inset 0px 2px 1px #a1b0bf, 1px 2px 6px 0px #abaaaa
+            width:100%
+            overflow: auto
+            
+            .btn
+                float:right
+            
+            input
+                outline: none
+                border: none
+                padding: 10px
+                background-color: white
+                font-size: .9375em
+                fontFamily(GothamLight)
+                width:100%
+                max-width: 180px
+                border-radius: 20px
+                margin-top: 5px
+    
+                &:after
+                    content: 'subscribe'
+                    background-color: lightBlue
+                    border-radius: 40px
+                    color: white
+                    font-size: .8125em
+                    fontFamily(GothamBlack)
+                    
+            a
+                padding: 15px 20px;
+                color: #fff;
+                
+        #footer-top-left, #footer-top-middle, #footer-top-right
+            width: 27.5%
+            display: block
+            float: left
+            padding: 0
+                        
+        #footer-top-middle
+            margin: 0 8.75%
+            
+        @media(max-width:767px) 
+            background-color: #001b3c
+            color: white
+            text-align: left
+            border-top: 1px solid #909dac
+            border-bottom: 1px solid #909dac
+
+            #footer-top-left, #footer-top-right 
+                display: none
+
+            #footer-top-middle
+                width: 100%
+                margin: 0 auto
+
+            h1
+                fontFamily(GothamBlack)
+                // font-size: 1em
+                font-size: 1.75em
+                padding: 0 0 16px
+                color: white
+
+                @media(max-width:667px) 
+                    font-size: 1.25em
+
+            h2
+                fontFamily(GothamBook)
+                // font-size: .8125em
+                font-size: 1.25em
+                padding: 0 0 16px
+                color: white
+
+                @media(max-width:667px) 
+                    font-size: .9em
+
+            h3
+                fontFamily(GothamBook)
+                // font-size: .8125em
+                font-size: 1.25em
+                color: white
+
+                i, p
+                    display: inline-block
+
+                @media(max-width:667px) 
+                    font-size: .9em
+            
+            i.fa-map-marker:before
+                margin-right: 6px
+                padding-left: 2px
+
+            i.fa-mobile-phone:before
+                margin-right: 10px
+                padding-left: 3px
+                
+            i.fa-envelope-o:before
+                margin-right: 7px
+
+            i, a
+                color: white
+
+            a, p
+                margin-left: 10px
+        
+
+    #footer-bottom
+        background-color: #001b3c
+        padding: 25px 0 0
+        height: 75px
+        text-align: center
+        line-height: 1.2em
+        font-size: 0.78em
+        color: #919dad
+        fontFamily(GothamBlack)
+      
+        span.pipe
+            padding: 0 0 0 2px
+            @media(max-width:767px)
+              display:none
+          
+        div.break 
+          display:none
+          
+          @media(max-width:767px)
+            display: block
+            
+            
+        a
+            line-height: 1.2em
+            font-size: 11px
+            color: #919dad
+            fontFamily(GothamBlack)
+            margin: 0 10px
+            text-decoration: none 
+            
+            @media(min-width: 992px)
+                font-size: 12px
+            
+            &:first-child
+                margin-left: 15px
+
+        /*
+            background-color: #000b19
+        */
+      
+        p#mobile-footer-blurb
+            color: #919dad
+            fontFamily(GothamBlack)
+            font-size: .9em
+            margin: 0 auto 10px
+            display: none
+            line-height: 1.2em
+
+            @media(max-width:767px) 
+                display: block
+
+        ol
+            li
+                display: inline-block
+                list-style-image: url('')
+                padding: 0 17px
+
+                em
+                    position: relative
+                    top: 2px
+                    left: 25%
+                    text-align: right
+
+                a
+                    color: gray
+                    font-size: .75em
+                    fontFamily(GothamBlack)
+                    text-align: center
+                    width: 100%
+
+                i
+                    display: inline-block
+                    color: gray
+                    font-size: .875em
+                    padding: 0 5px
+
+        @media(max-width:767px) 
+            ol li
+                display: none
+
+                &:last-child
+                    display: block
+                    width: 100%
+                    text-align: center
+
+                i
+                    font-size: 1.5em

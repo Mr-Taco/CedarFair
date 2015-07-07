@@ -1,0 +1,55 @@
+.drop-container {
+    width: 260px;
+    height: 52px;
+    -webkit-border-radius: 26px;
+    border-radius: 26px;
+    border: 2px solid #fff;
+    -webkit-box-shadow: inset 0px 2px 4px 0px rgba(0,0,0,0.5), 0px 2px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: inset 0px 2px 4px 0px rgba(0,0,0,0.5), 0px 2px 5px 0px rgba(0,0,0,0.35);
+    background: #fff;
+    user-select:none;
+}
+
+
+.drop-container .drop-container-inner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.drop-container .drop-container-inner .arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.drop-container .drop-container-inner ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: block;
+}
+.drop-container .drop-container-inner ul li {
+    height: 52px;
+    font-size: 16px;
+    line-height: 52px;
+    padding: 0 20px;
+    text-align: center;
+    color: #999;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.drop-container .drop-container-inner ul li:hover {
+    color: #33b5e8;
+}

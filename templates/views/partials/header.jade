@@ -1,0 +1,118 @@
+block header
+    #header-top
+        .header-contact
+            p.email 
+                <i class="fa fa-envelope-o"></i> Investing@CedarFair.com
+            p.phone 
+                <i class="fa fa-mobile-phone"></i> 419.627.2233
+
+        .header-social
+            i.fa.fa-twitter
+            i.fa.fa-facebook
+            i.fa.fa-instagram
+            i.fa.fa-youtube-play
+
+    #header-bottom
+        .nav
+            a#navbar-menu(href="#")
+                img(src='/images/icons/blue-menu-icon.png')
+
+            .logo-wrapper
+                a#navbar-logo(href="/")
+                    img(src='/images/logos/cedarFairLogo.png')
+
+            ul.nav-list
+                a(href="/who-we-are" data-page="who-we-are" data-page-short="whoweare") 
+                    li(class=(locals.section === "whoweare")? 'current' : '') Who We Are
+                a(href="/our-parks" data-page="our-parks" data-page-short="ourparks") 
+                    li(class=(locals.section === "ourparks") ? 'current' : (locals.section === 'accommodations') ? 'current' : (locals.section === 'offerings') ? 'current' : '') Our Parks
+                a(href="http://ir.cedarfair.com/investor-home/default.aspx" target="_blank" data-page="investors" data-page-short="investors") 
+                    li(class=(locals.section === "investors")? 'current' : '') Investors
+                a(href="/group-sales" data-page="group-sales" data-page-short="groupsales") 
+                    li(class=(locals.section === "groupsales")? 'current' : '') Group Sales
+                a(href="/partnerships" data-page="partnerships" data-page-short="partnership") 
+                    li(class=(locals.section === "partnership") ? 'current' : (locals.section === 'partnership-details') ? 'current' : '') Partnerships
+                a(href="/jobs" data-page="jobs" data-page-short="jobs") 
+                    li(class=(locals.section === "jobs")? 'current' : '') Jobs
+                a(href="/news" data-page="news" data-page-short="news") 
+                    li(class=(locals.section === "news")? 'current' : '') News
+
+            a.btn.lightBlue.overlay-trigger#buy(href="javascript://" data-source="buy-tickets-overlay") buy tickets
+            
+        .subnav(class=locals.section data-page=locals.section)
+            ul.subnav-list
+                li#who-we-are-subnav-list
+
+                li#our-parks-subnav-list(class=(locals.section === "ourparks")? '' : (locals.section === "offerings")? '' : (locals.section === "accommodations")? '' : '')
+                    a#our-parks-accommodation-subnav-link(href="/our-parks/accommodations" class=(locals.section === "accommodations")? 'selected' : '') Accommodations
+                    a#our-parks-offerings-subnav-link(href="/our-parks/special-events" class=(locals.section === "offerings")? 'selected' : '') Special Events
+                li#investors-subnav-list
+                
+                li#group-sales-subnav-list
+
+                li#partnerships-subnav-list(class=(locals.section === "partnership")? '' : (locals.section === "partnership-details")? '' : '')
+                    a#partnership-details-subnav-link(href="/partnerships/detail/sponsorship" class=(locals.url === "/partnerships/detail/sponsorship")? 'selected' : '') Sponsorship
+                    a#partnership-details-subnav-link(href="/partnerships/detail/experiential" class=(locals.url === "/partnerships/detail/experiential")? 'selected' : '') Experiential
+                    a#partnership-details-subnav-link(href="/partnerships/detail/in-park-media" class=(locals.url === "/partnerships/detail/in-park-media")? 'selected' : '') In-Park Media
+                li#jobs-subnav-list
+
+                li#news-subnav-list
+
+
+    #mobile-header-nav
+        ul
+            a(href='/who-we-are')
+                li Who We Are 
+                    .arrow-wrapper
+                        <i class='fa fa-angle-right'></i>
+
+            a(href='/our-parks')
+                li Our Parks 
+                    .arrow-wrapper
+                        <i class='fa fa-angle-right'></i>
+                .mobile-sub-nav
+                    ul
+                        li(data-href="/our-parks/accommodations") Accommodations
+                        li(data-href="/our-parks/special-events") Special Events
+            a(href="http://ir.cedarfair.com/investor-home/default.aspx" target="_blank")
+                li Investors 
+                    .arrow-wrapper
+                        <i class='fa fa-angle-right'></i>
+            a(href='/group-sales')
+                li Group Sales 
+                    .arrow-wrapper
+                        <i class='fa fa-angle-right'></i>
+            a(href='/partnerships')
+                li Partnerships 
+                    .arrow-wrapper
+                        <i class='fa fa-angle-right'></i>
+                .mobile-sub-nav
+                    ul
+                        li(data-href="/partnerships/detail/sponsorship") Sponsorship
+                        li(data-href="/partnerships/detail/experiential") Experiential
+                        li(data-href="/partnerships/detail/in-park-media") In-Park Media
+            a(href='/jobs')
+                li Jobs 
+                    .arrow-wrapper
+                        <i class='fa fa-angle-right'></i>
+            a(href='/news')
+                li News 
+                    .arrow-wrapper
+                        <i class='fa fa-angle-right'></i>                                                                     
+            //a.overlay-trigger.toggle-nav(href="javascript://" data-source="buy-tickets-overlay")
+                li Buy Tickets 
+                    .arrow-wrapper
+                        <i class='fa fa-angle-right'></i>
+                             
+        .mobile-nav-social
+            a.overlay-trigger.toggle-nav(href="javascript://" data-source="buy-tickets-overlay") Buy Tickets
+                
+        .bottom-padding
+            
+            
+            //i.fa.fa-envelope-o
+            //i.fa.fa-phone
+            //i.fa.fa-facebook
+            //i.fa.fa-twitter
+            //i.fa.fa-youtube-play
+

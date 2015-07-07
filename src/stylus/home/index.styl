@@ -1,0 +1,364 @@
+@import '../global/index.styl'
+
+#home-content-wrapper
+    z-index: 5
+
+//Section 1
+
+#our-parks
+    padding-top: 6%
+    z-index: 100 !important;
+    
+
+#home-section1
+    padding: 265px 0 320px
+    skyBackground()
+    margin:0 auto
+    min-height: 1600px
+    transition:min-height  .5s
+
+    .cloud.one
+        transform:translate3d(-80px  , 55px , 400px)
+        
+        &.b
+            transform:translate3d(600px  , 700px , 0px)
+        
+    .cloud.two
+        transform:translate3d(-600px  , 585px , 0px)
+
+    .cloud.three
+        transform:translate3d(0px  , 355px , 0px)
+        
+
+@media (max-width: 767px )
+    #home-section1
+        min-height:1080px
+        padding: 80px 0 140px
+    
+        li.park-info
+            .right
+                img
+                    opacity: 0
+    
+        .mobile-coasters
+            .coaster-0
+                top: 0
+                right: -10%
+    
+            .coaster-1
+                left: 0
+                bottom: -7%
+    
+    
+        #our-parks
+            .title-bucket
+                h2
+                    max-width: 260px
+                    margin: 0 auto
+            
+            #our-parks-gallery
+                width: calc(100% - 80px)
+                padding-top: 25px
+    
+            .gal-arrow
+                &:hover, &.hover
+                    transform: scale(1.1, 1.1) translate3d(0,0,100px) !important
+
+                &:active, &.active
+                    transform: scale(1.05, 1.05) translate3d(0,0,100px) !important
+
+@media (max-width: 640px )
+    #our-parks
+        padding-top: 20%
+    
+    
+    #home-section1
+        min-height:0px
+
+
+@import '../partials/_homeWhoWeAre.styl'
+@import '../partials/_parksGallery.styl'
+
+
+//Section 2
+#home-section2
+    padding: 6.25em 0
+    gridBackground()
+
+@media (max-width: 767px )
+    #home-section2
+        padding: 60px 0
+        height:auto
+    
+        .title-bucket
+            h1
+                &:last-of-type
+                    margin-bottom: 10px
+            
+            h2
+                line-height: 21px
+
+
+@import '../partials/_homeJobs.styl'
+
+//Section 3
+#home-section3
+    padding: 50px 0 0px;
+    skyBackground()
+    
+    .cloud.one
+        transform:translate3d(0px  , 0px , 0px)
+
+    .cloud.two
+        transform:translate3d(-250px  , 200px , 0px)
+        background-size: 60% auto;
+            
+    .cloud.three
+        transform:translate3d(0px  , 325px , 0px)
+      
+    .fa-angle-left, .fa-angle-right
+        top: 50%
+        transform: translateY(-50%)
+        transition: transform .35s ease-in-out
+        
+        &:hover, &.hover
+            transform: translateY(-50%) scale(1.1, 1.1)
+        
+        &:active, &.active
+            color: white
+            transform: translateY(-50%) scale(1, 1) !important
+            transition: transform .1s ease-in-out
+      
+    .fa-angle-left 
+        left: 0px
+        
+        @media(min-width: 993px)
+            left: -50px
+      
+    .fa-angle-right
+        right: 0px
+        
+        @media(min-width: 993px)
+            right: -50px
+      
+    
+    .fa-angle-left:before, .fa-angle-right:before
+        color: #00a1e1
+        cursor: pointer
+      
+    .select-container 
+        max-width: 630px
+        margin: 27px auto 0
+        position: relative
+        padding: 20px 0 0
+      
+    .swiper-container 
+        min-height: 150px
+        max-width: 529px
+        max-height: 150px
+        color: #0a1a72
+        font-size: 34px
+        fontFamily(GothamBlack)
+        letter-spacing: -0.035em;
+        
+        .swiper-slide
+            position: relative
+            padding-bottom: 0;
+
+            @media(min-width: 641px)
+                padding-bottom: 0;
+      
+        div.quote
+            padding-bottom: 10px
+            line-height: 30px
+            font-size: 34px;
+            overflow: hidden;
+            white-space: normal;
+            width: auto;
+                
+            @media(max-width: 767px)
+                font-size: 20px
+                line-height: 24px
+              
+        div.cite
+            font-size: 18px
+            color: #00a1e1
+            fontFamily(GothamBook)
+            padding-top: 10px;
+          
+            &:before
+                content: "\2013"
+
+        div.link
+            font-size: 14px
+            color: #666666
+            fontFamily(GothamBook)
+            position: absolute
+            bottom: 27px
+            width: 100%
+            text-align: center
+          
+            a
+                text-decoration: underline
+                color: #666666
+                
+    #buy 
+        min-width: 190px
+        
+        
+    @media(max-width: 767px)
+        padding: 120px 0px 0px
+        
+        .mobile-coasters
+            .coaster-2
+                top: -46px
+                right: -63px
+                
+        #accommodations
+            .swiper-container, .swiper-wrapper, .swiper-slide
+                height: 425px !important
+    
+        .section-inner
+            max-width: 100%
+    
+        .select-container
+            padding: 10px 0 0;
+    
+        .swiper-container
+            max-height: none
+            height: 150px !important 
+            width: calc(100% - 80px)
+    
+            div.link
+                position: initial
+                
+            div.quote p
+                padding-left: 31px
+                padding-right: 31px
+                line-height: 1em
+                font-size: .85em
+                
+            div.cite
+                font-size: 11px
+    
+        .gal-arrow
+            top: 30% !important
+        
+    
+            
+@import '../partials/_groupSales.styl'
+@import '../partials/_homeAccomodations.styl'
+//Section 4
+
+#home-section4
+    padding: 6.45% 0 6%;
+    blueRadialBg()
+    
+    @media(max-width: 767px)
+        padding: 10% 15px 10%;
+    
+        .swiper-container
+            width: calc(100% - 80px)
+    
+        .gal-arrow
+            color: white
+            top: 40%
+
+@import '../partials/_homeInvestors.styl'
+@import '../partials/_homeTicker.styl'
+
+//Section 5
+#home-section5
+    margin:0 auto
+    padding: 145px 0 0
+    background-image: url('../images/BG/section5a.jpg')
+    background-position: center top
+    background-size: 1920px auto
+    background-repeat: no-repeat
+    height: 1255px
+    z-index: 1
+    box-sizing: content-box
+    
+    
+    @media(min-width: 768px)
+        height: 1255px
+
+
+@media (max-width: 767px )
+    #home-section5
+        padding: 60px 0
+        background-size: auto 100%
+        height:700px
+
+@import '../partials/_homeSponsorships.styl'
+
+@import '../partials/_homeSeasonal.styl'
+//Section 6
+#home-section6
+    background-image: url('../images/BG/haunt-ground.jpg')
+    background-position: center 0px
+    background-size: 1920px auto
+    background-repeat: no-repeat
+    margin: -5px auto 0
+    height:1175px
+    overflow: hidden 
+
+@media (max-width: 767px) and (min-width: 426px)
+    #home-section6
+        height:480px
+    
+@media (max-width: 767px)
+    a.btn
+        font-size: 1.5em;
+        line-height: 1.3em;
+    #home-section6
+        background-size: cover //auto 100%
+        margin-top: -45px
+    
+    .btn-wrapper 
+        .btn
+            line-height: 1.5em
+        #seasonal-learn-more
+            width: 72%
+
+    #jobs-section
+        .fa-angle-right:before, .fa-angle-left:before
+            line-height: 50px;
+    #jobs-buttons
+        a.btn
+            line-height: 1em
+
+@media (max-width: 767px)
+    #seasonal-mobile-padding
+        width: 100%
+        padding-bottom: 112%
+    
+    #seasonal
+        padding-top: 0px;
+
+        .arms
+            display:none;
+
+        .overlay
+            background: none
+
+        .content
+            position: relative
+            bottom: auto
+
+        #seasonal-video-gallery
+            .left, .right
+                float:none
+                width: auto
+                margin: 0 auto
+            .container
+                background:none
+                margin-top: 0
+
+    #home-section6
+        background-image: url(/images/BG/haunt-mobile.png);
+        height:auto
+        background-size: cover;
+
+    .overlay
+        display:none

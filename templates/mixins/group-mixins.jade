@@ -1,0 +1,53 @@
+
+mixin groupGalleryMixin(items)
+    .swiper-container
+        ul.circle-list.swiper-wrapper
+            each item,i in items
+                li.swiper-slide(class!=attributes.itemClass)
+                    div.circle(id='#{item.slug}-applicant' style=(item.imageThumb != undefined) ? 'background-image: url("#{item.imageThumb.url}")' : '' class!=attributes.circleSize)
+                        .center-outer
+                            .center-inner
+                                if item.title
+                                    h1 #{item.title}
+                                if item.subTitle
+                                    h2 #{item.subTitle}
+                    
+                    if attributes.buttons
+                        - target = item.slug.substr(11, item.slug.length - 17).replace('parkmedia', 'park-media')
+                        a.btn(href='/partnerships/details/#{target}') learn more
+
+mixin testimonialCarouselyMixin(items)
+    .swiper-container                             
+        ul.text-list.swiper-wrapper
+            each item,i in items
+                li.swiper-slide(class!=attributes.itemClass)
+                    .testimonial-wrapper
+                       - words = (item.quote !== undefined && item.quote !== "") ? item.quote : (item.slogan !== undefined && item.slogan !== "") ? item.slogan : ""
+                        div.quote &ldquo;!{words}&rdquo;
+                        if item.source !== undefined && item.source !== ""
+                            div.cite #{item.source}
+                        if item.link !== undefined && item.link !== ""
+                            div.link Read this in its full glory 
+                                a(href="#{item.link}") here
+                                | . 
+                    
+                
+mixin selectGalleryContent(items)
+
+    .select-gallery(class!=attributes.class)
+        //ul
+            each item,i in items
+                li.group-info(id='#{item.slug}-info' data-id="#{item.slug}")
+                    .left
+                        if item.video.type === 'image'
+                            +videoButton(group)
+                        else
+                            p phil
+                    .right
+                        .info-container
+                            h2 #{item.headline}
+                            | !{item.body}
+                            
+                                
+                             
+                            

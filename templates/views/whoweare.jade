@@ -1,0 +1,27 @@
+extends ../layouts/_main
+
+block css
+    link(href="/styles/whoweare.css", rel="stylesheet")
+    
+block content
+    #whoweare-content-wrapper(data-depth="20")
+        #whoweare-section1.section(data-cloud-container data-depth="20")
+            .cloud.one(data-depth='1' data-cloud='{"speed":"0.2" , "register":"center|-50" , "offsetMin" : "50" , "reverse" : true }')
+            .cloud.two(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|125" , "offsetMin" : "150" , "reverse" : true }')
+            .cloud.three(data-depth='3' data-cloud='{"speed":"0.34", "register":"right|-670" , "offsetMin" : "250" , "reverse" : true }')
+            .cloud.one(data-depth='4' data-cloud='{"speed":"0.3", "register":"center|-475" , "offsetMin" : "280" , "reverse" : true }')
+            .cloud.three(data-depth='5' data-cloud='{"speed":"0.6", "register":"center" , "offsetMin" : "450" , "reverse" : true }')
+            .cloud.one(data-depth='5' data-cloud='{"speed":"0.7", "register":"left|500" , "offsetMin" : "550" , "reverse" : true }')
+            .cloud.three(data-depth='2' data-cloud='{"speed":"0.4", "register":"center|-125" , "offsetMin" : "900" , "reverse" : true }')
+
+            include partials/who-we-are/section1
+                
+block overlay_sources
+    include partials/who-we-are/overlays
+
+//-
+    block topfoot                        
+        include partials/footer-contact
+                    
+block js
+    script(src='/js/whoweare.js')

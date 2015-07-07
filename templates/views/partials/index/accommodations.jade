@@ -1,0 +1,34 @@
+block content
+    #accommodations.section-inner(data-depth="20")
+        .title-bucket.six
+            - var chars = content.accommodationsHeadline.split('')            
+            h1                                                         
+                for char,i in chars
+                    if (char === ',')
+                        | ,
+                    else
+                        span #{char}
+            h2 #{content.accommodationsHeadline2}
+            h3 #{content.accommodationsSubHeadline}
+
+        #accomodations-video-carousel.add-border-fade
+            #accommodations-carousel.swiper-container
+                ul.swiper-wrapper
+                    for park,i in content.accommodatedParks     
+                        for accommodation, x in park.accommodations
+                            li.swiper-slide.park-info(id='#{park.slug}-info' data-id="#{park.slug}" data-index='#{i}' class=(i === rSelect) ? 'selected' : '')
+                                .container
+                                    if accommodation.media.type === 'image'
+                                        .accommodation-thumbnail.video-button(data-type="image", data-mp4='', data-webm='', data-full!="#{accommodation.media.imageFull.url}")
+                                            img(src="#{accommodation.media.imageThumb.url}")
+                                    else
+                                        +videoButton(accommodation)
+                                    h1
+                                        if accommodation.name
+                                            span.location #{accommodation.name} <br/>
+                                            | #{park.name}
+                                        
+                                    h2 Located in #{park.location.suburb}, #{park.location.state}.
+                                    .btn-wrapper
+                                        a.btn(href='#{park.learn}') visit park site
+                                                                                               

@@ -1,0 +1,122 @@
+extends ../layouts/_main
+
+
+block css
+    link(href="/styles/home.css", rel="stylesheet") 
+
+block content
+    #home-content-wrapper
+        #home-section1.section(data-cloud-container)
+
+            // Offset Further To The Left
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.4" , "register":"left|-4550" , "offsetMin" : "-250" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.2", "register":"left|-4500" , "offsetMin" : "-350" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.6", "register":"left|-4000" , "offsetMin" : "-50" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.35", "register":"left|-4625" , "offsetMin" : "10" , "reverse" : true }')
+                
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.2" , "register":"left|-3050" , "offsetMin" : "50" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.4", "register":"left|-3000" , "offsetMin" : "350" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.6", "register":"left|-3500" , "offsetMin" : "750" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.05", "register":"left|-3125" , "offsetMin" : "900" , "reverse" : true }')
+                
+            // Offset To The Left
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.3" , "register":"left|-1050" , "offsetMin" : "50" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.1", "register":"left|-1670" , "offsetMin" : "500" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.5", "register":"left|-1475" , "offsetMin" : "680" , "reverse" : true }')
+            
+                
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.3" , "register":"center|-50" , "offsetMin" : "50" , "reverse" : true }')
+            .cloud.two(data-depth='7' data-cloud='{"speed":"0.7", "register":"left|-1825" , "offsetMin" : "350" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.1", "register":"right|-670" , "offsetMin" : "250" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.6", "register":"center|-475" , "offsetMin" : "280" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.3", "register":"center" , "offsetMin" : "450" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|500" , "offsetMin" : "550" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.22", "register":"center|-125" , "offsetMin" : "900" , "reverse" : true }')
+                
+                
+            //if ((locals.deviceInfo.indexOf('phone') > -1) || (locals.deviceInfo.indexOf('tablet') > -1))
+            if ((locals.deviceInfo.indexOf('phone') > -1))
+                .mobile-coasters
+                    .coaster-0
+                    .coaster-1
+                
+            include partials/index/who-we-are
+            include partials/index/our-parks
+
+           
+                
+
+        #home-section2.section.centeredGradient
+            include partials/index/investors
+                
+        #home-fun-ticket
+            include partials/index/fun-ticker
+                
+        #home-section3.section(data-cloud-container='{"initPos":"0.30"}')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.14", "register":"left|-4170" , "offsetMin" : "-450" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.24", "register":"left|-3870" , "offsetMin" : "250" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|-3500" , "offsetMin" : "550" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.2", "register":"left|-4125" , "offsetMin" : "900" , "reverse" : true }')
+            
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.14", "register":"left|-3170" , "offsetMin" : "-450" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.24", "register":"left|-2870" , "offsetMin" : "250" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|-2500" , "offsetMin" : "550" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.2", "register":"left|-3125" , "offsetMin" : "900" , "reverse" : true }')
+                
+            .cloud.one(data-depth='1' data-cloud='{"speed":"0.5" , "register":"left|-1250" , "offsetMin" : "-550" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.24", "register":"left|-1870" , "offsetMin" : "-450" , "reverse" : true }')
+            .cloud.one(data-depth='1' data-cloud='{"speed":"0.1", "register":"left|-1625" , "offsetMin" : "-350" , "reverse" : true }')
+            .cloud.two(data-depth='3' data-cloud='{"speed":"0.68", "register":"left|-1625" , "offsetMin" : "150" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.35", "register":"left|-1500" , "offsetMin" : "550" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.6", "register":"left|-1625" , "offsetMin" : "750" , "reverse" : true }')
+                
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.65" , "register":"center|50" , "offsetMin" : "-550" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.14", "register":"center|-570" , "offsetMin" : "-450" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.44" , "register":"center|-50" , "offsetMin" : "50" , "reverse" : true }')
+            .cloud.two(data-depth='3' data-cloud='{"speed":"0.7", "register":"left|125" , "offsetMin" : "250" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.24", "register":"right|-970" , "offsetMin" : "450" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.35", "register":"center|-475" , "offsetMin" : "680" , "reverse" : true }')
+            .cloud.three(data-depth='1' data-cloud='{"speed":"0.24", "register":"center|125" , "offsetMin" : "900" , "reverse" : true }')
+            .cloud.one(data-depth='2' data-cloud='{"speed":"0.55", "register":"center|-325" , "offsetMin" : "1200" , "reverse" : true }')
+     
+      
+            if ((locals.deviceInfo.indexOf('phone') > -1))
+                .mobile-coasters
+                    .coaster-2
+                
+                
+
+            include partials/index/group-sales
+            include partials/index/accommodations
+
+        #home-section4.section
+            include partials/index/jobs
+
+        #home-section5.section
+            .splash-container(data-cloud-container)
+                .splash-container-relative
+                    .splash.three(data-depth='25' data-cloud='{"speed":"0.1", "register":"left|-490" , "offsetMin" : "-50" , "reverse" : true }')
+                    .splash.three(data-depth='25' data-cloud='{"speed":"0.1", "register":"center|70" , "offsetMin" : "00" , "reverse" : true }')
+                    .splash.two(data-depth='8' data-cloud='{"speed":"0.75", "register":"left|400" , "offsetMin" : "150" , "reverse" : true }')
+                    .splash.two(data-depth='30' data-cloud='{"speed":"0.35", "register":"left|970" , "offsetMin" : "430" , "reverse" : true }')
+                    .splash.two(data-depth='20' data-cloud='{"speed":"0.99", "register":"left|500" , "offsetMin" : "-200" , "reverse" : true }')
+                    .splash.one(data-depth='7' data-cloud='{"speed":"0.85", "register":"left|400" , "offsetMin" : "-150" , "reverse" : true }')
+                    .splash.one(data-depth='7' data-cloud='{"speed":"0.5", "register":"left|10" , "offsetMin" : "50" , "reverse" : true }')
+                    .splash.one(data-depth='6' data-cloud='{"speed":"0.5", "register":"left|350" , "offsetMin" : "120" , "reverse" : true }')
+                    .splash.two(data-depth='10' data-cloud='{"speed":"0.45", "register":"left|600" , "offsetMin" : "700" , "reverse" : true }')
+                    .splash.two(data-depth='2' data-cloud='{"speed":"0.25", "register":"center|200" , "offsetMin" : "250" , "reverse" : true }')
+                    .splash.two(data-depth='18' data-cloud='{"speed":"0.5", "register":"left|320" , "offsetMin" : "600" , "reverse" : true }')
+                    .splash.one(data-depth='5' data-cloud='{"speed":"0.2", "register":"left|60" , "offsetMin" : "800" , "reverse" : true }')
+                    .splash.one(data-depth='1' data-cloud='{"speed":"0.39", "register":"left|854" , "offsetMin" : "700" , "reverse" : true }')
+                    .splash.one.upsidedown(data-depth='2' data-cloud='{"speed":"0.35", "register":"left|354" , "offsetMin" : "500" , "reverse" : true }')
+                    .splash.one.upsidedown(data-depth='5' data-cloud='{"speed":"0.75", "register":"left|354" , "offsetMin" : "500" , "reverse" : true }')
+                        
+            
+            
+            include partials/index/sponsorships
+
+        #home-section6.section
+            include partials/index/seasonal
+                
+block js
+    script(src='/js/home.js')

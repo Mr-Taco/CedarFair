@@ -1,0 +1,112 @@
+/*
+skyBackground()
+    background-color:#052f6f
+    background-image:radial-gradient(90% 50% at 50% 50%, rgba(255,255,255,.65) 0%, rgba(255,255,255,.25) 100%),radial-gradient(90% 75% at 50% 25%, rgba(172,204,223,.85) 0%, rgba(255,255,255,.0) 100%),radial-gradient(90% 75% at 50% 75%, rgba(172,204,223,.85) 0%, rgba(255,255,255,.0) 100%)
+
+
+*/
+
+
+skyBackground()
+    //background-image:radial-gradient(90% 100% at 50% 65%, #d6e9f1 0%,#9ec1d6 27%,#276a9f 53%,#001e67 100%)
+    //background-image:radial-gradient(ellipse at center, #155891 0%,#00185e 70%,#000027 100%)
+    
+    background-image:url('/images/BG/sky.jpg')
+    background-size:100% 100%
+    background-repaet:no-repeat
+    
+    @media(max-width: 767px)
+        background-image:url('/images/BG/mobile-sky.jpg')
+        background-repeat: repeat-y
+    
+
+gridBackground()
+    background: url('/images/BG/blue-tile2.jpg')
+    background-size: cover
+    background-position: center
+
+radialBg()
+    background-color:transparent
+    background-image:radial-gradient(50% 50% at 50% 50%, rgba(255,255,255,.9) 0%, rgba(255,255,255,0) 100%)
+    
+addShadow(w,h,offset)
+    position:relative
+    &:before
+        content: ""
+        width: w
+        background: url('/images/shadow.png') center top no-repeat;
+        background-size: 100% auto
+        height: h
+        position: absolute
+        top: offset
+        display: block
+        opacity:.75
+        left:50%
+        transform:translateX(-50%)
+
+lightbox()
+    position:fixed
+    top:0
+    left:0
+    right:0
+    bottom:0
+    z-index:1999
+    background: rgba(0,0,0,.7)
+    height:100%
+        
+blueRadialBg()
+    background-image:radial-gradient(50% 100% at 50% 50% , #64c6ed 0%, #20ade5 100%)
+
+bottomShadow()
+    background: url("/images/BG/video-thumbnail-shadow-large.png") no-repeat bottom;
+    background-size: contain;
+    overflow: auto;
+
+fontFamily(name)
+    font-family: name, san-serif, Arial, Verdana;
+
+thumbnail(isAbsolute = false, x = 0, y = -103%, h = 100%, r = 19, g = 168, b = 228)
+    background-position:center center
+    color:white
+    
+    if isAbsolute
+        position: absolute
+    else
+        position: initial
+        
+    transform: translate(0, y)
+    width: 100%;
+    height: h;
+    background-color: rgba(r, g, b, .3)
+
+    img
+        top: 50%;
+        width: 77px
+        height: 77px
+        transition: transform .3s
+        margin: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+
+
+        if isAbsolute
+            position: absolute;
+        else
+            position: relative;
+            
+    &:hover
+
+        img
+            transform: scale3d(1.2, 1.2, 1) translate(-2.2em, -2.2em);
+        
+    @media (max-width: 767px)
+        /*
+        width: 90%;
+        max-width: 260px;
+        */
+        margin: 0 auto;
+    
+    &:hover
+        background-size: 81px 81px
+    //    background-color: rgba(19, 168, 228, .5)

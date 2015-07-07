@@ -1,0 +1,381 @@
+@import '../global/index.styl'
+
+#news-section1
+    
+    skyBackground()
+    padding: 255px 0 
+
+    .form-fields
+        padding: 0 0px 30px;
+    
+    #select-news
+        background: white
+        width: 100%
+        max-width:920px
+        padding: 75px
+        margin: 0 auto
+        opacity: 0
+
+        addShadow(100%,80px,100%)
+        
+        .select-news-button-wrapper
+            margin: 40px 0
+            
+            a
+                width: 30%
+                display: inline-block
+                margin: 0 1.5%
+                padding: 15px 0
+                font-size: 1.134em
+                
+                &:last-child
+                    @media(max-width: 992px)
+                        font-size: 1.025em
+                
+                &.active, &:hover
+                    background: #096db1
+                    
+        .select-news-dropdown-wrapper
+            display: none
+                
+        .select-news-year-wrapper
+            margin: 0px auto
+            text-align: center
+            
+            a
+                font-size: 24px
+                color: #999999
+                fontFamily(GothamBook)
+                margin: 25px 15px 0
+                padding: 0 1px
+                
+                &.active, &:hover
+                    color: lightBlue
+                    fontFamily(GothamBold)
+                    padding: 0
+                    
+        .select-news-pages-wrapper
+            position: relative
+            min-height: 400px
+            
+        .select-news-posts-wrapper
+            width: 85%
+            height: 240px
+            margin: 0 auto
+            position: absolute
+            left: 7.5%
+            opacity: 0
+            z-index: 0
+            transition: opacity .35s ease-in-out, height .25s ease-in-out .25s
+
+            &.visible
+                opacity: 1
+                z-index: 10
+                transition: opacity .35s ease-in-out .35s
+            
+            .news-year-wrapper
+                position: absolute
+                top: 60px
+                left: 0
+                right: 0
+                opacity: 0
+                z-index: 0
+                transition: opacity .35s ease-in-out
+                
+                &.visible
+                    opacity: 1
+                    z-index: 10
+                    transition: opacity .35s ease-in-out .35s
+
+
+                
+            .post
+                letter-spacing: -0.045em;
+                font-size: 14px;
+                overflow: auto;
+                padding-bottom: 22px;
+                
+                .date
+                    fontFamily(GothamBook)
+                    color: #838282
+                    width: 25%
+                    float: left
+                    font-weight: bold
+                    text-align:center 
+                    padding-right: 10px
+                
+                .story
+                    fontFamily(GothamBook)
+                    color: #00a1e1
+                    float: left
+                    width: 75%
+                    transform: scale(1, 1)
+                    transition: transform .35s ease-in-out, text-decoration .35s ease-in-out
+                    
+                    &:hover
+                        text-decoration: underline
+                        transform: scale(1.01, 1.01)
+                    
+        .select-news-media-wrapper
+            text-align: center
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            opacity: 0
+            z-index: 0
+            transition: opacity .35s ease-in-out
+            
+            &.visible
+                opacity: 1
+                z-index: 10
+                transition: opacity .35s ease-in-out .35s
+            
+            span
+                display: block
+                padding: 4px 0
+                
+                &.name
+                    fontFamily(GothamBlack)
+                    font-size: 32px
+                    color: #12297e
+                &.park
+                    fontFamily(GothamBook)
+                    font-size: 24px
+                    color: lightBlue
+                &.position
+                    fontFamily(GothamMedium)
+                    font-style: italic;
+                    font-size: 14px;
+                    color: #838282;
+                    font-weight: bold;
+                &.number
+                    fontFamily(GothamMedium)
+                    font-weight: bold;
+                    font-size: 24px
+                    color: #838282;
+                    
+                    
+        .select-news-media-form
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            opacity: 0
+            z-index: 0
+            transition: opacity .35s ease-in-out
+
+            &.visible
+                opacity: 1
+                z-index: 10
+                transition: opacity .35s ease-in-out .35s
+                
+            .textinput
+                width: 30%
+                margin: 0 1.25% 30px
+                display: inline-block
+                box-sizing: border-box
+                position: relative
+                
+                input
+                    width: 100%
+                    margin: 0
+                    display: inline-block
+                    border-radius: 30px
+                    padding: 10px
+                    height: 50px
+                    box-sizing: border-box
+                    outline: none
+                    position: relative
+                    fontFamily(GothamBook)
+                    font-size: 1em
+            .input
+                width: 30%;
+                position: relative;
+                overflow: visible
+                margin: 8px 1.6%;
+                
+                input
+                    position: relative
+                    margin: 5px auto 0
+                    max-width: inherit
+                    padding: 10px 13px
+            
+                &.required:after
+                        content: "*"
+                        position: absolute
+                        right: 0px
+                        top: 0
+                        font-size: 18px
+                        color: #da3232
+                        margin-right: -12px
+                        font-weight: bold
+                        
+                
+            textarea
+                width: 100%
+                height: 200px
+                margin: 25px auto
+                fontFamily(GothamBook)
+                color: #838282
+                font-size: 1em               
+                
+                outline: none;
+                border: none;
+                border-top: 1px solid #f8f8f8;
+                border-left: 1px solid #fff;
+                border-right: 1px solid #fff;
+                border-bottom: 1px solid #fff;
+                padding: 21px;
+                /*
+                box-shadow: 0 0 2px 2px #B5B5B5;
+                -webkit-box-shadow: inset 0px 2px 1px #a1b0bf, 1px 2px 6px 0px #abaaaa;
+                box-shadow: inset 0px 2px 1px #a1b0bf, 1px 2px 6px 0px #abaaaa;
+                */
+                box-shadow:inset 0 0 2px 2px #D4D2D2;
+              
+                
+            a
+                width: 250px
+                margin: 0 auto
+                
+            span.legal
+                margin: 15px auto
+                fontFamily(GothamBook)
+                font-size: 16px
+                color: lightGray
+                width: 100%
+                display: block
+                text-align: center
+                
+                span.asterisk
+                    color: #d82424
+
+                    
+    @media (max-width: 992px)
+        #select-news
+            .select-news-year-wrapper
+                a
+                    font-size: 20px
+                    
+            .select-news-pages-wrapper
+                min-height: 350px
+                margin-top: 40px
+            
+            .select-news-posts-wrapper
+                height: 150px
+                
+                .post
+                    font-size: 10px
+        
+            .select-news-media-wrapper
+                span.position
+                    max-width: 220px;
+                    margin: 0 auto;
+        
+    @media (max-width: 767px)
+        padding: 0
+    
+        #news
+            max-width: 100%
+            
+            #select-news
+                padding: 4.635em 25px 0
+                opacity: 1
+                
+                .select-news-button-wrapper
+                    display: none
+                    
+                .select-news-dropdown-wrapper
+                    display: block
+                    margin-top: 1.85em
+                    
+                    .select-box-wrapper
+                        height: 52px;
+                        overflow: visible;
+                        width: 100%;
+                        margin: 0 auto;
+                        max-width: 260px;
+                        
+                    #news-select
+                        margin: 0 auto
+                        height: 52px;
+                        position: absolute;
+                        z-index: 1000;
+                    
+                .select-news-year-wrapper
+                    margin: 2.2em auto 1.75em
+                    
+                    
+                .select-news-media-form
+                    max-width: 290px;
+                    margin: 0 auto;
+                    
+                    
+                    input[type=text], input[type=tel], input[type=email], .textinput, .input
+                        width: 100%
+                        
+                .select-news-posts-wrapper
+                    width: 100%
+                    left: 0
+                    top: auto
+                    
+                    .news-year-wrapper
+                        top: auto
+                    
+                    .post
+                        height: auto
+                        padding-bottom: 0
+                        
+                        .date
+                            padding-bottom: 5px
+                            text-align: left
+                        
+                        .story
+                            padding-bottom: 20px
+                            fontFamily(GothamBook)
+                            
+                        .date, .story
+                            float: none
+                            display: block
+                            width: 100%
+                            font-size: 14px
+
+#news_overlay
+
+    @media (max-width: 767px)
+        #overlay_content
+            margin: 2.5em 2.5em
+    
+        h1
+            font-size: 43px
+        
+    #overlay_content
+        margin: 2.5em 5em
+        font-size: .5em;
+        text-align: left;
+
+        @media (max-width: 767px)
+            margin: 2.5em 2.5em
+        
+            h1
+                font-size: 43px
+        
+        a, a:link, a:visited
+            color: #00a1e1
+            
+        p 
+            padding: 6px 0
+            margin: 0
+
+        h2
+            fontFamily(GothamLight)
+            font-size: 24px
+            color: #00a1e1
+            padding-bottom: 12px
+            
+        strong
+            fontFamily(GothamBold)
+            
+        .date
+            fontFamily(GothamBold)

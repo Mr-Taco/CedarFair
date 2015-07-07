@@ -1,0 +1,61 @@
+
+
+mixin parksList(parks)
+    - var selectedIndex = (attributes.select) ? attributes.select : 0
+    div(id=(attributes.id) ? attributes.id : 'our-parks-logos', class!=attributes.class)
+        ul
+            each park,i in parks
+                li.park(id="#{park.slug}-logo",
+                    data-id="#{park.slug}",
+                    data-index='#{i}',
+                    data-target=(attributes.buy) ? park.buy : '',
+                    class=(i === selectedIndex)? 'selected' : '')
+                    .logo-thumb
+                        .over.blue(style='background-image: url("#{park.logoThumb.url}")')
+                        .up(class=attributes.upClass style='background-image: url("#{park.logoThumb.url}")')
+                    //- img(src='#{park.logoThumb.url}' class='svg-inject' width='100%' height='100%')
+
+
+mixin parksGalleryContent(parks)
+
+    #our-parks-gallery.swiper-container(class!=attributes.class)
+        ul.swiper-wrapper
+            each park,i in parks
+                li.park-info.swiper-slide(id='#{park.slug}-info' data-id="#{park.slug}" class=(i === attributes.select)? 'selected' : '')
+                    .container
+                        .left
+                            +videoButton(park)
+                        .right
+                            .info-container
+                                span.park-name !{park.name}
+                                .park-name-logo(style="background-image:url(#{park.logoFull.url})")
+                                    img(src='#{park.logoFull.url}' class='svg-inject' width='100%' height='100%')
+                                span.park-location Located in #{park.location.suburb} #{park.location.state}.
+                                if attributes.jobs == 'true'
+                                    a.btn.lightBlue#our-parks-visit(href="#{park.work}") see jobs
+                                else
+                                    a.btn.lightBlue#our-parks-visit(href="#{park.learn}") visit park site
+
+
+
+mixin parksVideoCarousel(parks)
+    #our-parks-gallery.swiper-container(class!=attributes.class)
+        ul.swiper-wrapper
+            each park,i in parks
+                li.park-info.swiper-slide(id='#{park.slug}-info' data-id="#{park.slug}" class=(i === attributes.select) ? 'selected' : '')
+                    .container
+                        .left
+                            +videoButton(park)
+                        .right
+                            .info-container
+                                span.park-name !{park.name}
+                                .park-name-logo
+                                    img(src='#{park.logoFull.url}' class='svg-inject' width='100%' height='100%')
+                                span.park-location Located in #{park.location.suburb} #{park.location.state}.
+                                if attributes.jobs == 'true'
+                                    a.btn.lightBlue#our-parks-visit(href="#{park.work}") see jobs
+                                else
+                                    a.btn.lightBlue#our-parks-visit(href="#{park.learn}") visit park site
+
+
+

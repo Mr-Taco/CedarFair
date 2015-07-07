@@ -1,0 +1,115 @@
+
+
+
+
+
+.logo-thumb
+    width:100%
+    height:32px
+    position:relative 
+    > div
+        background-repeat:no-repeat
+        background-size:100% auto
+        width:100%
+        height:100%
+        position:absolute
+        top:0
+        left:0
+        bottom:0
+        right:0
+        transition:opacity .3s
+        
+        &.over
+            opacity:0
+        &.gray
+            background-position:0 100%
+            
+        &.blue
+            background-position:0 1px
+            
+        &.white
+            background-position:0 50%
+
+
+    
+    
+
+
+#our-parks-logos, #overlay-parks-list
+    max-width:840px
+    margin:0 auto
+    padding:10px 0
+    height:130px
+    ul
+        text-align: center
+        .park
+            width:13.5%
+            display: inline-block
+            padding:10px
+            cursor:pointer
+            
+            &.selected , &:hover
+                
+                .over
+                    opacity:1
+                    
+                .up
+                    opacity:0
+#overlay-basic-inner #overlay-parks-list
+    padding-top: 0
+    padding-bottom: 55px 
+
+    
+    ul .park
+        width: 12.8%
+        min-width: 100px
+        
+        &.selected
+            .over
+                opacity: 0
+            .up
+                opacity: 1
+
+        &.selected:hover
+            .over
+                opacity: 1
+            .up
+                opacity: 0
+
+        &:hover
+            .over
+                opacity: 1;
+@media (max-width: 992px)
+    #overlay-basic-inner #overlay-parks-list
+
+        .logo-thumb
+            height: 28px
+    
+    
+    
+    .logo-thumb
+        height: 25px
+
+   
+        
+@media (max-width: 767px )
+
+    .logo-thumb
+        height:23px
+    
+    #our-parks-logos, #overlay-parks-list
+        max-width:640px
+        height:150px
+        height:90px
+        ul
+            .park
+                height:50px
+
+@media (max-width:640px)
+
+    #our-parks-logos /*, #overlay-parks-list*/
+        display:none
+
+
+    
+

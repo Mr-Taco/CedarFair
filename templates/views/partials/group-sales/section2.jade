@@ -1,0 +1,15 @@
+block content
+    #testimonials.section-inner
+        .title-bucket.five
+            h1 #{content.testimonialsHeadline}
+            h2 #{content.testimonialsSubHeadline}
+
+        .select-container
+            #select-testimony.add-border-fade
+                +testimonialCarouselyMixin(content.groupsQuotes)(circleSize='large blue-border' itemClass='group-sales-gallery-image')
+                
+                
+        //+groupGalleryMixin(content.groups)(circleSize='large' itemClass='group-sales-gallery-image' buttons='true')
+        .footnotes
+            .main #{content.testimonialsHeadlineFootnote}                                                         
+            .sub #{content.testimonialsSubHeadlineFootnote}

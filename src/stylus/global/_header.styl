@@ -1,0 +1,483 @@
+@import "../mixins/index.styl"
+
+lightBlue = #00a1e1
+darkBlue = #0a1a72
+gray = #666666
+lightGray = #666666
+
+.navbar
+    border:0!important
+    border-radius:0!important
+
+header
+    width: 100%
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 1200
+    transform: translateZ(9999999px)
+    
+    @media(max-width: 767px)
+        transform: translateZ(0px)
+
+    #header-top
+        background: lightBlue
+        height: 5px
+        border-bottom: 1px solid gray
+        width: 100%
+        display: block
+        text-align: center
+        transition: height .35s ease-out
+        /*display: none*/
+        
+        &.small
+            height: 5px
+
+        div
+            display: inline-block
+            width: 49.75%
+            display: none
+
+            &.header-contact
+                text-align: left
+                padding: 10px 0 0 25px
+                max-width: 500px
+                transition: all .35s ease-out
+                
+                @media (max-width:999px)
+                    max-width: 400px
+                    padding-left: 30px
+                
+                &.small
+                    padding-top: 0px
+                    padding-left: 0px
+                    max-width: 465px
+                    
+                    @media (max-width:999px)
+                        max-width: 400px
+                        padding-left: 40px
+
+                    p
+                        font-size: .625em
+                    
+                    i
+                        font-size: .75em
+
+            &.header-social
+                text-align: right
+                padding: 10px 30px 0 0
+                max-width: 500px
+                transition: all .35s ease-out
+                
+                @media (max-width:999px)
+                    max-width: 400px
+                
+                &.small
+                    padding-top: 0px
+                    max-width: 425px
+                    padding-right: 0px
+                    
+                    @media (max-width:999px)
+                        max-width: 400px
+                        padding-right: 40px
+                    
+                    p
+                        font-size: .625em
+                    
+                    i
+                        font-size: .75em
+
+        p, i
+            display: inline-block
+            color: white
+
+        p
+            fontFamily(GothamBook)
+            font-size: .75em
+
+        i
+            font-size: .875em
+            margin: 0 8px
+
+        @media(max-width:767px) 
+            display: none 
+
+
+    #header-bottom
+        background-color: white
+        height: 137px
+        border-bottom: 1px solid gray
+        text-align: center
+        transition: height .35s ease-out
+        
+        @media(max-width: 767px)
+            z-index: 25
+        
+        &.small
+            @media(min-width:768px)
+                height: 70px
+        
+        .nav
+            /*max-width: 1000px*/
+            margin: 0 auto
+            height: 100%
+            
+            @media(max-width: 767px)
+                z-index: 25
+
+            #navbar-menu
+                display: none
+    
+            .logo-wrapper
+                position: relative
+                display: inline-block
+                
+                #navbar-logo
+                    margin: 32px 0 0 5px
+                    display: block
+                    transition: all .35s ease-out
+                    
+                    @media (max-width:999px)
+                        margin-top: 42px
+                    
+                    img 
+                        width: 125px
+                        transition: all .35s ease-out
+                        
+                        @media (max-width:999px)
+                            width: 100px
+                        
+                    &.small
+                        @media(min-width:768px)
+                            margin-top: 10px
+                        
+                            img
+                                width: 75px
+    
+            a, ul
+                display: inline-block
+    
+            ul.nav-list
+                vertical-align: top
+                margin: 60px 0 0 15px
+                display: inline-block
+                transition: all .35s ease-out
+                
+                @media(min-width: 1100px)
+                    margin-top: 47px
+                
+                &.small
+                    @media(min-width:768px)
+                        margin-top: 14px
+                    
+                        @media(max-width: 950px)
+                            margin-top: 21px
+                    
+                        @media(min-width: 1100px)
+                            margin-top: 10px
+    
+                li
+                    display: inline-block
+                    margin: 2px 10px
+                    padding: 10px
+                    border: 1px solid white
+                    box-sizing: border-box
+                    box-shadow: 0px 2px 1px 1px white;
+                    transition: all .15s ease-in-out
+                    border-radius: 45px
+                    
+                    @media(min-width: 1100px)
+                        padding: 13px 13px 14px
+                    
+                    @media(max-width: 1230px)
+                        margin: 2px 5px
+                    
+                    @media(max-width: 950px)
+                        margin: 2px 3px
+                        padding: 5px 
+                    
+                    &:hover, &:active, &.current
+                        color: white
+                        border-radius: 45px
+                        text-decoration: none
+                        background-color: #fdfefe
+                        background-image: linear-gradient(top, rgb(253, 254, 254), rgb(215, 234, 242))
+                        color: lightBlue
+                        border: 1px solid lightBlue
+                        box-shadow: 0px 2px 1px 1px lightBlue;
+    
+                a 
+                    color: darkBlue
+                    /*font-weight: bold*/
+                    font-size: 14px
+                    fontFamily(GothamBlack)
+                    padding-top: 0
+                    
+                    @media(max-width: 1075px)
+                        font-size: 13px
+                    
+                    @media(max-width: 950px)
+                        font-size: 11px
+
+    
+            a#buy
+                display: inline-block
+                margin: 58px 0 0 20px
+                top: 0;
+                transition: top .35s ease-out,  padding .35s ease-out, box-shadow .1s, color .3s, transform .1s
+                
+                @media (max-width:992px)
+                    padding: 10px 20px
+                    margin-top: 62px
+                
+                @media(max-width: 950px)
+                    margin-top: 56px
+                
+                @media(min-width: 1100px)
+                    margin-top: 48px
+                
+                &.small
+                    @media(min-width:768px)
+                        top: -44px
+                        padding: 12px 20px 14px
+                    
+                        @media(max-width: 992px)
+                            top: -47px
+                    
+                        @media(max-width: 950px)
+                            top: -40px
+                    
+                        @media(min-width: 1100px)
+                            top: -37px 
+    
+    
+            @media (max-width:767px) and (orientation: portrait)
+                height: 70px
+    
+                #navbar-menu
+                    display: block
+                    position: absolute
+                    top: 21px
+                    left: 15px
+                    
+                    img
+                        width: 35px
+                    
+                .logo-wrapper
+                    width: 50%
+                    margin: 0 auto
+                    float: none
+                    
+                    #navbar-logo
+                        width: 80px
+                        margin: 0 auto
+                        
+                        img
+                            width: 100%
+                            margin-top: 10px
+    
+                ul.nav-list
+                    display: none
+    
+                a#buy
+                    display: none
+                    
+            @media (max-width:767px) and (orientation: landscape)
+                height: 60px
+                
+                #navbar-menu
+                    display: block
+                    position: absolute
+                    top: 14px
+                    left: 15px
+                    
+                    img
+                       width: 40px 
+                    
+                .logo-wrapper
+                    width: 50%
+                    margin: 0 auto
+                    float: none
+                    
+                    #navbar-logo
+                        width: 120px
+                        margin: 0 auto
+                        text-align: center
+                        
+                        img
+                            width: 55%
+                            margin-top: 10px
+    
+                ul.nav-list
+                    display: none
+    
+                a#buy
+                    display: none
+
+
+        .subnav
+            background-color: #001a71
+            border-top: 1px solid #6676aa
+            border-bottom: 1px solid #6676aa
+            transform: rotateX(180deg)
+            transform-style: preserve-3d
+            transform-origin: 50% 0%
+            transition: transform .35s ease-in-out, opacity .05s ease-in-out .35s
+            backface-visibility: hidden
+            
+            &.showing, &.ourparks, &.partnership, &.offerings, &.accommodations, &.partnership-details
+                transform: rotateX(0deg)
+                transition: transform .35s ease-in-out, opacity .05s ease-in-out
+            
+            
+            .subnav-list
+                height: 35px
+                line-height: 35px
+                font-size: 13px
+                fontFamily(GothamBlack)
+                position: relative
+                backface-visibility: hidden
+                z-index: 1
+                
+                li
+                    position: absolute
+                    left: 0
+                    right: 0
+                    opacity: 0
+                    z-index 0
+                    transition: opacity .35s ease-in-out, left .15s ease-in-out
+                    text-align: left
+                    backface-visibility: hidden
+                    
+                    &.showing
+                        z-index 5
+                        opacity: 1
+                        transition: opacity .35s ease-in-out .35s, left .15s ease-in-out
+                
+                a
+                    margin: 0 15px
+                    color: white
+                    backface-visibility: hidden
+                    transition: color .35s ease-in-out
+                    
+                    &:hover, &.selected
+                        color: #00a1e1
+            
+        @media (max-width: 767px)
+            height: 70px
+        
+            .subnav
+                display: none
+
+
+    #mobile-header-nav
+        width: 100%
+        position: absolute
+        top: -800px
+        z-index: -1
+        display: none
+        overflow: auto
+        transition: height .35s ease-in-out
+        
+        @media(max-width:767px)
+            display: block
+        
+        .bottom-padding
+            height: 50px
+            width: 100%
+            background-color: transparent
+    
+        ul
+            width: 100%
+            background-color: darkBlue
+
+            li
+                width: 100%
+                height: 50px
+                color: white
+                font-size: 14px
+                padding: 18px 10px 0 20px
+                fontFamily(GothamBold)
+                border-bottom: 1px solid #6676aa
+                box-sizing: border-box
+                overflow: hidden
+                transition: background .35s ease-in-out, border .35s ease-in-out, box-shadow .35s ease-in-out, background-image .35s ease-in-out
+                    
+                &.active
+                    background-color: #37b6e9;
+                    background-image: -webkit-gradient(radial, 50% 0%,0,50% 0%,200, from(rgb(2, 162, 225)), to(rgb(55, 182, 233)));
+                    background-image: -webkit-radial-gradient(50% 0%, rgb(55, 182, 233), rgb(2, 162, 225));
+                    background-image: -moz-radial-gradient(50% 0%, rgb(55, 182, 233), rgb(2, 162, 225));
+                    background-image: -o-radial-gradient(50% 0%, rgb(55, 182, 233), rgb(2, 162, 225));
+                    background-image: -ms-radial-gradient(50% 0%, rgb(55, 182, 233), rgb(2, 162, 225));
+                    border-top: 1px solid #329fd6
+                    border-bottom: 1px solid #329fd6
+                    box-shadow: inset 0px 15px 10px -10px #68dcf7, inset 0px -16px 6px -10px #0083d2
+                    
+                    
+            .mobile-sub-nav
+                height: 0px
+                overflow: hidden
+                transition: height .35s ease-in-out
+                
+                li
+                    background-color: #051057
+                    color: #0271b3
+                    fontFamily(GothamBold)
+                    font-size: 14px
+                    padding: 18px 0 0 30px
+                    
+            .arrow-wrapper
+                width: 50px
+                height: 50px
+                position: relative
+                top: -18px
+                float: right
+                text-align: center
+                font-size: 22px
+
+            i
+                position: relative
+                top: 13px
+                transition: transform .35s ease-in-out
+                
+                &.active
+                    transform: rotate(90deg)
+                
+            a:last-child li
+                border-bottom: none
+
+    .mobile-nav-social
+        background-color: lightBlue
+        height: 50px
+        color: white
+        padding-top: 13px
+        text-align: center
+        font-size: 14px
+        fontFamily(GothamBold)
+        position: relative
+
+        i
+            text-align: middle
+            font-size: 24px
+            margin: 0 8px
+            
+        a 
+            text-decoration: none
+            color: white
+            font-size: 18px
+            line-height: 42px
+            fontFamily(GothamBold)
+            position: absolute
+            width: 100%
+            height: 46px
+            top: 2px
+            left: 0 
+            border-top: 1px solid #65d8f6
+            border-bottom: 1px solid #1687d0
+            box-shadow: inset 0px 13px 43px -20px white, inset 0px -13px 43px -20px #1688d1
+
+
+
+
+

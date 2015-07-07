@@ -1,0 +1,35 @@
+block content
+    #sponsorships.section-inner(data-depth="20")
+        .top-headline
+            .inner-title-header.title-bucket.two
+                h1 !{content.sponsorHeadline}
+                h2 !{content.sponsorSubheadline}
+                p !{content.sponsorBody}
+
+        .circ-btn-wrapper
+            p SCROLL
+            a.btn-circ-darkBlue.scrollto(href="javascript://", data-target="select")
+
+
+        #select
+
+            .title-bucket.two
+                h1 #{content.numbersHeadline}
+                h2 #{content.numbersSubHeadline}
+
+            #thrilling-numbers-wrapper.add-border-fade
+                #thrilling-numbers.swiper-container
+                    ul.swiper-wrapper
+                        each item,i in locals.content.numbers
+                            li.swiper-slide.group-info(id='#{item.slug}-info' data-id="#{item.slug}" class=(i === 0) ? 'selected' : '')
+                                .info-container
+                                    p #{item.body}
+                    
+                //+cfDropdown(content.groupTypes)(id='grouptypes-select')
+                a.btn.overlay-trigger(href="javascript://", data-source="partnership-contact-form") #{content.numbersLinkLabel}
+            
+            .legal
+                span #{content.numbersLegal}
+            
+    
+           

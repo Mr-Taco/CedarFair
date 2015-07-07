@@ -1,0 +1,1301 @@
+@import "nib"
+@import "nib/index"
+
+// @import "../bootstrap/bootstrap.styl"
+
+
+@import '_parksLogos.styl'
+@import "_header.styl"
+@import "_footer.styl"
+@import "_coasters.styl"
+@import "_clouds.styl"
+@import "_overlay.styl"
+@import "../ext/video-js"
+@import "../mixins/index"
+
+
+
+global-reset()
+
+lightBlue = #00a1e1
+darkBlue = #0a1a72
+gray = #999999
+lightGray = #666666
+
+@font-face {
+    font-family: GothamUltra;
+    src: url("../fonts/Gotham-Ultra.eot");
+    src: url("../fonts/Gotham-Ultra.woff") format("woff"),
+         url("../fonts/Gotham-Ultra.ttf") format("truetype"),
+         url("../fonts/Gotham-Ultra.svg") format("svg");
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url("../fonts/Gotham-Light.eot");
+    src: url("../fonts/Gotham-Light.woff") format("woff"),
+         url("../fonts/Gotham-Light.ttf") format("truetype"),
+         url("../fonts/Gotham-Light.svg") format("svg");
+}
+
+@font-face {
+    font-family: GothamBlack;
+    src: url("../fonts/Gotham-Black.eot");
+    src: url("../fonts/Gotham-Black.woff") format("woff"),
+         url("../fonts/Gotham-Black.ttf") format("truetype"),
+         url("../fonts/Gotham-Black.svg") format("svg");
+}
+
+@font-face {
+    font-family: GothamBold;
+    src: url("../fonts/Gotham-Bold.eot");
+    src: url("../fonts/Gotham-Bold.woff") format("woff"),
+         url("../fonts/Gotham-Bold.ttf") format("truetype"),
+         url("../fonts/Gotham-Bold.svg") format("svg");
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url("../fonts/Gotham-Book.eot");
+    src: url("../fonts/Gotham-Book.woff") format("woff"),
+         url("../fonts/Gotham-Book.ttf") format("truetype"),
+         url("../fonts/Gotham-Book.svg") format("svg");
+}
+
+
+@font-face {
+    font-family: 'lcd'
+    src: url('../fonts/lcd.eot')
+    src: url('../fonts/lcd.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lcd.woff2') format('woff2'),
+    url('../fonts/lcd.woff') format('woff'),
+    url('../fonts/lcd.ttf') format('truetype'),
+    url('../fonts/lcd.svg#lcdmono2bold') format('svg')
+    font-weight: normal
+    font-style: normal
+
+}
+    
+.hidden
+    display none !important
+    visibility hidden !important 
+    
+a, a:hover
+    text-decoration:none
+
+*
+    box-sizing border-box
+*:before,
+*:after
+    box-sizing border-box
+
+html
+    height:100%
+    font-family: Arial, sans-serif
+    
+body
+    background: white
+    font-family: Arial, sans-serif
+    font-size: 100%
+    height: 100%
+    width:100%
+    -webkit-font-smoothing: antialiased 
+    -webkit-tap-highlight-color:rgba(0,0,0,0)
+
+
+    @media screen and (max-width: 999px) 
+        font-size: 85%
+textarea
+    resize: none
+    transition: border-color 1s
+
+    &.invalid
+        border-color: red !important;
+        
+.center-vertical
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
+    
+#content
+    position: relative
+    transition: padding .35 ease-in-out
+    transform: translateZ(0px)
+
+    @media(max-width:767px) 
+        padding-top: 70px
+        
+        @media(orientation:landscape)
+            padding-top: 60px
+
+
+.keepitahundred /*, .swiper-container div.quote.keepitahundred, .swiper-container div.quote.keepitahundred*/
+    width: 100% !important;
+    
+    
+.title-bucket
+    text-align:center
+    transform:translateZ(0px)
+    h1
+        color: darkBlue
+        fontFamily(GothamUltra)
+        line-height:1em
+        letter-spacing: -0.015em
+
+    h2
+        fontFamily(GothamLight)        
+        color: lightBlue
+        padding-top:5px
+        letter-spacing: -0.045em
+
+    h3
+        padding-top:5px
+        
+    p
+        fontFamily(GothamBook)
+        color:gray
+        text-align:center
+        font-size:1.0em
+        line-height:1.4em
+        
+        
+    &.one
+        // Dark Blue 80px, Light Blue 34px
+        h1
+            font-size: 5em
+        h2
+            font-size: 2.125em
+    &.two
+        // Dark Blue 60px, Light Blue 34px
+        h1
+            font-size: 3.75em
+        h2
+            font-size: 2.125em
+            
+    &.three
+        // Dark Blue 80px, White 34px
+        h1
+            font-size: 5em
+        h2
+            font-size: 2.125em
+            color: white
+
+    &.four
+        // Dark Blue 80px, Light Blue 60px
+        h1
+            font-size: 5em
+        h2
+            font-size: 3.75em
+
+
+    &.five
+        // Dark Blue 80px, White 60px
+        h1
+            font-size: 5em
+        h2
+            font-size: 3.75em
+            color: white
+            fontFamily(GothamBook)
+    &.six
+        // Dark Blue 80px, Dark Blue 60px, Light Blue 34px
+        h1
+            font-size: 5em
+            color: darkBlue
+            fontFamily(GothamUltra)
+            text-align: center
+            /*
+                  If we want the text not to move around while it increments it needs to be aligned left
+                  however, since the width can change based on the number that's set, we can't just add the
+                  width here.
+                  There's also a bug on resize.  Instead of restarting it seems to add to the last value
+                  
+                  width: 470px
+                  margin: 0 auto
+                  text-align: left
+            
+            */
+        h2
+            font-size: 3.75em
+            color: darkBlue
+            fontFamily(GothamUltra)
+        h3
+            font-size: 2.125em
+            color: lightBlue
+            fontFamily(GothamLight)
+            
+            
+    &.seven
+        h1
+            font-size: 3.75em
+            color: darkBlue
+            fontFamily(GothamUltra)
+            
+        h2 
+            font-size: 3.75em
+            color: lightBlue
+            fontFamily(GothamLight)
+            
+        h3
+            font-size: 1.75em
+            fontFamily(GothamBook)
+            color: gray
+
+
+    @media (max-width:767px)
+        p
+            line-height:1.2em
+        
+        &.one
+            h1
+                font-size: 40px
+            h2
+                font-size: 20px
+        &.two
+            h1
+                font-size: 30px
+            h2
+                font-size: 20px
+
+        &.three
+            h1
+                font-size: 3.6em
+            h2
+                font-size: 1.525em
+
+        &.four
+            h1
+                font-size: 30px
+            h2
+                font-size: 20px
+        &.five
+
+            h1
+                font-size: 40px
+            h2
+                font-size: 20px
+                padding-top: 0
+
+        &.six
+            h1
+                font-size: 40px
+                /*
+                  If we want the text not to move around while it increments it needs to be aligned left
+                  however, since the width can change based on the number that's set, we can't just add the
+                  width here.
+                  There's also a bug on resize.  Instead of restarting it seems to add to the last value
+                  width: 243px
+                */
+            h2
+                font-size: 24px
+            h3
+                font-size: 20px
+        
+        &.seven
+            h1
+                font-size: 40px
+        
+            h2
+                font-size: 2.25em
+        
+            h3
+                font-size: 1.25em
+
+
+
+
+
+.title-bucket-seasonal
+    // White 100px, White 80px, White 60px, White 46px
+    text-align: center
+
+    h1
+        font-size: 6.25em
+        color: white
+        fontFamily(GothamUltra)
+
+    h2
+        font-size: 5em
+        color: white
+        fontFamily(GothamUltra)
+
+    h3
+        font-size: 3.75em
+        color: white
+        fontFamily(GothamUltra)
+
+    h4
+        font-size: 2.875em
+        color: white
+        fontFamily(GothamLight)
+
+
+    @media (max-width:640px)
+        h1
+            font-size: 6.25em
+        h2
+            font-size: 2.3em
+            padding-top:2px
+        h3
+            font-size: 1.4em!important
+            fontFamily(GothamBlack)
+            padding-top:2px
+        h4
+            font-size: 1.7em
+            padding-top:2px
+
+     
+.btn
+    background:linear-gradient(to bottom, #3ab7e9 0%, #00a1e1 100%)
+    padding:12px 25px 14px
+    fontFamily(GothamBlack)
+    color:white
+    border-radius:50px
+    position:relative
+    box-sizing:border-box
+    box-shadow:0px 2px 5px 0px rgba(0,0,0,.4)
+    cursor:pointer
+    display:block
+    text-align:center
+    margin:0 auto
+    transition:color .3s
+    text-decoration:none
+    vertical-align:top
+    transition: transform .35s ease-in-out, color .35s ease-in-out, box-shadow .1s, color .3s, transform .1s
+
+
+    &:hover, &.hover
+        /*color: #e8e8e8*/        
+        box-shadow:0 1px 1px 0 rgba(0,0,0,0.4)
+        transform: translate(0px, 2px)        
+        transition: box-shadow .1s, color .3s, transform .1s     
+        
+        &:after
+            opacity: 0
+        
+    &.red
+        background:#c62727
+        
+    &.gray
+        background:#b3b3b3
+        
+
+    
+    &:after
+        position:absolute
+        top:0px
+        left:0px
+        right:0px
+        bottom:0px  
+        border:1px solid #b3ebfa
+        border-radius:50px
+        content:""
+        padding:15px
+        box-shadow:inset 0px -1px 3px 0px rgba(0,0,0,.2), inset 0px 1px 3px 0px rgba(255,255,255,.2)
+        transition: opacity .3s
+
+    @media (max-width:640px)
+        height: 50px
+        line-height: 1.4em 
+        &:after
+            top:2px
+            left:2px
+            right:2px
+            bottom:2px
+            box-shadow:inset 0px -1px 3px 0px rgba(0,0,0,.5), inset 0px 1px 3px 0px rgba(255,255,255,.5)
+            
+            
+
+
+
+
+#btn-wrapper , .btn-wrapper
+    text-align: center
+    margin: 0 auto 10px
+    clear: both
+    
+    .btn
+        display:inline-block
+        min-width:150px
+    
+        
+    > *
+        margin-left:15px
+    > :first-child
+        margin-left:0
+        
+
+    @media (max-width: 640px )
+        .btn
+            width:90%
+            min-width:0px
+            margin:10px auto 0!important
+            font-size: 1.25em
+            line-height: 1.5em;
+
+
+
+
+.section
+    width: 100%
+    // position: absolute
+    top: 0
+    left: 0
+    position:relative
+    margin:0 auto
+    z-index:100
+    overflow: hidden
+
+    .section-inner
+        max-width: 1080px
+        margin:0 auto
+        perspective: 750px
+        z-index:100
+        position:relative
+
+        @media(max-width: 1080px)
+            max-width: 1020px
+        
+        @media(max-width: 1030px)
+            max-width: 950px
+
+        @media (max-width: 992px )
+            max-width: 690px
+
+        @media (max-width: 640px )
+            max-width: 90%
+            overflow:hidden
+
+
+
+    &.centeredGradient
+        background: radial-gradient(circle at 50% 50%, white -65%, lightBlue 65%)
+
+    
+
+
+
+    .circ-btn-wrapper
+        position: relative
+        text-align: center
+        width: 100px
+        height: 100px
+        margin: 75px auto 0
+        opacity: 1
+        transition: opacity .35s ease-in-out
+        
+        &.invisible
+            opacity: 0
+            pointer-events: none 
+            cursor: default
+            display: block
+
+
+
+        p
+            font-size: .8125em
+            color: gray
+
+        .btn-circ-darkBlue
+            background-color: darkBlue
+            background-image: url('../images/btns/darkBlueBtnBG.jpg')
+            background-repeat: no-repeat
+            background-position: center
+
+            position: absolute
+            top: 20%
+            left: 30%
+
+            height: 40px
+            width: 40px
+            border-radius: 40px
+            border: 3px solid white
+            box-shadow: 0px 2px 2px darkBlue
+
+        @media (max-width:640px)
+            display:none
+
+
+
+
+#player-container
+    background: url(/images/BG/video-thumbnail-shadow-large.png) no-repeat bottom
+    background-size: contain
+    max-width: 842px
+    margin: 100px auto 75px
+    overflow: hidden
+    position: relative
+
+    .player
+        margin: 0 0 6.9%
+        width: 100%
+        padding-bottom: 47.738%
+        height: 0px
+        background: url(/images/who-we-are/video-thumbnail.jpg) no-repeat
+        cursor: pointer
+        background-size: cover
+        position: relative
+
+    video
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000
+        display: none
+
+.overlay-basic, #overlay-content-sources
+    display: none
+
+.overlay-content
+    .drop-container .drop-container-inner ul li
+        height: auto;
+        font-size: 16px;
+        line-height: 22px; 
+        padding: 15px 30px 15px 20px;
+
+
+#basic-overlay
+    lightbox()
+    transform: translateZ(99999999999999px)
+
+.video-js .vjs-tech
+    @media(max-width: 767px)
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+    
+#overlay-basic-inner
+    background-color: #fff;
+    max-width: 921px;
+    width: 100%;
+    top: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateZ(999999999999999999px)
+    font-size: 28px;
+    color: #666;
+    fontFamily(GothamLight)
+    text-align: center;
+    z-index: 9999999999999999
+
+    h1
+        fontFamily(GothamUltra)
+        color: #0a1a72
+        font-size: 60px;
+        margin-bottom: 35px
+        margin-top: 50px;
+        
+
+        @media(max-width:767px)
+            font-size: 42px
+
+    p
+        margin: 0 0 30px
+        
+    .overlay-close-button
+        background: url(/images/btns/close-overlay.png) no-repeat
+        background-size: cover
+        cursor: pointer
+        width: 19px
+        height: 20px
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0;
+        margin: 40px 40px 0 0;
+
+    .section.centeredGradient
+        
+        #overlay-parks-list 
+            height: auto
+            padding-bottom: 55px
+
+.video-js .vjs-tech
+    @media(max-width: 767px)
+        position: relative 
+        top: 50%
+        transform: none
+
+#overlay, #overlay-basic-inner
+    .overlay-close
+        position:absolute
+        top:0px
+        right:0px
+        background:rgba(0,0,0,.4)
+        height: 60px
+        width: 60px
+        border-radius: 40px
+        border: 2px solid #efefef
+        box-shadow: 0px 2px 2px rgba(0,0,0,.4)
+        color:white
+        font-size:1.7em
+        text-align:center
+        line-height:40px
+        z-index: 500000
+        transform: translateZ(99999999999999999999px)
+
+        background-image: url("/images/btns/close.png")
+        background-repeat: no-repeat
+        background-position: center
+        background-size: 60%
+
+        cursor:pointer
+
+        opacity: 0
+        //margin: -63px -63px 0 0
+        margin: 5px 5px 0 0
+
+        @media(max-width:767px)
+            height: 30px
+            width: 30px
+            transform: translateZ(50px)
+            right: 5px
+            /*left: calc(100% - 10px)*/
+
+        @media(max-width:1010px)
+            margin: 5px 5px 0 0
+            height: 45px
+            width: 45px
+
+
+#overlay-basic-inner
+    z-index: 99999999999
+    transform: translateZ(9999999999999999999px) translateX(-50%)
+    
+    .overlay-close
+        opacity: 1
+
+#overlay
+    lightbox()
+    visibility:hidden
+    opacity:0
+
+            
+
+    .overlay-inner
+        position:relative
+        opacity:0
+        width:100%
+        top:50%
+        height:auto
+        transform: translateY(-50%)
+        /*background: rgba(0,0,0,.5)*/
+
+                
+        .overlay-inner-container
+            position:relative
+            margin:0 auto
+            width:853px
+            max-width:100%
+            height:100%
+            color:#f5f5f5
+            text-align: center
+
+            video#overlay-player
+                width:100%
+                height:100%
+                background:black
+                
+            .overlay-content
+                height: 100%
+                width: 100%
+                
+    @media(max-width:767px)
+        .overlay-inner
+                
+            video#overlay-player_html5_api
+                height: auto
+                width: 100%
+                max-width: 100%
+            
+            // @media(orientation:portrait)
+            //     video#overlay-player_html5_api
+            //         height: auto
+            //         width: 100%
+            //         max-width: 100%
+                    
+            // @media(orientation:landscape)
+            //     video#overlay-player_html5_api
+            //         height: auto
+            //         width: 100%
+            //         max-width: 100%
+
+
+
+img
+    vertical-align:center
+
+
+    
+.draggable-container
+    position:relative 
+    
+    
+    
+// ul.circle-list
+//     margin: 35px auto 50px
+//     text-align: center
+//     height:251px
+//     width: 100%
+//     max-width: 930px
+    
+//     li
+//         display: block
+//         float: left
+//         width: 33%
+//         max-width: 310px
+//         text-align: center
+        
+//     @media (max-width: 992px )
+//         height:190px
+
+//     @media (max-width:640px)
+//         height:150px
+//         li
+//             width:100%
+//             float:left
+//             display:block 
+//             height:190px
+
+    
+
+.circle
+    
+    box-shadow: inset 0px 0px 2px black
+    box-sizin:border-box
+    position: relative
+    display: inline-block
+    background-repeat:no-repeat
+    background-position:center center
+    background-size:100%
+    box-shadow:0px 5px 5px 0px rgba(0, 0, 0, 0.33)
+    -webkit-backface-visibility: visible
+    transform: translate3d(0,0,0px) scale(1, 1)
+    
+    
+    
+    
+    h1 , h2
+        color:white
+        fontFamily(GothamUltra)
+        font-size:1.5em
+    h2
+        fontFamily(GothamBook)
+    
+    .center-outer
+        opacity:0
+        transition:opacity .3s
+        border-radius:251px
+        
+    .center-outer:hover
+        background:rgba(0,0,0,.4)
+        
+        opacity:1
+
+
+    &.small
+        width: 150px
+        height: 150px
+        border-radius: 150px
+        background-color: black
+        top: 0px
+        border: 5px solid white
+
+    &.medium
+        width: 190px
+        height: 190px
+        border-radius: 190px
+        background-color black
+        top: 0px
+        border: 5px solid white
+
+    &.large
+        width: 251px
+        height: 251px
+        border-radius: 251px
+        background-color: black
+        top: 10px
+        border: 10px solid white
+
+        @media (max-width: 992px )
+            width: 190px
+            height: 190px
+
+        @media (max-width: 640px )
+            width: 135px
+            height: 135px
+            border-width:5px
+
+    &.blue-border
+        border-color:#00a1e1
+        
+    &.blue-interior
+        background-color:#0e5477
+        
+        
+        
+        
+    &.inset
+        box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.33), inset 0px 3px 3px 0px rgba(0,0,0,0.33)
+
+
+    &.blue-grad-border
+        background-image:linear-gradient(to bottom, #0089c0 0%,#112882 100%)
+
+.tablet , .phone
+    .center-outer
+        opacity:1!important
+        background:rgba(0,0,0,.4)
+
+
+
+    
+    
+.circle-outer
+    background-image: linear-gradient(to bottom, #0089c0 0%, #112882 100%),linear-gradient(to bottom, #0089c0 0%, #112882 100%)
+    width:251px
+    height:251px
+    border-radius:251px
+    padding:10px
+    box-sizing:content-box
+    box-shadow:0px 5px 5px 0px rgba(0, 0, 0, 0.33)
+    -webkit-transform-style: preserve-3d
+    -webkit-backface-visibility: visible
+    transform: translate3d(0,0,0px)
+    display:inline-block
+
+    .circle-inner
+        width:251px
+        height:251px
+        border-radius:125px
+        background:white
+        position:relative
+        z-index:0
+        margin:0 auto
+        box-shadow:inset 0px 0px 5px 0 rgba(0,0,0,.7)
+
+    @media (max-width: 992px )
+        width: 190px
+        height: 190px
+
+        .circle-inner
+            width:190px
+            height:190px
+
+    @media (max-width: 640px )
+        width: 135px
+        height: 135px
+        padding: 5px
+
+        .circle-inner
+            width:135px
+            height:135px
+
+
+    
+.gal-arrow
+    position:absolute
+    top:135px
+    display:block!important
+    font-size:90px
+    line-height:0
+    color:lightBlue
+    transform:translate3d(0,0,100px) scale(1,1) 
+    z-index:15
+    cursor: pointer
+    transition: font-size .3s, transform .35s ease-in-out
+    
+    &.fa-angle-left 
+        left:6%
+       
+
+    &.fa-angle-right 
+        right:6%
+        
+    &:hover, &.hover
+        /*font-size: 75px*/
+        /* not sure why  translate3d(0,0,100px)  was being used, but it was breaking things on accommodations page */
+        transform: scale(1.1, 1.1) !important
+        
+    &:active, &.active
+        /* not sure why  translate3d(0,0,100px)  was being used, but it was breaking things on accommodations page */
+        transform: scale(1, 1) !important
+        
+    @media(max-width:767px)
+        top: 50%
+
+    
+            
+
+.video-button
+    height:100%
+    margin: 0 auto
+    cursor:pointer
+    position:relative  
+    padding: 0 0px 20px
+    background: url(../images/BG/video-thumbnail-shadow.png) no-repeat bottom center
+    transition: transform .35s ease-in-out
+
+    &:hover
+        transform: scale(1.02, 1.02)
+  
+    img
+        width:100%
+    
+    .play-icon
+        thumbnail()
+        /*
+        position:absolute
+        top:50%
+        left:50%
+        transform:translate(-50%, -50%)
+        background-size:100% auto
+        width:90px
+        height:90px
+        */
+        
+        
+
+
+.video-button
+    max-width: 320px
+    height: 160px
+    padding: 0 0px 20px 
+    background: url(../images/BG/video-thumbnail-shadow.png) no-repeat bottom center
+
+    img
+        width: 100%
+        height: 100%
+
+
+    @media(max-width: 640px)
+        max-width: 240px
+        height: 133px
+        background-size: 100% 20px
+
+
+
+
+.inner-title-header
+    max-width: 740px
+    margin: 0 auto
+    height: 360px
+    padding-top: 100px
+    radialBg()
+
+    p
+        width:70%
+        margin:0 auto
+        
+        @media(max-width:767px)
+            width: 80%
+
+        
+.center-outer
+    display:table
+    width:100%
+    height:100%
+    
+    .center-inner
+        display:table-cell
+        vertical-align:middle
+
+
+.swiper-slide
+    text-align: center
+    
+    @media(min-width:641px)
+        margin: 0
+        float: left
+        width: 33%
+        padding-bottom: 20px
+
+
+.add-border-fade
+    @media(min-width: 768px)
+        &:before, &:after
+            position: absolute
+            top: 0
+            content: ""
+            width: 40px
+            height: 100%
+            z-index: 10
+            opacity: 0
+            background-size: 7px 100%
+            background-repeat: no-repeat
+            transition: opacity .2s ease-in-out
+            display: none
+        
+        &:before
+            left: 50px
+            background-image: url('../images/slit-left.png')
+            background-position: left center
+            
+        &:after
+            right: 50px
+            background-image: url('../images/slit-right.png')
+            background-position: right center
+        
+        &.showing
+            &:before, &:after
+                opacity: 1
+    
+
+.drop-container .drop-container-inner
+    cursor: pointer
+    .arrow 
+        background: url(/images/btns/ddl-icon.png) no-repeat
+        right: 10px
+        top: 26px
+
+.select-box-wrapper
+    &.left .drop-container .drop-container-inner ul li
+        text-align: left;
+
+.form-object
+
+    #errors
+        color: #ff1e25
+        font-size: 15px
+        fontFamily(GothamLight)
+        position: relative;
+        overflow: hidden;
+        height: 0;        
+
+        ul
+            margin-bottom: 12px;
+            position: absolute
+            
+        ul, li
+            list-style-type: square;
+            list-style-position: outside;
+            text-align: left;
+            margin-left: 15px;
+
+        &.success
+            color: green
+
+
+.form-fields
+    overflow:auto
+    font-size 16px
+    padding: 0 49px 30px
+
+    @media(max-width:767px)
+        padding: 0 15px 30px
+    
+    .clear 
+        clear:both
+        &.center
+            margin-bottom: 30px
+        
+    .drop-container
+        position: absolute
+
+    .select-box-wrapper
+        display:inline-block
+        width:264px
+        position:relative
+        height: 52px
+        z-index:400
+        
+    .long-captions
+        max-width: 715px
+        overflow: visible
+        clear:both
+        
+        .caption
+            text-align: right;
+            width: auto;
+            display: block;
+            margin: 20px 0 8px 0;
+            max-width: 435px;
+            float: left;
+            width: 100%;
+            
+        .controls
+            float: right
+            &.radios
+                height: 3em;
+                float: left;
+                padding-left: 1em;
+                line-height: 3.5em
+                
+        @media screen and (max-width: 715px)
+            .caption, .controls
+                text-align:left
+                float:none
+
+    .left
+        float:left
+
+    .dropdown
+        margin: 7px
+
+    .radios
+        transition: color 1s
+        &.invalid
+            label
+                color: #ff0000
+        
+    .input
+        outline: none
+        border: none
+        border-top: 1px solid #f8f8f8
+        border-left: 1px solid #fff
+        border-right: 1px solid #fff
+        border-bottom: 1px solid #fff
+        border-radius: 20px
+        padding: 1px
+        background-color: white
+        font-size: 1em
+        fontFamily(GothamMedium)
+        box-shadow: inset 0px 2px 1px #a1b0bf, 1px 2px 6px 0px #abaaaa
+        width:100%
+        overflow: visible
+        max-width: 258px
+        margin: 8px
+        transition: border-color 1s
+        position: relative
+ 
+        &.invalid
+            border-color: red !important;
+            
+        input
+            outline: none
+            border: none
+            padding: 10px
+            background-color: white
+            font-size: 1em
+            fontFamily(GothamLight)
+            width:100%
+            max-width: 180px
+            border-radius: 20px
+            margin-top: 5px
+            text-align: left
+    
+    .input.required:after, .select-box-wrapper.required:after
+        content: "*";
+        position: absolute;
+        right: 0px;
+        top: 0;
+        font-size: 18px;
+        color: #da3232;
+        margin-right: -12px;
+        font-weight: bold;
+    .select-box-wrapper.required:after
+        margin-right: 0
+    .caption
+        fontFamily(GothamBlack)
+
+    a.btn
+        max-width: 250px
+        margin: 40px auto 25px
+
+    
+.lefty .form-fields .input input
+    max-width: 220px
+    padding: 10px 0 
+
+.drop-container
+    transition: border-color 1s;
+
+.drop-container.invalid
+    border-color: red;
+
+
+
+#iefallback
+    display: none
+    skyBackground()
+    padding-top: 280px
+    text-align: center
+
+    .title-bucket:first-child
+        margin-bottom: 65px
+
+    p.upgrade
+        fontFamily(GothamBold)
+        font-size: 18px
+        color: #666666
+        margin: 0 auto 65px
+        text-align: center
+
+    #select
+        width: 840px
+        margin: 0 auto 80px
+        background: lightBlue
+        padding: 40px 60px
+        addShadow(100%,80px,100%)
+
+        ul.browser-list
+            width: 80%
+            margin: 30px auto 0
+            
+            
+            li
+                width: 24%
+                display: inline-block
+                text-align: center
+                
+                img
+                    width: 60%
+                    margin: 0 auto
+
+                p 
+                    color: white
+                    fontFamily(GothamBold)
+                    font-size: 18px
+
+
+
+.ie9
+    #header-bottom
+        .nav-list, .btn
+            visibility: hidden
+            
+        .subnav
+            display: none
+            
+        .logo-wrapper
+            width: 100%
+            text-align: center
+    
+    #iefallback
+        display: block
+    #content
+        display: none
+
+
+.mobile-coasters
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background-size: 100%
+    
+    div
+        position: absolute
+        background-repeat: no-repeat
+        width: 100%
+        height: 100% 
+
+    .coaster-0
+        max-width: 411px
+        max-height: 330px
+        background-image: url('../images/BG/coasters/mobile-coaster-0.png')
+        background-size: 90%
+        
+    .coaster-1
+        max-width: 195px
+        max-height: 268px
+        background-image: url('../images/BG/coasters/mobile-coaster-1.png')
+        background-size: 80%
+        
+    .coaster-2
+        max-width: 182px
+        max-height: 454px
+        background-image: url('../images/BG/coasters/mobile-coaster-2.png')
+        background-size: 65%

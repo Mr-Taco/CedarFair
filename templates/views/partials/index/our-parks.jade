@@ -1,0 +1,10 @@
+
+#our-parks.section-inner(data-depth="20")
+    .title-bucket.one
+        h1 #{content.parksHeadline}
+        h2 #{content.parksSubHeadline}
+
+    - var rSelect = randRange(0,content.parks.length-1)
+    
+    +parksList(content.parks)(class='homepage', select=rSelect, upClass='gray')
+    +parksGalleryContent(content.parks)(select=rSelect)

@@ -1,0 +1,499 @@
+@import '../global/index.styl'
+@import '../partials/_selectGallery.styl'
+@import '../partials/_parksGallery.styl'
+
+
+
+
+#jobs-section1
+    #jobs-select-gallery
+        h2
+            font-size: 1.625em;
+            
+        ul
+            .info-container
+                padding-left: 18px;
+                p
+                    font-size: .9em
+                    line-height: 1.2em
+            
+    .clouds#section1
+        .one
+            transform:translateY(250px)
+        .two
+            transform:translateY(675px)
+        .three
+            transform:translateY(1075px)
+
+    skyBackground()
+    padding: 255px 0 250px
+    text-align: center
+    
+    
+    .title-bucket
+        h1
+            font-size:3.35em
+        h2
+            font-size:2.45em
+        
+        h1, h2, p
+            opacity: 0
+
+
+    .circ-btn-wrapper
+        margin: 30px auto 150px
+        
+    #our-parks-logos
+        li.park
+            opacity: 0
+        
+        
+    .swiper-container
+        margin-top: 20px
+        
+        @media(min-width:767)
+            height: 280px !important
+        
+    .gal-arrow
+        top: 810px
+        
+        &.fa-angle-left
+            left: 0%
+            
+        &.fa-angle-right
+            right: 0%
+            
+    #select
+        margin: 160px auto 0
+        background:#ffffff
+        max-width:920px
+        height:520px
+        opacity: 0
+
+        addShadow(100%,80px,100%)
+
+        .title-bucket
+            h1
+                opacity: 1
+
+        .select-box-wrapper
+            margin-top:30px
+            height:52px
+            width:260px
+            display:inline-block 
+            position:relative
+            z-index:400
+            .drop-container
+                position:absolute
+                top:0
+                left:0
+
+
+        .title-bucket
+            padding-top:60px
+            
+        .select-gallery
+            margin-top:35px
+            
+            .video-button .play-icon 
+                img
+                    margin-top: 5px
+                    
+                @media (min-width: 992px)
+                    &:hover
+                        img
+                            transform: scale3d(1.2, 1.2, 1) translate(-2.0em, -2.0em);
+                      
+@media (max-width: 992px)
+    .logo-thumb
+        height:22px
+            
+            
+@media(max-width: 767px)
+    .btn
+        font-size: 1.3em
+    
+    #jobs-section1
+        padding:80px 0 0
+
+        .swiper-container, .swiper-wrapper, .swiper-slide
+            height: 200px !important
+            padding-top: 0
+            
+        .swiper-container
+            margin-top: 25px
+            
+        .gal-arrow
+            top: 35%
+            transform: scale(1,1)
+            
+            &:hover, &.hover
+                transform: scale(1.1,1.1) !important
+                
+            &:active, &.active
+                transform: scale(1.05,1.05) !important
+        
+        .section-inner
+            max-width: 100%
+
+            h1, h2, p
+                opacity: 1
+            
+            .inner-title-header.title-bucket.two
+                padding-top: 0
+                height: auto;
+                padding-bottom: 55px;
+                h1, h2
+                    max-width: 95%
+                    margin: 0 auto
+
+            div.title-bucket.four
+                margin: 50px auto 50px
+                
+            div.draggable-container
+                max-width: 90%
+                margin: 0 auto
+                
+                ul
+                    li
+                        height: 175px
+                        
+                        div.content
+                            a.btn
+                                padding: 10% 12.5%
+                        
+                .gal-arrow
+                    color: #00a1e1 
+                        
+            #btn-wrapper
+                max-width: 90%
+                
+            #our-parks-logos
+                li.park
+                    opacity: 0
+                        
+            #select
+                margin-top: 80px
+                width: 100%
+                height: 650px
+                opacity: 1
+                
+                &:before
+                    background: none
+    
+                .title-bucket
+                    h1
+                        opacity: 1
+    
+
+    #our-parks-gallery
+        width: calc(100% - 80px) !important
+        
+        ul
+            li
+                position: static !important
+                opacity: 1 !important
+                visibility: visible !important
+
+                .container
+                    width: auto !important
+
+                .left, .right
+                    float:none;
+                    width: 100% !important
+                    margin: 0 auto
+    
+                .left
+                    display: none !important
+                     
+                    img
+                        width: 100%
+                        margin: 0 auto
+    
+                .right
+                    span.park-name
+                        display: none
+                        
+                    .park-name-logo
+                        display: block !important
+                        background-position: center center
+                        background-size: contain
+                        background-repeat: no-repeat
+                        max-width: 72%
+                        max-height: 62px
+                        margin: 0 auto
+                        
+                        img
+                            opacity: 0
+    
+        .video-button
+            height: 133px !important
+            width: 240px !important
+                
+    #jobs-select-gallery
+        ul
+            max-width: 90%
+            
+            li
+                .play-icon img
+                    position: absolute;
+                    
+                div.left, div.right
+                    width: 100%
+                    
+                div.left
+                    position: relative
+                    
+                    div
+                        text-align: center
+                    
+                    img
+                        /*
+                        width: 90%
+                        max-width: 260px
+                        */
+                        margin: 0 auto
+                        
+                    .play-icon
+                        top: 50%
+    
+                div.right
+                    .info-container
+                        padding: 0
+                        text-align: center
+                                    
+#jobs-section2
+    padding: 150px 5% 120px
+    height:680px
+    blueRadialBg()
+
+    #jobs-gallery
+        position: relative;
+        
+    .gal-arrow
+        top: 50%
+        color: white !important
+        transform: translate3d(0, 0, 100px) scale(1,1) !important
+
+        &:hover, &.hover
+            transform: scale(1.1, 1.1) translate3d(0,0,100px) !important
+
+        &:active, &.active
+            transform: scale(1.05, 1.05) translate3d(0,0,100px) !important
+        
+        &.fa-angle-left
+            left: 0%
+        
+        &.fa-angle-right
+            right: 0%
+            
+        @media(max-width: 850px)
+            &.fa-angle-left
+                left: 2%
+            
+            &.fa-angle-right
+                right: 2%
+            
+        @media(min-width: 993px)
+            &.fa-angle-left
+                left: 3%
+            
+            &.fa-angle-right
+                right: 3%
+            
+        @media(min-width: 1100px)
+            &.fa-angle-left
+                left: 6%
+
+            &.fa-angle-right
+                right: 6%
+
+    .title-bucket.four h1
+        font-size: 3.75em
+
+    .swiper-container, .swiper-wrapper, .swiper-slide
+        height: 300px !important
+    
+        @media(min-width: 993px)
+            height: 350px !important
+    
+    .swiper-container
+    
+        @media(min-width: 993px)
+            max-width: 950px
+        
+    .swiper-slide
+        padding: 40px 0
+    
+        .circle
+            &.ready
+                tranform: scale(1, 1) !important
+                transition: transform .35s ease
+                
+                &:hover
+                    tranform: scale(1.05, 1.05) !important
+
+    .btn-wrapper
+        a
+            width: 255px
+
+            &#allJobsLink
+                line-height: 1.34em;
+            &#jobsLink
+                line-height: 1.34em;
+
+#our-parks-logos
+    width:90%
+    margin:30px auto 0
+    padding-top:0
+   
+#our-parks-gallery
+    padding-top:44px
+    
+    
+    
+.circle-inner
+    display:table
+    .content 
+        display:table-cell
+        vertical-align:middle
+        text-align:center
+        padding: 10px
+    
+        h1
+            color:#00a1e1
+            fontFamily(GothamUltra)
+            font-size:1.5em
+            max-width: 200px
+            margin: 0 auto
+            
+        h2
+            color:#152e88
+            fontFamily(GothamBook)
+            font-style:oblique
+            padding: 4px 0 20px
+            font-size:1em
+            
+        .btn
+            width: 130px;
+            height: 30px;
+            font-size: 0.8em;
+            line-height: 0.2em;
+            padding: 15px 0 18px;    
+            pointer-events: all
+            cursor: pointer
+            
+        span.posted
+            fontFamily(GothamBlack)
+            color:gray
+            font-size:0.8em
+            padding-top: 15px
+            display: block
+            
+        @media (max-width: 992px)
+            h1
+                font-size:1.4em
+                max-width: 150px
+                margin: 0 auto
+            h2
+                font-size:0.9em
+                padding-bottom: 10px
+            
+        @media (max-width:640px)
+            h1
+                font-size:1.25em
+            h2
+                padding: 2px 0 2px
+            em
+                display:none
+            .btn
+                width: 80%
+                height: 30px
+                font-size: 0.8em
+                line-height: 0.1em
+                padding: 15px 0
+                
+                &:after
+                    padding:0
+            
+            span.posted
+                padding-top:8px
+            
+@media(max-width:767px)
+    #jobs-section2
+        padding-top: 80px
+        padding: 80px 0 120px
+        height: auto
+        
+        .section-inner
+            max-width: none
+
+        .swiper-pagination-switch
+            background-color: lightBlue
+
+        .swiper-active-switch
+            background-color: darkBlue
+            
+        #jobs-gallery
+            .swiper-container
+                width: calc(100% - 80px)
+        
+        #our-parks-gallery
+            ul
+                li.park-info
+                    padding: 0
+                    position: inherit
+                    visibility: visible
+                    opacity: 1
+                    height: auto !important
+
+                    .container
+                        background: none
+                        width: auto
+
+                    .left, .right
+                        float:none;
+                        width: 100%
+                        margin: 0 auto
+                        
+                        .info-container .park-name-logo img
+                            width: 100%
+                
+        .gal-arrow
+            color: white
+            top: 50%
+            
+            &.fa-angle-left
+                left: 7%
+            
+            &.fa-angle-right
+                right: 7%
+
+.video-button 
+    background: url("../images/BG/video-thumbnail-shadow.png") no-repeat bottom center;
+    
+    img
+        height: 100%
+
+    .play-icon
+        thumbnail(false, 0, -102%)
+
+
+.group-info
+    .video-button
+        max-width: 285px
+        padding: 0 0px 20px
+
+@media (max-width: 767px)
+    .circle-outer, .circle-outer .circle-inner {
+        width: 195px;
+        height: 195px;
+    }
+    #jobs-section2 .swiper-container
+        height: 292px !important
+
+    .video-button
+        max-width: 340px;
+        height: 159px;
+        padding: 0 0px 20px;
+        background-size: 100% 20px;

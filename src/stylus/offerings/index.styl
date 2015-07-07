@@ -1,0 +1,95 @@
+@import '../global/index.styl'
+
+
+#offerings-section1
+
+    .title-bucket
+        max-width: 643px
+        margin: 0 auto
+        
+        h1,h2,h3
+            opacity: 0
+        
+        &.seven
+            h2
+                font-size: 2.65em;
+                color: #00a1e1;
+            h3 
+                font-size: 1.12em;
+                fontFamily(GothamBook)
+                color: #838282;
+                max-width: 550px;
+                margin: 0 auto;
+                padding-top: 10px;
+        
+    skyBackground()
+    padding: 305px 0
+
+    #select-offerings
+        background: white
+        width: 100%
+        max-width:920px
+        padding: 75px 75px 0
+        margin: 50px auto 0
+        opacity: 0
+        
+        .title-bucket
+            h1
+                opacity: 1
+
+        addShadow(100%,80px,100%)
+        
+        .offerings-option-wrapper
+            width: 100%
+            margin: 50px auto 0
+            
+            .offerings-option
+                height: 135px
+                width: 45%
+                margin: 0 2% 50px
+                display: inline-block
+                text-align: center
+                background: lightGray
+                color: white
+                font-size: 21px
+                fontFamily(GothamBlack)
+                box-sizing: border-box
+                cursor: pointer
+                transition: transform .35s ease-in-out
+                addShadow(100%,80px,100%)
+                vertical-align: top
+
+                
+                span
+                    position: relative
+                    top: 42%
+                    transform: translateY(-50%)
+                    font-size: 22px 
+                
+                &:hover
+                    transform-origin: 50% 50% !important
+                    transform: translate3d(0px,0px,0px) scale(1.025, 1.025) !important
+            
+                    
+    @media(max-width: 767px)
+        padding: 105px 0 0
+        background-size: contain !important 
+
+        #offerings
+            max-width: 100%
+            
+            .title-bucket
+                padding: 0 5%
+
+                h1,h2,h3
+                    opacity: 1
+            
+            #select-offerings
+                padding: 25px
+                opacity: 1
+                
+                .offerings-option-wrapper
+                    .offerings-option
+                        width: 100%
+                        float: none
+                        margin: 0 0 25px

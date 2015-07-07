@@ -1,0 +1,6 @@
+mixin whoweareCarouselyMixin(items)
+    .swiper-container
+        ul.text-list.swiper-wrapper
+            each item,i in items                                                
+                li.swiper-slide(class!=attributes.itemClass)
+                div.slogan #{item.text}

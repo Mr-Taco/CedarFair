@@ -1,0 +1,48 @@
+block content
+
+    - var rSelect = randRange(0,content.parks.length-1)
+
+    #our-parks.section-inner(data-depth="100")
+        .inner-title-header.title-bucket.two
+            h1 #{content.parksHeadline}
+            p #{content.parksBody}
+    
+        .circ-btn-wrapper
+            p SCROLL
+            a.btn-circ-darkBlue.scrollto(href="javascript://", data-target="select")
+            
+            
+        #select
+            
+            .title-bucket.one
+                h1 #{content.selectPark}
+            
+            +parksList(content.parks)(class='white-logos' select=rSelect upClass='white')
+     
+        
+            
+        #our-parks-gallery.add-border-fade    
+            .cloud
+            .swiper-container
+                ul.swiper-wrapper
+                    for park,i in content.parks
+                        li.swiper-slide.park-info(id='#{park.slug}-info' data-id="#{park.slug}" data-index='#{i}' class=(i === rSelect)? 'selected' : '')
+                            .container
+                                .park-logo
+                                    img(src='#{park.logoFull.url}')
+                                    h1.hidden !{park.name}
+                                    
+                                h2 Location: #{park.location.suburb} #{park.location.state}.
+                                h4 Top Rides: #{park.topRides}
+                                h4 What's New: #{park.whatsNew}
+                                .btn-wrapper
+                                    a.btn(href='#{park.learn}') learn more
+                                    a.btn(href='#{park.buy}') buy tickets
+                                
+                                +videoButton(park)
+                                    
+                            
+                            
+                        
+                
+            

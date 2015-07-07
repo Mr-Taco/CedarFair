@@ -1,0 +1,35 @@
+block overlay_sources
+    
+    #contact-group-sales-form.lefty
+        h1 Contact Group Sales
+        #group-sales-form.form-object(data-errors="errors", data-submitter="submit", data-handler="/group-sales/mail")
+            .form-fields
+                #errors
+                .left.input.required
+                    input.withBtn(placeholder='Name', data-mapping="name")                                                             
+                .left.input
+                    input.withBtn(placeholder='Email', data-mapping="email", data-type="email")
+                .left.input.required
+                    input.withBtn(placeholder='Phone Number', data-mapping="phone", data-type="phone")
+                .left.input.required
+                    input.withBtn(placeholder='Group Size', data-mapping="groupSize", data-type="number")
+                .left.dropdown
+                    +cfDropdown(content.groupTypes)(id='programs-select', placeholder='Select Program', name='Program' mapping="program", required="true", class="left")
+                .left.dropdown
+                    +cfDropdown(content.parks)(id='parks-select', placeholder='Select Park', name='Park', mapping="park", required="true", class="left")
+            
+                    
+            .form-fields
+                .center.radios.required(data-name='Contact method', data-required="true", data-group='contact', data-mapping="preferredContactMethod")
+                    span.caption Preferred contact method
+                    span.controls
+                        label
+                            input.required(type='radio', name='contact', value='phone') 
+                            | phone
+                        label
+                            input.required(type='radio', name='contact', value='email')
+                            | email
+                                      
+                .center
+                    a.btn#submit submit form
+                

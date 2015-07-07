@@ -1,0 +1,49 @@
+block footer
+    #footer
+
+        // hey guys, please don't delete this:
+        block topfoot
+            
+        //include footer-contact
+            
+        #footer-bottom
+            | &copy; #{new Date().getFullYear()} Cedar Fair Entertainment Company
+            span.pipe |
+            .break
+            | &copy; #{new Date().getFullYear()} Peanuts Worldwide LLC
+            
+            a(href="/legal") Legal
+            a(href="/privacy") Privacy
+            
+            
+            //-
+                p#mobile-footer-blurb &copy; #{new Date().getFullYear()} Cedar Fair Entertainment Company
+                    br 
+                    | &copy; #{new Date().getFullYear()} Peanuts Worldwide LLC
+                
+                ol#footer-bottom-links
+                    li
+                        a#footer-bottom-who-we-are(href="/who-we-are") Who We ares <em>*</em>
+                    li
+                        a#footer-bottom-who-we-are(href="/our-parks") Our Parks <em>*</em>
+                    li
+                        a#footer-bottom-who-we-are(href="/jobs") Jobs <em>*</em>
+                    li
+                        a#footer-bottom-who-we-are(href="/group-sales") Group Sales <em>*</em>
+                    li
+                        a#footer-bottom-who-we-are(href="/sponsorship") Sponsorship <em>*</em>
+                    li
+                        a#footer-bottom-who-we-are(href="/investors") Investor Relations
+                    li
+                        each icon in socialLinks 
+                            a(href="#{icon.link}")
+                                i(class="fa #{icon.iconClass}")
+
+
+
+
+
+
+
+
+

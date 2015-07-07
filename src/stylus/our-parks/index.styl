@@ -1,0 +1,253 @@
+@import '../global/index.styl'
+
+.logo-thumb
+    height:28px
+
+
+#parks-section1
+    .clouds#section1
+        .one
+            transform:translateY(250px)
+        
+        .three
+            transform:translateY(525px)
+            
+        .two
+            transform:translateY(1175px) 
+
+    skyBackground()
+    padding: 255px 0 40px
+    text-align: center
+
+
+    .circ-btn-wrapper
+        margin: -5px auto
+    
+
+    #select
+        margin: 55px auto 0
+        background-image:radial-gradient(50% 100% at 50% 50% , #64c6ed 0%, #20ade5 100% )
+        max-width:840px
+        min-width:660px
+        height:320px
+        opacity: 0
+
+        addShadow(100%,80px,320px)
+        
+        .title-bucket 
+            padding:60px 0 30px 
+            h1
+                font-size:4.3em
+        
+        #our-parks-logos
+            width:90%
+            margin:0 auto
+            padding-top:0
+            
+
+@media (max-width: 992px)
+    .logo-thumb
+        height:23px
+                
+        
+            
+@media(max-width:767px)
+    #parks-section1
+        padding-top: 0
+        
+        .inner-title-header
+            height: 310px
+
+        #select
+            min-width: 100%
+            max-width: 100%
+            background-image: none
+            position: static
+            margin-top: 0
+            height: auto
+            opacity: 1
+            
+            &:before
+                background: none
+                
+            .title-bucket
+                h1
+                    font-size: 3.2em
+                    
+        #our-parks-gallery, #our-parks-gallery .swiper-container
+            padding-top: 0
+    
+        .btn
+            line-height: 1em !important
+    
+            
+            
+            
+            
+#our-parks-gallery
+    margin: 80px auto 0
+    height:460px
+    position:relative      
+    overflow:hidden
+    z-index: 50000000000
+
+    &.add-border-fade:before, &.add-border-fade:after
+        width: 75px
+        
+    &.add-border-fade:before
+        left:66px
+        
+    &.add-border-fade:after
+        right: 65px
+        
+    @media(min-width: 993px)
+        &.add-border-fade:before
+            left:190px
+            
+        &.add-border-fade:after
+            right:190px
+            
+
+    .fa-angle-right, .fa-angle-left
+        top: 50%
+    
+    .gal-arrow
+        color:#00a1e1
+        top: 35%
+        opacity: 0
+
+        &.fa-angle-right
+            right: 4%
+        &.fa-angle-left
+            left: 4%
+    
+        @media(min-width:993px)
+            &.fa-angle-right
+                right: 13%
+            &.fa-angle-left
+                left: 13%
+        
+    .swiper-container
+        width: 696px
+        height: 100%
+        padding-top: 40px
+        opacity: 0
+        radialBg()
+        
+        @media(max-width:992px)
+            width: 505px
+        
+    .swiper-wrapper, .swiper-slide
+        height: 460px !important
+        box-sizing: border-box
+        
+    .cloud
+        radialBg()
+        position:absolute
+        width: 640px
+        height: 485px
+        left: 50%
+        top:50%
+        transform: translateX(-50%) translateY(-50%)
+        display: none
+    
+    ul
+        
+        li
+            width:100%
+            float:left
+        
+    .container
+        // width:640px
+        margin:0 auto
+        
+    .park-logo
+        height:105px
+        
+        img
+            height: 100px
+            width: auto
+            display:block
+            margin:0 auto
+            vertical-align:middle
+            
+            @media(max-width: 992px)
+                height: 70px
+            
+    h2
+        fontFamily(GothamBlack)
+        font-size:1.3em
+        color:lightGray
+    
+    h4
+        fontFamily(GothamBook)
+        font-size:1.0em
+        color:gray
+        
+    .btn-wrapper
+        margin:20px 0
+        .btn
+            padding: 15px
+        
+    .video-button
+        
+        // width:300px
+        // height:139px
+        //addShadow(100%, 30px ,100% )
+
+        img
+            width: 100%
+            top: 0
+            transform: none
+
+ 
+
+            
+@media(max-width: 767px)
+    #parks-content-wrapper
+        .cloud
+            display: none
+    
+    #our-parks
+        max-width: 100%
+    
+    #our-parks-gallery
+        height: 400px 
+        margin-top: 0
+        
+        .cloud
+            height: 340px
+        
+        .gal-arrow
+            top: 40%
+            opacity: 1
+            
+            &.fa-angle-right
+                right: 0%
+            &.fa-angle-left
+                left: 0%
+                
+        div.swiper-container
+            width: calc(100% - 80px)
+            opacity: 1
+            
+            ul
+                padding-top: 0
+                
+                li
+                    div.container
+                        width: 100%
+                        padding: 0 7.5%
+                        
+                        div.park-logo
+                            img
+                                width: 85%
+                                height: auto
+                                position: relative
+                                top: 50%
+                                transform: translateY(-50%)
+                                
+                        div.video-button
+                            display: none                
+
+            

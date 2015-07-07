@@ -1,0 +1,29 @@
+block content
+    #offerings.section-inner(data-depth="20")
+        .top-headline
+            .title-bucket.seven
+                h1 #{content.offeringsHeadline}
+                h2 #{content.offeringsSubHeadline}
+                h3 #{content.offeringsBody}
+            
+        .circ-btn-wrapper
+            p SCROLL
+            a.btn-circ-darkBlue.scrollto(href="javascript://", data-target="select-offerings")
+
+            
+        #select-offerings
+            .title-bucket.two
+                h1 #{content.mediaHeadline}
+                
+            .offerings-option-wrapper
+                each offering,i in content.media                
+                    .offerings-option.overlay-trigger(data-source="offerings-overlay" style="background-image: url('#{offering.imageThumb.url}')")
+                        span.offer #{offering.title}
+                        .overlay-content.hidden
+                            .description !{offering.description}
+                            
+                            if offering.type === 'image'
+                                span.media(data-type="image" data-source="#{offering.imageFull.url}")
+                            else
+                                span.media(data-type="video" data-source="#{offering.imageFull.url}")
+                

@@ -1,0 +1,17 @@
+extends email_layout
+
+
+block content
+    h3 Contact Name: #{body.name}
+    h3 Contact Email: #{body.email}
+    h3 Contact Phone: #{body.phone}
+    
+    p. 
+        Group Size: #{body.groupSize} <br/>   
+        Program: #{body.program} <br/>   
+        Park: #{body.park} <br/>                           
+    
+    p #{body.name} prefers to be contacted by #{body.preferredContactMethod.toString()}.
+    
+   
+    

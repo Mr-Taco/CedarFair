@@ -1,0 +1,67 @@
+block content
+    #news.section-inner(data-depth="20")
+        #select-news
+            .title-bucket.two
+                h1 #{locals.content.newsHeadline}
+            
+            .select-news-button-wrapper
+                a.btn.lightBlue.active(href="#" data-page="select-news-posts-wrapper") #{locals.content.pressReleaseLabel}
+                a.btn.lightBlue(href="#" data-page="select-news-media-wrapper") #{locals.content.mediaContactLabel}
+                a.btn.lightBlue(href="#" data-page="select-news-media-form") #{locals.content.mediaRequestLabel}
+                
+            .select-news-dropdown-wrapper
+                +cfDropdown([
+                    {name: 'Press Release', slug: 'select-news-posts-wrapper'}, 
+                    {name: 'Media Contact', slug: 'select-news-media-wrapper'}, 
+                    {name: 'Media Request Form', slug: 'select-news-media-form'}
+                ])(id='news-select')
+                
+                
+            .select-news-pages-wrapper
+                .select-news-posts-wrapper.visible
+                    .select-news-year-wrapper
+                        a.active(href="#") 2015
+                        a(href="#") 2014
+                        //a(href="#") 2013
+                        
+                    for year,i in locals.content.articles
+                        .news-year-wrapper(class=(i === "2015")? 'visible displayed #{i}' : '#{i}', data-year='#{i}')
+                            for article in year
+                                .post
+                                    - link = (article.body) ? 'javascript://' : article.link
+                                    - cls = (article.body) ? 'overlay-trigger news' : ''
+                                    span.date #{moment(article.date).format('MMMM D')}
+                                    a.story(href="#{link}", data-source="news_overlay", class="#{cls}", data-link="#{article.slug}") #{article.caption}
+                                    if article.body
+                                        .hidden.article
+                                            h2 #{article.title}
+                                            p.date #{moment(article.date).format('MM/DD/YYYY')}
+                                            p.body !{article.body}
+                                            //
+                                                .link To view the original version on PR Newswire, visit:
+                                                    br
+                                                    a(href="#{article.link}") #{article.link}
+                                    
+                                    
+                .select-news-media-wrapper
+                    span.name #{locals.content.mediaContacts[0]._doc.name}
+                    span.park #{locals.content.mediaContacts[0]._doc.organization}
+                    span.position #{locals.content.mediaContacts[0]._doc.title}
+                    span.number #{locals.content.mediaContacts[0]._doc.phone}
+                    
+                    
+                    
+                #news-form.select-news-media-form.form-fields.form-object.lefty(data-errors="errors", data-submitter="submit", data-handler="/news/mail")
+                    #errors
+                    .input.required.left
+                        input.name(type="text" name="name" placeholder="Name" required data-mapping="name")
+                    .input.required.left
+                        input.email(type="email" name="email" placeholder="Email" required data-mapping="email")
+                    .input.required.left
+                        input.number(type="tel" name="phone" placeholder="Phone Number" required data-mapping="phone")
+                    textarea.questions(name="questions" placeholder="Questions / Comments" data-mapping="comment")
+                    
+                    a#submit.btn.lightBlue(href="#") submit form
+                    span.legal 
+                        span.asterisk *
+                        | Require field

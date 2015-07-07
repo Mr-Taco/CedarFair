@@ -1,0 +1,44 @@
+block overlay_sources    
+    #partnership-contact-form.form-object(data-errors="errors", data-submitter="submit", data-handler="/partnerships/mail")
+        h1 Contact Partnerships
+        #errors
+        form.lefty
+            .form-fields
+                .left.input.required
+                    input.withBtn(placeholder='Name', data-mapping='name', title="Name")
+                .left.input.required
+                    input.withBtn(placeholder='Email', data-mapping='email', data-type="email", title="Email")
+                .left.input.required
+                    input.withBtn(placeholder='Phone Number', data-mapping='phone' data-type='phone', title="Phone Number")
+    
+            .form-fields
+                .long-captions
+                    .caption Which park are you interested in?
+                    .controls.dropdown
+                        +cfDropdown(content.parks)(id='PartnershipTypes1-select', zIndex='4000', required="true", placeholder="Select Park", name='Park of interest', mapping='parkInterest', class='left')
+                .long-captions                                       
+                    .caption What company/brand do you represent?
+                    .controls.input
+                        input.withBtn(data-mapping='company', data-name="Company/Brand", title="Company/Brand")                           
+                .long-captions                                       
+                    .caption What area are you most interested in?
+                    .controls.dropdown
+                        +cfDropdown(content.sponsorshipTypes)(id='PartnershipTypes2-select', required="true", placeholder="Select Area", name='Area of interest', mapping='sponsorshipType', class='left')                      
+                .long-captions                               
+                    .caption When was the last time you visited one of our Parks?
+                    .controls.input
+                        input.withBtn(data-mapping='lastVisit', data-name="Your last visit" type="date")
+                        
+                .long-captions                                         
+                    .center.radios.required(data-name='Contact method', data-required="true", data-group="contact", data-mapping='preferredContactMethod')
+                        .caption Preferred contact method
+                        .controls
+                            label
+                                input(type='radio', name='contact', value='phone')
+                                | phone
+                            label
+                                input(type='radio', name='contact', value='email')
+                                | email
+    
+                .clear.center
+                    a#submit.btn submit form

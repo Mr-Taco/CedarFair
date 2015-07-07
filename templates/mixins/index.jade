@@ -1,0 +1,62 @@
+include ./group-mixins
+include ./gallery-mixins
+include ./parks-mixins
+include ./jobs-mixins
+    
+
+mixin videoButton(item)
+    - var video = (item.video) ? item.video : ((item.media) ? item.media : item)
+    
+    if ((video) !== null) && ((video) !== undefined)
+        - var type = (video.type) ? video.type : 'video'
+        if (type) === 'video'
+            .video-button(data-mp4='#{cfUtils.cdnUrl(video.videoMp4.filename,video.videoMp4.path)}' data-webm='#{cfUtils.cdnUrl(video.videoWebm.filename,video.videoWebm.path)}' data-type="video")
+                if video.imageThumb !== undefined
+                    // Conditional here needed for seasonal video on home page
+                    if video.imageThumb.url !== undefined
+                        img(src='#{cfUtils.cdnUrl(video.imageThumb.filename,video.imageThumb.path)}')
+                    else
+                        img(src='#{cfUtils.cdnUrl(video.videoThumb.filename,video.videoThumb.path)}')
+                else
+                    img(src='#{cfUtils.cdnUrl(video.videoThumb.filename,video.videoThumb.path)}')
+                .play-icon
+                    img(src='/images/icons/play-icon.svg')
+        else
+            .video-button(data-mp4='' data-webm='' data-type="image", data-full!="#{cfUtils.cdnUrl(video.imageFull.filename,video.imageFull.path)}")
+                img(src='#{cfUtils.cdnUrl(video.imageThumb.filename,video.imageThumb.path)}')
+        
+mixin selectGalleryContent(items)
+
+    .select-gallery(class!=attributes.class id!=attributes.id)
+        ul
+            each item,i in items
+                li.group-info(id='#{item.slug}-info' data-id="#{item.slug}" class=(i === attributes.select)? 'selected' : '')
+                    .left
+                        +videoButton(item)
+                    .right
+                        .info-container
+                            h2 #{item.headline}
+                            | !{item.body}
+
+
+mixin cfDropdown(list)                
+    
+    
+    - zIndex = (attributes.zIndex) ? 'z-index:' + attributes.zIndex : ''
+    - rCls = (attributes.required) ? 'required' : ''
+    - rCls += (attributes.class) ? ' ' + attributes.class : ''
+    .select-box-wrapper(style!=zIndex data-mapping!=attributes.mapping data-name!=attributes.name data-required!=attributes.required class=rCls data-placeholder!=attributes.placeholder)
+        .drop-container(id!=attributes.id)
+            .drop-container-inner
+                .arrow
+                ul
+                    - x = 0
+                    if (attributes.placeholder)
+                        li(data-index='0') #{attributes.placeholder}
+                        - x = 1
+                   
+                    each item, i in list
+                        li(data-index='#{i+x}' data-id='#{item.slug}') !{item.name}
+
+                <i class="fa fa-angle-down"></i>
+            input(type="hidden")

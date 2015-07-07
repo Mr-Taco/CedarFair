@@ -1,0 +1,29 @@
+{
+  "name": "cedar fair",
+  "version": "0.5.1",
+  "authors": [
+    "Pavel <d4rklit3@gmail.com>"
+  ],
+  "description": "cedar fair",
+  "main": "src/js/index.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "gsap": "~1.13.2",
+    "backbone": "~1.1.2",
+    "underscore": "~1.7.0",
+    "eventEmitter": "~4.2.9",
+    "hammerjs": "~2.0.4",
+    "video.js": "~4.9.0",
+    "jquery-mousewheel": "~3.1.12"
+  }
+}

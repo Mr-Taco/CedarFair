@@ -1,0 +1,24 @@
+extends ../layouts/_main
+
+block css
+    link(href="/styles/news.css", rel="stylesheet")
+
+
+block content
+    #news-content-wrapper
+        #news-section1.section(data-cloud-container)
+            .cloud.one(data-depth='1' data-cloud='{"speed":"0.2" , "register":"center|-50" , "offsetMin" : "-200" , "reverse" : true }')
+            .cloud.two(data-depth='2' data-cloud='{"speed":"0.4", "register":"left|125" , "offsetMin" : "50" , "reverse" : true }')
+            .cloud.three(data-depth='3' data-cloud='{"speed":"0.34", "register":"right|-670" , "offsetMin" : "250" , "reverse" : true }')
+            .cloud.one(data-depth='4' data-cloud='{"speed":"0.3", "register":"center|-475" , "offsetMin" : "350" , "reverse" : true }')
+            .cloud.three(data-depth='2' data-cloud='{"speed":"0.4", "register":"center|-125" , "offsetMin" : "550" , "reverse" : true }')
+            
+                    
+            include partials/news/section1
+                
+block overlay_sources
+    include partials/news/overlays
+
+block js
+    script(src='/js/news.js')
+ 
